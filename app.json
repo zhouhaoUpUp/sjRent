@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/orderFormList/affirmList/affirmList"
   ],
   "window": {
     "defaultTitle": "深驾租车"
