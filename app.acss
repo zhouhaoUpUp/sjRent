@@ -2,30 +2,41 @@ page {
   background: #f7f7f7;
 }
 page .content{
-  margin-left:"30rpx"
+  margin-left:"30rpx";
+   width: 750rpx;
+   font-size: 24rpx;
 }
 /* 主题色1 icon button*/
-.colZhuF{
+page .colZhuF{
   background-color: #fedd00;
+ 
 }
 /* 主题色2 */
-.colZhuS {
+page .colZhuS {
   background-color: #fbab2a;
 }
 /* 主题色3 文字 */
-.colZhuT{
+page .colZhuT{
   color:#333333
 }
 /* 主题色4 表单/选项卡 */
-.colZhuFo{
+page .colZhuFo{
   color:#666666
 }
 /* 辅助色1 */
-.colSupF{
+page .colSupF{
   background-color: #fa4000;
   color:#fa4000;
 }
 /* 辅助色2 */
-.icolSupS{
+page .icolSupS{
   color: #f5f5f5;
+}
+/* 主标题字体 */
+page .fontTitle{
+  font-size:28rpx;
+}
+/* 地址字体 */
+page .fontAddress{
+  font-size: 32rpx;
 }

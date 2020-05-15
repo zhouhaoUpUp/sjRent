@@ -6,7 +6,18 @@
   "window": {
     "defaultTitle": "深驾租车"
   },
-  "tabbar":{
-    
+  
+  "tabBar": {
+    "textColor": "#dddddd",
+    "selectedColor": "#49a9ee",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页"},
+      {
+        "pagePath": "pages/orderFormList/affirmList/affirmList",
+        "name": "测试"}
+    ]
   }
 }

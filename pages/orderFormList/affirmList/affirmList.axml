@@ -1,3 +1,18 @@
-<view>
-111111
+<view class=".content">
+  <view class="sec1 sec">
+    <text><</text>
+    <text class="fontAddress">确认订单</text>
+  </view>
+  <view class="sec2 sec">
+    <view>
+      <image src="../../../assets/orderListImg/Order_adress@2x.png"/>
+      <text>{{time}}</text>
+      <text>{{adress}}</text>
+    </view>
+    <view>
+      <image src="../../../assets/orderListImg/Order_adress2@2x.png"/>
+      <text>{{time}}</text>
+      <text>{{adress}}</text>
+    </view>
+  </view>
 </view>
