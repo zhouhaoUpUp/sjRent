@@ -1,5 +1,5 @@
 page {
-  background: #f7f7f7;
+  background: #ffffff;
 }
 page .content{
   margin-left:"30rpx";
@@ -9,11 +9,10 @@ page .content{
 /* 主题色1 icon button*/
 page .colZhuF{
   background-color: #fedd00;
- 
 }
 /* 主题色2 */
 page .colZhuS {
-  background-color: #fbab2a;
+ color: #fbab2a;
 }
 /* 主题色3 文字 */
 page .colZhuT{
@@ -25,18 +24,21 @@ page .colZhuFo{
 }
 /* 辅助色1 */
 page .colSupF{
-  background-color: #fa4000;
   color:#fa4000;
 }
 /* 辅助色2 */
 page .icolSupS{
-  color: #f5f5f5;
+  color: #f5f5f5 !important;
 }
 /* 主标题字体 */
 page .fontTitle{
-  font-size:28rpx;
+  font-size:28rpx !important;
 }
 /* 地址字体 */
 page .fontAddress{
-  font-size: 32rpx;
+  font-size: 32rpx !important;
+}
+/* 订单状态背景色 */
+page .orderTypeBg{
+  background-color:#FEA733; 
 }

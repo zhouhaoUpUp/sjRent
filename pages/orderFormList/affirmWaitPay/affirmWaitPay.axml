@@ -1,0 +1,31 @@
+<view class="content">
+<!-- 第一部分 -->
+  <view class="sec1 sec">
+    <text><</text>
+    <text class="fontAddress">确认订单</text>
+  </view>
+
+  <!-- 第二部分 -->
+  <view class="sec2 sec">
+    
+  </view>
+
+<!-- 第三部分 -->
+<view class="sec3 sec">
+   
+  <view>
+			<image mode="scaleToFill" src="../../../assets/orderListImg/car.png"/ >
+			</view>
+			<view>
+				<view>
+				<text>{{ carName }}</text>
+				</view>
+				<view>
+				<text>{{xiang}} | </text>
+				<text class="marl"> {{pailiang}} | </text>
+				<text class="marl"> {{zuo}}  </text>
+				</view>
+			</view>
+
+  </view>
+</view>
