@@ -1,8 +1,11 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
   ],
   "window": {
     "defaultTitle": "深驾租车"
+  },
+  "tabbar":{
+    
   }
 }

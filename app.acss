@@ -1,3 +1,31 @@
 page {
   background: #f7f7f7;
 }
+page .content{
+  margin-left:"30rpx"
+}
+/* 主题色1 icon button*/
+.colZhuF{
+  background-color: #fedd00;
+}
+/* 主题色2 */
+.colZhuS {
+  background-color: #fbab2a;
+}
+/* 主题色3 文字 */
+.colZhuT{
+  color:#333333
+}
+/* 主题色4 表单/选项卡 */
+.colZhuFo{
+  color:#666666
+}
+/* 辅助色1 */
+.colSupF{
+  background-color: #fa4000;
+  color:#fa4000;
+}
+/* 辅助色2 */
+.icolSupS{
+  color: #f5f5f5;
+}
