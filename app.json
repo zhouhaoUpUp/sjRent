@@ -1,8 +1,34 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/orderForm/orderForm",
+    "pages/myMessage/myMessage"
   ],
   "window": {
     "defaultTitle": "深驾租车"
+  },
+  "tabBar": {
+    "selectedColor": "#ff0000",
+    "backgroundColor": "#f2f2f2",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "租车",
+        "icon":"assets/icon/Home_car_default@2x.png",
+        "activeIcon":"assets/icon/Home_Rent_car@2x.png"
+      },
+      {
+        "pagePath": "pages/orderForm/orderForm",
+        "name": "订单",
+         "icon":"assets/icon/Home_Order_default@2x.png",
+        "activeIcon":"assets/icon/Home_Order_click@2x.png"
+      },
+      {
+        "pagePath": "pages/myMessage/myMessage",
+        "name": "我的",
+         "icon":"assets/icon/Home_individual_default@2x.png",
+        "activeIcon":"assets/icon/Home_individual_click@2x.png"
+      }
+    ]
   }
 }
