@@ -1,0 +1,19 @@
+ .head{
+    float:left;
+    margin-left: 64rpx;
+    color: #333;
+    font-size: 26rpx;
+}
+ .head-top{
+    border: 1rpx solid #ff0000;
+    height: 88rpx;
+    line-height: 88rpx;
+    background-color: #ffffff;
+    margin-bottom: 22rpx;
+}
+.comtents{
+    background-color: #f2f2f2;
+}
+image{
+
+}
