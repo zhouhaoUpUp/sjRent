@@ -1,0 +1,12 @@
+<view class="sec">
+    <view  class="txt1">
+    <text>等待付款</text>
+    <view class="txt2">
+    <text >剩 {{timeMin}} 分{{timeSec}} 秒,订单将自动关闭</text>
+    </view>
+    <view class="image">
+     <image mode="scaleToFill" src="../../../assets/orderListImg/Order_status@2x.png"/>
+     </view>
+   
+    </view>
+</view>

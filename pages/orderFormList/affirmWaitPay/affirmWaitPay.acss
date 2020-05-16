@@ -1,0 +1,67 @@
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 100%
+}
+.sec{
+ width: 100%;
+}
+/* 头部 */
+.se1{
+  height: 88rpx;
+}
+.sec1 text{
+  line-height: 88rpx;
+}
+.sec1 text:nth-child(1){
+  margin-left: 32rpx;
+}
+.sec1 text:nth-child(2){
+  width: 128rpx;
+  margin-left: 38%;
+}
+
+/* 第三部分 */
+.sec3{
+  height: 188rpx;
+  	display: flex;
+	flex-direction: row;
+}
+.sec3 view:nth-child(1) image{
+	width: 188rpx;
+	height: 116rpx;
+	display: inline-block;
+	margin-top: 32rpx;
+  margin-left: 32rpx;
+}
+.sec3 view:nth-child(2){
+	display: inline-block;	
+	margin-left: 20rpx;
+}
+.sec3 view:nth-child(2)>view:nth-child(1){
+	height: 44rpx;
+	margin-top:38rpx ;
+	margin-left: 20rpx;
+}
+.sec3 view:nth-child(2)>view:nth-child(2){
+	height: 40rpx;
+	margin-top: 10rpx;
+}
+.sec3 view:nth-child(2)>view:nth-child(1) text{
+	font-size: 32rpx;
+/* 	font-weight: 500; */
+}
+.sec3 view:nth-child(2)>view:nth-child(2) text{
+	font-size: 28rpx;
+	color:#999999;
+}
+
+
+/* 左边间距 */
+.marl{
+  margin-left: 10rpx;
+}
+/* 右边间距 */
+.marr{
+margin-left: 40rpx;
+}

@@ -1,0 +1,27 @@
+
+.sec{
+  width: 100%;
+  height: 200rpx;
+  background-color: #FEA733;
+  border: 1px solid #FEA733 ;
+}
+image{
+   width: 60rpx;
+  height: 58rpx;
+}
+.image{
+  width: 60rpx;
+  height: 58rpx;
+  margin-left: 550rpx;
+  margin-top: -70rpx;
+}
+text{
+  color: #FFFFFF
+}
+.txt1{
+  margin-top: 50rpx !important;
+  margin-left: 50rpx;
+}
+.txt2{
+  margin-top: 12rpx;
+}
