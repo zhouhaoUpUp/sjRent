@@ -1,18 +1,191 @@
 <view class=".content">
+<!-- 顶部标题 -->
   <view class="sec1 sec">
     <text><</text>
     <text class="fontAddress">确认订单</text>
   </view>
+  <!-- 第二部分 地址时间 -->
   <view class="sec2 sec">
     <view>
       <image src="../../../assets/orderListImg/Order_adress@2x.png"/>
-      <text>{{time}}</text>
-      <text>{{adress}}</text>
+      <text class="txt1">{{time}}</text>
+      <text class="txt2">{{adress}}</text>
+    </view>
+    <view>
+      <text>{{timeRight}}</text>
     </view>
     <view>
       <image src="../../../assets/orderListImg/Order_adress2@2x.png"/>
-      <text>{{time}}</text>
-      <text>{{adress}}</text>
+      <text class="txt1">{{time}}</text>
+      <text class="txt2">{{adress}}</text>
     </view>
   </view>
+<!-- 分隔条 -->
+  <view class="tiao">
+  </view>
+<!-- 第三部分 车辆信息 -->
+<view class="sec3 sec">
+  <view>
+			<image mode="scaleToFill" src="../../../assets/orderListImg/car.png"/ >
+			</view>
+			<view>
+				<view>
+				<text>{{ carName }}</text>
+				</view>
+				<view>
+				<text>{{xiang}} | </text>
+				<text class="marl"> {{pailiang}} | </text>
+				<text class="marl"> {{zuo}} | </text>
+        <text class="marl"> {{year}} </text>
+				</view>
+			</view>
 </view>
+<!-- 分隔条 -->
+  <view class="tiao">
+  </view>
+  <!-- 第四部分 -->
+  <view class="sec sec4">
+        <view class="tiao2">
+         <text class="fontTitle marl">用车人信息</text>
+        </view>
+        <view class="tiao2">
+          <view class="viewOne">
+            <text class="marl colFont">订车人</text>
+          </view>
+          <view class="viewTwo">
+            <text class="marr" >{{name}}</text>
+          </view>
+        </view>
+        <view class="tiao2">
+          <view class="viewOne">
+            <text class="marl colFont">电话</text>
+          </view>
+          <view class="viewTwo">
+            <text class="marr" >{{phone}}</text>
+          </view>
+        </view>
+        <view>
+          <view class="viewOne">
+            <text class="marl colFont">用车人</text>
+          </view>
+          <view class="viewTwo">
+            <text class="marr colFont" >请选择用车人</text>
+            <!-- <image class="imgs" mode="scaleToFill" src="../../../assets/orderListImg/Order_more@2x.png"/> -->
+          </view>
+        </view>
+  </view>
+<!-- 分隔条 -->
+  <view class="tiao">
+  </view>
+<!-- 第五部分支付方式 -->
+<view class="sec sec5">
+   <view class="viewOne">
+            <text class="marl">支付方式</text>
+          </view>
+          <view class="viewTwo">
+            <text class="marr" >在线支付 </text><text class="colZhuS">￥{{money}}</text>
+          </view>
+</view>
+
+<!-- 分隔条 -->
+  <view class="tiao">
+  </view>
+
+<!-- 第六部分 订车流程解释 -->
+<view class="sec sec6">
+  <view class="marl">
+  <text>订车流程</text>
+  <view class="yellow colZhuF"></view>
+  </view>
+<!-- 取车证件 -->
+   <view class="marl marts">
+  <text class="colFont">取车证件 :</text>
+  </view>
+  <view class="info marl">
+    <image mode="scaleToFill" src="../../../assets/orderListImg/Process-ID card@2x.png"/>
+    <text>身份证</text>
+    <text class="marlf">+</text>
+    <image class="marlf" mode="scaleToFill" src="../../../assets/orderListImg/Process-driver@2x.png"/>
+    <text>驾驶证</text>
+     <text class="marlf">+</text>
+    <image class="marlf" mode="scaleToFill" src="../../../assets/orderListImg/Process-bank card@2x.png"/>
+    <text>银行卡</text>
+  </view>
+  <view class="mart">
+    <view class="circle marl"></view>
+    <text class="marl colFont">身份证件有效期需1个月以上</text>
+  </view>
+  <view class="mart">
+    <view class="circle marl"></view>
+    <text class="marl colFont">驾驶证有效期需2个月以上，驾龄需半年以上</text>
+  </view>
+   <view class="mart">
+    <view class="circle marl"></view>
+    <text class="marl colFont">信用卡有效期需1个月以上</text>
+  </view>
+<!-- 取消规则 -->
+  <view class="marl mart marts">
+  <text class="colFont">取消规则：</text>
+  </view>
+  <view class="mart">
+    <view class="circle marl"></view>
+    <text class="marl colFont">订单支付成功后，距离取车时间4小时（含) 以外免费取消</text>
+  </view>
+  <view class="mart">
+    <view class="circle marl"></view>
+    <text class="marl colFont">4小时内将收取订单总费用的30%作为违约</text>
+  </view>
+   <view class="mart">
+    <view class="circle marl"></view>
+    <text class="marl colFont">过了取车时间，订单费用全损</text>
+  </view>
+
+<!-- 押金预授权 -->
+  <view class="marl mart marts">
+  <text class="colFont">押金预授权：</text>
+  </view>
+  <view class="mart">
+    <view class="circle marl"></view>
+    <text class="marl colFont">取车时根据不同车型冻结信用卡¥3000-¥200000元作为租车押金，还车时候解冻</text>
+  </view>
+  <view class="mart">
+    <view class="circle marl"></view>
+    <text class="marl colFont">还车时冻结¥3000元违章押金，还车30天后（部分地区45天）查询后无违章，由银行自动解冻该笔押金</text>
+  </view>
+
+  <!-- 里程限制 -->
+  <view class="marl mart marts">
+  <text class="colFont">里程限制：</text>
+  </view>
+  <view class="mart">
+    <view class="circle marl"></view>
+    <text class="marl colFont colSupF">每日限制里程300公里，超过里程会根据车型不同而产生费用</text>
+  </view>
+</view>
+</view>
+
+<!-- 底部 -->
+<view class="sec7 sec">
+  <view>
+    <image class="marl" mode="scaleToFill" src="../../../assets/orderListImg/gouYellow.png"/>
+    <text class="marl" > 我已阅读并同意</text>
+     <text class="colZhuS">《订车须知》</text>
+     <text> 及</text>
+      <text class="colZhuS">《租车费用标准》</text>
+    </text>
+  </view>
+
+  <view class="vie">
+   <text class="marl">总额</text>
+   <text class="colSupF marl">￥{{money}}.00</text>
+   <text class="txt3 marl">费用明细</text>
+   <button size="default" type="primary" class="btn_pay">立即支付</button>
+  </view>
+</view>
+
+
+
+
+
+
+
