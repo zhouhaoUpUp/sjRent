@@ -1,5 +1,7 @@
 {
       "usingComponents": {
-    "self-driving":"../../components/self-driving/self-driving"
+    "self-driving":"../../components/home-page/self-driving/self-driving",
+      "am-switch": "mini-ali-ui/es/am-switch/index"
+
   }
 }

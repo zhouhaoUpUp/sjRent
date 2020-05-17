@@ -2,7 +2,8 @@
 Page({
   data(){
     return {
-      headList:["自驾短租","带驾包车","长租"],
+      headList:[
+        {name:"自驾短租"},{name:"带驾包车"},{name:"长租"}],
       selectType:0,
     }
   },
@@ -39,5 +40,8 @@ Page({
       path: 'pages/index/index',
     };
   },
-  
+  selectOperation(e){
+     this.selectType=e.target.dataset.id
+    console.log(e.target.dataset.id)
+  },
 });

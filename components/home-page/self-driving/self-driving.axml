@@ -2,7 +2,7 @@
     <!-- 还车 -->
       <view class="body-head">
       <view>
-        <view>取车城市11</view>
+        <view>取车城市</view>
         <text>成都</text>
       </view>
       <view>
@@ -13,12 +13,15 @@
         <view>
         异地还车
         </view>
-        <image mode="scaleToFill" src="../../assets/home/shouye_moren.png"/>
+        <!-- <image mode="scaleToFill" src="../../assets/home/shouye_moren.png"/> -->
+        <view class="changeSize">
+          <am-switch checked="{{false}}" onChange="switch1Change" controlled="{{false}}" color="#FEDD00" id="select"/>
+        </view>
        </view>
       </view>
       <!-- 还车完毕 -->
       <!-- 异地还车 -->
-      <view class="body-centre">
+      <view class="body-centre" a:if="{{show}}" controlled="{{false}}">
         <view>
           <view>还车城市</view>
           <text>成都市</text>

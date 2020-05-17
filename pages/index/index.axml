@@ -1,8 +1,14 @@
 <view class="contents">
   <view>
   <view class="head-top">
-        <view class="head" :class="{{clickHead:selectType===index}}" a:for="{{headList}}" a:for-item="item" a:for-index="index">
-    {{item}}
+        <view class="head {{selectType===index?'clickHead':''}}" 
+        onTap="selectOperation"
+        a:key="{{index}}" 
+        a:for="{{headList}}" 
+        a:for-item="item"
+        a:for-index="index"
+        data-id="{{index}}">
+    {{item.name}}
     </view>
   </view>
 <self-driving />

@@ -71,14 +71,22 @@
     margin-right: 32rpx
 }
 
-.body-head>view:nth-child(3)>image {
+.body-head>view:nth-child(3)>#select{
     float: right;
     margin-right: 32rpx;
     margin-top: 14rpx;
     width: 66rpx;
     height: 40rpx;
 }
+/* .am-switch .checkbox{
+    width: 66rpx;
+    height: 40rpx;
+}
 
+.am-switch .checkbox:after{
+    width: 30rpx;
+    height: 30rpx;
+} */
 .body-centre {
     height: 110rpx;
 }
@@ -131,7 +139,7 @@
 
 .body-rump {
     height: 154rpx;
-    position: relative
+    position: relative;
 }
 
 .body-rump>view:nth-child(1) {
@@ -160,9 +168,11 @@
 
 
 .body-rump>view:nth-child(3) {
+    position: absolute;
     float: right;
     height: 154rpx;
-    margin-right: 30rpx;
+    right: 30rpx;
+
 }
 
 .body-rump>view:nth-child(3)>view:nth-child(1) {
@@ -184,6 +194,8 @@
     font-size: 28rpx;
     text-align: right;
 }
+
+
 .body-rump>view:nth-child(2) {
     height: 100rpx;
     width: 100rpx;
@@ -231,4 +243,10 @@ button{
     background-color: #FEDD00;
     border: 0;
     color: #333333;
+}
+.changeSize{
+    transform: scale(0.7);
+    padding: 0;
+    width: 66rpx;
+    height: 40rpx
 }
