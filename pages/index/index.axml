@@ -11,6 +11,7 @@
     {{item.name}}
     </view>
   </view>
-<self-driving />
+<self-driving a:if="{{self}}"/>
+<replace-driving a:if="{{replace}}"/>
   </view>
 </view>

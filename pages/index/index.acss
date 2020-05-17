@@ -5,15 +5,17 @@
     font-size: 26rpx;
 }
  .head-top{
-    border: 1rpx solid #ff0000;
     height: 88rpx;
     line-height: 88rpx;
     background-color: #ffffff;
     margin-bottom: 22rpx;
 }
-.comtents{
-    background-color: #f2f2f2;
+.comtents>view:nth-child(1){
+    position: fixed;
+    width: 1000rpx;
+    height: 1000px;
+
 }
 .clickHead{
-    background-color: #ff0000;
+    background-color: #e68888;
 }

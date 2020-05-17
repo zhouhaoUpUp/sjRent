@@ -5,6 +5,8 @@ Page({
       headList:[
         {name:"自驾短租"},{name:"带驾包车"},{name:"长租"}],
       selectType:0,
+      self:true,
+      replace:false
     }
   },
   onLoad(query) {
@@ -41,7 +43,23 @@ Page({
     };
   },
   selectOperation(e){
+    this.setData({
+      selectType:e.target.dataset.id
+    })
      this.selectType=e.target.dataset.id
     console.log(e.target.dataset.id)
+    if(e.target.dataset.id===0){
+      this.setData({
+        self:true,
+        replace:false
+      })
+    }else if(e.target.dataset.id===1){
+            this.setData({
+        self:false,
+        replace:true
+      })
+    }else{
+
+    }
   },
 });
