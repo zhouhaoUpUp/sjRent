@@ -1,4 +1,11 @@
+
 Page({
+  data(){
+    return {
+      headList:["自驾短租","带驾包车","长租"],
+      selectType:0,
+    }
+  },
   onLoad(query) {
     // 页面加载
     console.info(`Page onLoad with query: ${JSON.stringify(query)}`);
@@ -32,4 +39,5 @@ Page({
       path: 'pages/index/index',
     };
   },
+  
 });

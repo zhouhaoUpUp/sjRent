@@ -1,0 +1,234 @@
+.body {
+    height: 594rpx;
+    width: 94%;
+    margin-left: 3%;
+}
+
+.body-head {
+    width: 100%;
+    border-bottom: 1rpx solid #FAF9F9;
+}
+
+.body-head>view {
+}
+
+.body-head>view:nth-child(1) {
+    height: 110rpx;
+    position: relative;
+    width: 176rpx;
+    float: left;
+}
+
+.body-head>view:nth-child(1)>view {
+    font-size: 24rpx;
+    color: #999999;
+    position: absolute;
+    left: 30rpx;
+    top: 18rpx;
+}
+
+.body-head>view:nth-child(1)>text {
+    display: inline-block;
+    font-size: 32rpx;
+    color: #333333;
+    font-family: Medium;
+    margin-top: 66rpx;
+    margin-left: 30rpx;
+}
+
+.body-head>view:nth-child(2) {
+    height: 110rpx;
+    position: relative;
+    float: left;
+    width: 388rpx;
+}
+
+.body-head>view:nth-child(2)>view {
+    font-size: 24rpx;
+    color: #999999;
+    position: absolute;
+    top: 18rpx;
+}
+
+.body-head>view:nth-child(2)>text {
+    display: inline-block;
+    font-size: 32rpx;
+    color: #333333;
+    font-family: Medium;
+    margin-top: 66rpx;
+}
+
+.body-head>view:nth-child(3) {
+    height: 110rpx;
+    position: relative;
+}
+
+.body-head>view:nth-child(3)>view {
+    font-size: 24rpx;
+    color: #999999;
+    margin-top: 18rpx;
+    float: right;
+    margin-right: 32rpx
+}
+
+.body-head>view:nth-child(3)>image {
+    float: right;
+    margin-right: 32rpx;
+    margin-top: 14rpx;
+    width: 66rpx;
+    height: 40rpx;
+}
+
+.body-centre {
+    height: 110rpx;
+}
+
+.body-centre>view:nth-child(1) {
+    height: 110rpx;
+    position: relative;
+    width: 176rpx;
+    float: left;
+}
+
+.body-centre>view:nth-child(1)>view {
+    font-size: 24rpx;
+    color: #999999;
+    position: absolute;
+    left: 30rpx;
+    top: 18rpx;
+}
+
+.body-centre>view:nth-child(1)>text {
+    display: inline-block;
+    font-size: 32rpx;
+    color: #333333;
+    font-family: Medium;
+    margin-top: 66rpx;
+    margin-left: 30rpx;
+}
+
+.body-centre>view:nth-child(2) {
+    height: 110rpx;
+    position: relative;
+    float: left;
+    width: 388rpx;
+}
+
+.body-centre>view:nth-child(2)>view {
+    font-size: 24rpx;
+    color: #999999;
+    position: absolute;
+    top: 18rpx;
+}
+
+.body-centre>view:nth-child(2)>text {
+    display: inline-block;
+    font-size: 32rpx;
+    color: #333333;
+    font-family: Medium;
+    margin-top: 66rpx;
+}
+
+.body-rump {
+    height: 154rpx;
+    position: relative
+}
+
+.body-rump>view:nth-child(1) {
+    float: left;
+    height: 154rpx;
+    margin-left: 30rpx;
+}
+
+.body-rump>view:nth-child(1)>view:nth-child(1) {
+    color: #999999;
+    font-size: 24rpx;
+    margin-top: 20rpx;
+}
+
+.body-rump>view:nth-child(1)>view:nth-child(2) {
+    color: #333333;
+    font-size: 36rpx;
+    margin-top: 12rpx;
+}
+
+.body-rump>view:nth-child(1)>view:nth-child(3) {
+    color: #999999;
+    font-size: 28rpx;
+}
+
+
+
+.body-rump>view:nth-child(3) {
+    float: right;
+    height: 154rpx;
+    margin-right: 30rpx;
+}
+
+.body-rump>view:nth-child(3)>view:nth-child(1) {
+    color: #999999;
+    font-size: 24rpx;
+    margin-top: 20rpx;
+    text-align: right;
+}
+
+.body-rump>view:nth-child(3)>view:nth-child(2) {
+    color: #333333;
+    font-size: 36rpx;
+    margin-top: 12rpx;
+    text-align: right;
+}
+
+.body-rump>view:nth-child(3)>view:nth-child(3) {
+    color: #999999;
+    font-size: 28rpx;
+    text-align: right;
+}
+.body-rump>view:nth-child(2) {
+    height: 100rpx;
+    width: 100rpx;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.body-rump>view:nth-child(2)>text{
+    font-size: 28rpx;
+    color: #999999;
+    width: 46rpx;
+    height: 40rpx;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.body-rump>view:nth-child(2)>image{
+    height: 14rpx;
+    width: 96rpx;
+    margin-top: 70rpx
+}
+.rump{
+    height: 32rpx;
+}
+.rump>image{
+    width: 22rpx;
+    height: 22rpx;
+    float: left;
+    margin-top: 2rpx;
+    margin-left: 6rpx;
+}
+.rump>view{
+        float: left;
+    font-size: 22rpx;
+    color: #999999;
+    margin-left: 6rpx;
+}
+button{
+    background-color: #FEDD00;
+    border: 0;
+    color: #333333;
+}

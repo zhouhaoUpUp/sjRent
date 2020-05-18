@@ -1,0 +1,10 @@
+{
+   "usingComponents":{
+    "appoint":"/components/listtypes/appoint/appoint",
+    "journey":"../../components/listtypes/journey/journey",
+    "finish":"/components/listtypes/finish/finish",
+    "cancel":"/components/listtypes/cancel/cancel",
+    "tabs": "mini-ali-ui/es/tabs/index",
+    "tab-content": "mini-ali-ui/es/tabs/tab-content/index"
+  }
+}

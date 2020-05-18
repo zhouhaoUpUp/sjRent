@@ -1,0 +1,15 @@
+.tab-content {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 40rpx;
+ box-sizing: border-box;
+ /* 如果 swipeable="{{true}}"，需要增加 height */
+ /* height: 350px; */
+}
+/* 订单上边距 */
+.mart{
+  margin-top:16rpx;
+  margin-left: 1%;
+}
+

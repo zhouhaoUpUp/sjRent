@@ -1,0 +1,6 @@
+{
+  "usingComponents":{
+    "type-waitdispatch":"../../../components/ordertypes/type-waitdispatch/type-waitdispatch",
+    "list-info" :"/components/orderlistinfo/list-info/list-info"
+  }
+}

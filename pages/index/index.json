@@ -1,1 +1,5 @@
-{}
+{
+      "usingComponents": {
+    "self-driving":"../../components/self-driving/self-driving"
+  }
+}

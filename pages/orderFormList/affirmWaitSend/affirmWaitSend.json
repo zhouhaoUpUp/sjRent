@@ -1,0 +1,6 @@
+{
+  "usingComponents":{
+    "type-waitsend":"/components/ordertypes/type-waitsend/type-waitsend",
+    "list-info" :"/components/orderlistinfo/list-info/list-info"
+  }
+}

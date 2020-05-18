@@ -1,0 +1,39 @@
+<view class="content">
+    <view>
+     <tabs
+    tabs="{{tabs2}}"
+    tabsName="activeTab2"
+    onTabClick="handleTabClick"
+    onChange="handleTabChange"
+    activeTab="{{activeTab2}}"
+    capsule="{{false}}"
+    hasSubTitle="{{false}}"
+    tabBarUnderlineColor="#FEDD00"
+    tabBarInactiveTextColor="#999999"
+    tabBarActiveTextColor="#000000"
+    swipeable="{{true}}"
+    animation="{{true}}"
+    >
+    </view>
+ 
+
+  <!-- 预约订单组件 -->
+  <view class="mart" a:if="{{appointype}}">
+    <appoint></appoint>
+  </view>
+
+  <!-- 行程中订单组件 -->
+  <view class="mart" a:if="{{journeytype}}">
+    <journey></journey>
+  </view>
+
+  <!-- 已完成订单组件 -->
+  <view class="mart" a:if="{{finishtype}}">
+    <finish></finish>
+  </view>
+
+  <!-- 已取消订单组件 -->
+  <view class="mart" a:if="{{canceltype}}">
+    <cancel></cancel>
+  </view>
+</view>
