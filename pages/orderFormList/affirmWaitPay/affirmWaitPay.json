@@ -1,5 +1,5 @@
 {
   "usingComponents":{
-    
+    "type-waitpay":"../../../components/ordertypes/type-waitpay/type-waitpay"
   }
 }
