@@ -13,5 +13,6 @@
   </view>
 <self-driving a:if="{{self}}"/>
 <replace-driving a:if="{{replace}}"/>
+<whole-driving/>
   </view>
 </view>

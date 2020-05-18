@@ -1,0 +1,316 @@
+<select-site-time/>
+<view>
+  <view class="top">
+    <view>
+    西部智谷D区
+    </view>
+    <view>
+    11月27日
+    </view>
+    <view>
+    18:50
+    </view>
+    <view>
+    2天
+    <image mode="scaleToFill" src="../../../assets/carList/Calendar_sele@2x.png"/>
+    </view>
+  </view>
+  
+  <view class="head">
+    <view>
+      车辆类型
+      <image mode="scaleToFill" src="../../../assets/carList/Home_drop_down@2x.png"/>
+    </view>
+
+    <view>
+      座位数量
+      <image mode="scaleToFill" src="../../../assets/carList/Home_drop_down@2x.png"/>
+    </view>
+
+    <view>
+      供应商
+      <image mode="scaleToFill" src="../../../assets/carList/Home_drop_down@2x.png"/>
+    </view>
+    
+    <view>
+      筛选
+      <image mode="scaleToFill" src="../../../assets/carList/Home_drop_down@2x.png"/>
+    </view>
+  </view>
+
+  <view class="body">
+    <view class="body-head">
+      <image mode="scaleToFill" src="../../../assets/carList/ea58745d7a1da867f995dd75ee89960.png"/>
+      <view class="body-head-right">
+        <text>￥129/天</text>
+        <text>1人付款</text>
+      </view>
+    </view>
+
+    <view class="body-head-dowm">
+      <view>
+        经济型
+      </view>
+      <view>
+        上汽通用雪弗兰
+      </view>
+      <view>
+         科沃兹
+      </view>
+      <view>
+        (或同等级车型)
+      </view>
+    </view>
+
+    <view class="body-body">
+    <view a:for="{{signTab}}">
+    <image mode="scaleToFill" src="../../../assets/carList/Label02@2x.png"/>
+      {{item}}
+    </view>
+    </view>
+    <view class="body-dowm">
+    <view>
+      <view class="shu">
+        4.0
+      </view>
+      <view>
+      <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+        平台推荐
+      </view>
+    </view>
+    <view>
+      1家供应商
+      <image mode="scaleToFill" src="../../../assets/carList/Label_more@2x.png"/>
+    </view>
+    </view>
+  </view>
+<!-- 下面为重复内容---------------------------------------------------------------- -->
+  <view class="body">
+    <view class="body-head">
+      <image mode="scaleToFill" src="../../../assets/carList/ea58745d7a1da867f995dd75ee89960.png"/>
+      <view class="body-head-right">
+        <text>￥129/天</text>
+        <text>1人付款</text>
+      </view>
+    </view>
+
+    <view class="body-head-dowm">
+      <view>
+        经济型
+      </view>
+      <view>
+        上汽通用雪弗兰
+      </view>
+      <view>
+         科沃兹
+      </view>
+      <view>
+        (或同等级车型)
+      </view>
+    </view>
+
+    <view class="body-body">
+    <view a:for="{{signTab}}">
+    <image mode="scaleToFill" src="../../../assets/carList/Label02@2x.png"/>
+      {{item}}
+    </view>
+    </view>
+    <view class="body-dowm">
+    <view>
+      <view class="shu">
+        4.0
+      </view>
+      <view>
+      <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+        平台推荐
+      </view>
+    </view>
+    <view>
+      1家供应商
+      <image mode="scaleToFill" src="../../../assets/carList/Label_more@2x.png"/>
+    </view>
+    </view>
+  </view>  <view class="body">
+    <view class="body-head">
+      <image mode="scaleToFill" src="../../../assets/carList/ea58745d7a1da867f995dd75ee89960.png"/>
+      <view class="body-head-right">
+        <text>￥129/天</text>
+        <text>1人付款</text>
+      </view>
+    </view>
+
+    <view class="body-head-dowm">
+      <view>
+        经济型
+      </view>
+      <view>
+        上汽通用雪弗兰
+      </view>
+      <view>
+         科沃兹
+      </view>
+      <view>
+        (或同等级车型)
+      </view>
+    </view>
+
+    <view class="body-body">
+    <view a:for="{{signTab}}">
+    <image mode="scaleToFill" src="../../../assets/carList/Label02@2x.png"/>
+      {{item}}
+    </view>
+    </view>
+    <view class="body-dowm">
+    <view>
+      <view class="shu">
+        4.0
+      </view>
+      <view>
+      <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+        平台推荐
+      </view>
+    </view>
+    <view>
+      1家供应商
+      <image mode="scaleToFill" src="../../../assets/carList/Label_more@2x.png"/>
+    </view>
+    </view>
+  </view>  <view class="body">
+    <view class="body-head">
+      <image mode="scaleToFill" src="../../../assets/carList/ea58745d7a1da867f995dd75ee89960.png"/>
+      <view class="body-head-right">
+        <text>￥129/天</text>
+        <text>1人付款</text>
+      </view>
+    </view>
+
+    <view class="body-head-dowm">
+      <view>
+        经济型
+      </view>
+      <view>
+        上汽通用雪弗兰
+      </view>
+      <view>
+         科沃兹
+      </view>
+      <view>
+        (或同等级车型)
+      </view>
+    </view>
+
+    <view class="body-body">
+    <view a:for="{{signTab}}">
+    <image mode="scaleToFill" src="../../../assets/carList/Label02@2x.png"/>
+      {{item}}
+    </view>
+    </view>
+    <view class="body-dowm">
+    <view>
+      <view class="shu">
+        4.0
+      </view>
+      <view>
+      <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+        平台推荐
+      </view>
+    </view>
+    <view>
+      1家供应商
+      <image mode="scaleToFill" src="../../../assets/carList/Label_more@2x.png"/>
+    </view>
+    </view>
+  </view>  <view class="body">
+    <view class="body-head">
+      <image mode="scaleToFill" src="../../../assets/carList/ea58745d7a1da867f995dd75ee89960.png"/>
+      <view class="body-head-right">
+        <text>￥129/天</text>
+        <text>1人付款</text>
+      </view>
+    </view>
+
+    <view class="body-head-dowm">
+      <view>
+        经济型
+      </view>
+      <view>
+        上汽通用雪弗兰
+      </view>
+      <view>
+         科沃兹
+      </view>
+      <view>
+        (或同等级车型)
+      </view>
+    </view>
+
+    <view class="body-body">
+    <view a:for="{{signTab}}">
+    <image mode="scaleToFill" src="../../../assets/carList/Label02@2x.png"/>
+      {{item}}
+    </view>
+    </view>
+    <view class="body-dowm">
+    <view>
+      <view class="shu">
+        4.0
+      </view>
+      <view>
+      <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+        平台推荐
+      </view>
+    </view>
+    <view>
+      1家供应商
+      <image mode="scaleToFill" src="../../../assets/carList/Label_more@2x.png"/>
+    </view>
+    </view>
+  </view>  <view class="body">
+    <view class="body-head">
+      <image mode="scaleToFill" src="../../../assets/carList/ea58745d7a1da867f995dd75ee89960.png"/>
+      <view class="body-head-right">
+        <text>￥129/天</text>
+        <text>1人付款</text>
+      </view>
+    </view>
+
+    <view class="body-head-dowm">
+      <view>
+        经济型
+      </view>
+      <view>
+        上汽通用雪弗兰
+      </view>
+      <view>
+         科沃兹
+      </view>
+      <view>
+        (或同等级车型)
+      </view>
+    </view>
+
+    <view class="body-body">
+    <view a:for="{{signTab}}">
+    <image mode="scaleToFill" src="../../../assets/carList/Label02@2x.png"/>
+      {{item}}
+    </view>
+    </view>
+    <view class="body-dowm">
+    <view>
+      <view class="shu">
+        4.0
+      </view>
+      <view>
+      <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+        平台推荐
+      </view>
+    </view>
+    <view>
+      1家供应商
+      <image mode="scaleToFill" src="../../../assets/carList/Label_more@2x.png"/>
+    </view>
+    </view>
+  </view>
+<!-- 重复类容完毕*----------------------------------------------------- -->
+</view>
+<select-car-class/>

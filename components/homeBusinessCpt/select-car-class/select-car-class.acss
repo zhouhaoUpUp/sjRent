@@ -1,0 +1,45 @@
+.scc-bg{
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    background-color: #fff;
+    z-index: 11;
+}
+.scc-bg image{
+    width: 24rpx;
+    height: 24rpx;
+    background-color: #ff0000;
+}
+.scc-head{
+    height: 100rpx;
+    border: 1rpx solid #ff0000;
+    position: relative;
+}
+.scc-head>view{
+    text-align: center;
+    line-height: 100rpx;
+    font-size: 32rpx;
+    color: #333;
+}
+.scc-head>image{
+    position: absolute;
+    top: 38rpx;
+    right: 62rpx
+}
+
+.scc-body{
+    margin-top: 20rpx;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.scc-body>view{
+width:162rpx;
+height:72rpx;
+background:rgba(243,243,243,1);
+border-radius:4px;
+margin: 20rpx;
+text-align: center;
+line-height: 72rpx;
+}

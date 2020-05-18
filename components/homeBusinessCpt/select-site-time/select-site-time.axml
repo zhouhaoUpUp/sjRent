@@ -1,6 +1,8 @@
-    <view class="body">
+<mask type="{{type}}" show="{{bgShow}}" maskZindex="{{maskZindex}}"></mask>
+<view class="sst-bg" a:if="{{bgShow}}">
+          <view class="sst-body">
     <!-- 还车 -->
-      <view class="body-head">
+      <view class="sst-body-head">
       <view>
         <view>取车城市</view>
         <text>成都</text>
@@ -14,14 +16,14 @@
         异地还车
         </view>
         <!-- <image mode="scaleToFill" src="../../assets/home/shouye_moren.png"/> -->
-        <view class="changeSize">
+        <view class="sst-changeSize">
           <am-switch checked="{{false}}" onChange="switch1Change" controlled="{{false}}" color="#FEDD00" id="select"/>
         </view>
        </view>
       </view>
       <!-- 还车完毕 -->
       <!-- 异地还车 -->
-      <view class="body-centre" a:if="{{show}}" controlled="{{false}}">
+      <view class="sst-body-centre" a:if="{{show}}" controlled="{{false}}">
         <view>
           <view>还车城市</view>
           <text>成都市</text>
@@ -33,7 +35,7 @@
       </view>
       <!-- 异地还车完毕 -->
       <!-- 用车还车时间 -->
-        <view class="body-rump">
+        <view class="sst-body-rump">
           <view>
             <view>
             用车时间
@@ -48,7 +50,7 @@
 
           <view>
             <text>2天</text>
-            <image mode="scaleToFill" src="../../assets/home/Home_time@2x.png"/>
+            <image mode="scaleToFill" src="../../../assets/home/Home_time@2x.png"/>
           </view>
 
           <view>
@@ -65,12 +67,12 @@
 
         </view>
         <!-- 还车完毕 -->
-        <view class="rump">
-          <image mode="scaleToFill" src="../../assets/home/Details_label@2x.png"/>
-          <view>政企用车</view>
+        <view class="sst-rump">
+
         </view>
-        <button size="default" type="primary" onTap="goCarList">立即选车</button>
+        <button size="default" type="primary" onTap="selectCar">立即选车</button>
       <view>
       </view>
 
     </view>
+</view>

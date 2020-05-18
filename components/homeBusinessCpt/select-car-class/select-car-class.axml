@@ -1,0 +1,18 @@
+<mask type="{{type}}" show="{{sccBgShow}}" maskZindex="{{maskZindex}}"></mask>
+
+<view class="scc-bg">
+<view class="scc-head">
+  <view>
+  车辆类型
+</view>
+  <image mode="scaleToFill" src=""/>
+</view>
+  <view class="scc-body">
+    <view a:for="{{carClass}}">
+      <text>{{item.className}}</text>
+    </view>
+  </view>
+    <view>
+    <button size="default" type="primary">Button</button>
+  </view>
+</view>

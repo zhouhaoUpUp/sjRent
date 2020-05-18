@@ -1,15 +1,15 @@
-<view class="rd" a:if="{{banrizu}}">
+<view class="rd">
   <view class="rd-head-top">
-    <view class="bg-left">
+    <view class="bg-left-wd">
       
     </view>
-    <view class="bg-right">
+    <view class="bg-right-wd">
       
     </view>
     <view onTap="half">
       半日租
     </view>
-    <view onTap="whole">
+    <view>
       整日租
     </view>
   </view>
@@ -60,25 +60,38 @@
       </view>
     </view>
 
-    <view class="rd-head">
-      <view>
-        套餐时长
-      </view>
-      <view>
-        用车时间
-      </view>
-    </view>
+ <!-- 用车还车时间 -->
+        <view class="body-rump">
+          <view>
+            <view>
+            用车时间
+            </view>
+            <view>
+            11月25日
+            </view>
+            <view>
+            周五 09:00
+            </view>
+          </view>
 
-    <view class="rd-tail">
-      <view>
-        4小时
-      </view>
-      <view>
-        11月25日
-      </view>
-      <view>
-        周五 09:00
-      </view>
-    </view>
+          <view>
+            <text>2天</text>
+            <image mode="scaleToFill" src="../../assets/home/Home_time@2x.png"/>
+          </view>
+
+          <view>
+            <view>
+            还车时间
+            </view>
+            <view>
+            11月27日
+            </view>
+            <view>
+            周日 09:00
+            </view>
+          </view>
+
+        </view>
+        <!-- 还车完毕 -->
     <button size="default" type="primary" >立即选车</button>
 </view>

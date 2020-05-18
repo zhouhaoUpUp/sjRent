@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/orderFormList/affirmList/affirmList",
-    "pages/orderFormList/affirmWaitPay/affirmWaitPay"
+    "pages/orderFormList/affirmWaitPay/affirmWaitPay",
+    "pages/homeBusiness/carList/carList"
   ],
   "window": {
     "defaultTitle": "深驾租车"

@@ -1,0 +1,238 @@
+image{
+    width: 20rpx;
+    height: 20rpx;
+}
+.rd{
+    width: 94%;
+    height: 790rpx;
+    margin-left: 3%;
+    background-color: #ffffff;
+}
+.rd-head-top{
+    height: 90rpx;
+    position: relative;
+    overflow: hidden;  
+}
+
+
+ .bg-left-wd{
+    height: 90rpx;
+    border: 90rpx solid #FEDD00; 
+    width: 236.5rpx;
+    /* border-bottom: 100px solid red;*/
+    border-left: 50rpx solid transparent;
+    /* border-right: 50rpx solid transparent;  */
+    position: absolute;
+    right: 0;
+    top: -180rpx;
+ }
+.rd-head-top>view:nth-child(3){
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    left: 0;
+    border: 1rpx solid #b2ff22;
+    text-align: center;
+    height: 90rpx;
+    line-height: 90rpx;
+    color: #333333;
+    font-size: 26rpx;
+}
+.rd-head-top>view:nth-child(4){
+    position: absolute;
+    z-index: 1;
+    border: 1rpx solid #b2ff22;
+    width: 50%;
+    right:0; 
+    text-align: center;
+    height: 90rpx;
+    line-height: 90rpx;
+    color: #333333;
+    font-size: 26rpx;
+}
+.rd-head{
+    margin-top: 32rpx;
+}
+.rd-head>view:nth-child(1){
+    width: 96rpx;
+    font-size: 24rpx;
+    color: #999999;
+    float: left;
+    margin-left: 30rpx;
+    margin-right: 50rpx;
+}
+.rd-head>view:nth-child(2){
+    font-size: 24rpx;
+    color: #999999;
+}
+.rd-head-bottom{
+    margin-top: 24rpx;
+
+}
+.rd-head-bottom>view:nth-child(1){
+        width: 96rpx;
+        height: 44rpx;
+    font-size: 32rpx;
+    color: #333333;
+    float: left;
+    margin-left: 30rpx;
+    margin-right: 50rpx;
+    font-weight:bold;
+}
+.rd-head-bottom>view:nth-child(2){
+        font-size: 32rpx;
+        color: #333333;
+        font-weight:bold;
+        height: 44rpx;
+
+}
+.rd-tail{
+    margin-top: 20rpx;
+    height: 50rpx;
+}
+.rd-tail>view:nth-child(1){
+    width: 96rpx;
+    height: 50rpx;
+    font-size: 36rpx;
+    color: #333333;
+    float: left;
+    margin-left: 30rpx;
+    margin-right: 50rpx;
+    font-weight:bold;
+}
+.rd-tail>view:nth-child(2){
+        font-size: 36rpx;
+        color: #333333;
+        font-weight:bold;
+        height: 50rpx;
+        float: left;
+        margin-right: 16rpx;
+}
+.rd-tail>view:nth-child(3){
+    
+    font-size: 28rpx;
+    position: relative;
+    top: 4rpx;
+    color: #999999;
+}
+
+.rd-body{
+    margin-top: 30rpx;
+    height: 80rpx;
+    margin-bottom: 45rpx；
+}
+.rd-body>view:nth-child(1){
+    color: #999999;
+    font-size: 24rpx;
+        margin-left: 30rpx;
+}
+.rd-body>view:nth-child(2){
+    margin-top: 18rpx;
+    margin-left: 30rpx;
+    color: #999999;
+    font-size: 28rpx;
+    float: left;
+}
+.rd-body>image{
+        width: 36rpx;
+        height: 36rpx;
+        margin-top: 18rpx;
+        float: right;
+        margin-right: 50rpx;
+}
+button{
+    margin-top: 60rpx;
+    width: 90%;
+    margin-left: 5%;
+    height: 80rpx;
+    font-size: 32rpx;
+    color: #333333;
+}
+
+.body-rump {
+    height: 154rpx;
+    position: relative;
+}
+
+.body-rump>view:nth-child(1) {
+    float: left;
+    height: 154rpx;
+    margin-left: 30rpx;
+}
+
+.body-rump>view:nth-child(1)>view:nth-child(1) {
+    color: #999999;
+    font-size: 24rpx;
+    margin-top: 20rpx;
+}
+
+.body-rump>view:nth-child(1)>view:nth-child(2) {
+    color: #333333;
+    font-size: 36rpx;
+    margin-top: 12rpx;
+}
+
+.body-rump>view:nth-child(1)>view:nth-child(3) {
+    color: #999999;
+    font-size: 28rpx;
+}
+
+
+
+.body-rump>view:nth-child(3) {
+    position: absolute;
+    float: right;
+    height: 154rpx;
+    right: 30rpx;
+
+}
+
+.body-rump>view:nth-child(3)>view:nth-child(1) {
+    color: #999999;
+    font-size: 24rpx;
+    margin-top: 20rpx;
+    text-align: right;
+}
+
+.body-rump>view:nth-child(3)>view:nth-child(2) {
+    color: #333333;
+    font-size: 36rpx;
+    margin-top: 12rpx;
+    text-align: right;
+}
+
+.body-rump>view:nth-child(3)>view:nth-child(3) {
+    color: #999999;
+    font-size: 28rpx;
+    text-align: right;
+}
+
+
+.body-rump>view:nth-child(2) {
+    height: 100rpx;
+    width: 100rpx;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.body-rump>view:nth-child(2)>text{
+    font-size: 28rpx;
+    color: #999999;
+    width: 46rpx;
+    height: 40rpx;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.body-rump>view:nth-child(2)>image{
+    height: 14rpx;
+    width: 96rpx;
+    margin-top: 70rpx
+}

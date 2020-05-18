@@ -1,0 +1,9 @@
+{
+"navigationStyle":"custom",
+      "usingComponents": {
+    "select-site-time":"../../../components/homeBusinessCpt/select-site-time/select-site-time",
+    "mask": "../../../node_modules/mini-ali-ui/es/mask/index",
+    "select-car-class":"../../../components/homeBusinessCpt/select-car-class/select-car-class"
+
+  }
+}

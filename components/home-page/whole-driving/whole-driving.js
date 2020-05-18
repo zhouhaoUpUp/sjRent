@@ -1,16 +1,16 @@
 Component({
   mixins: [],
   data: {
-    banrizu:true
+    
   },
   props: {},
   didMount() {},
   didUpdate() {},
   didUnmount() {},
   methods: {
-    whole(){
+    half(){
       this.setData({
-        banrizu:false
+        
       })
     }
   },

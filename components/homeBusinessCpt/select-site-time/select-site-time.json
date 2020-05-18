@@ -1,0 +1,8 @@
+{
+  "component": true,
+        "usingComponents": {
+    "mask": "../../../node_modules/mini-ali-ui/es/mask/index",
+    "am-switch": "mini-ali-ui/es/am-switch/index",
+    "self-driving":"../../home-page/self-driving/self-driving"
+  }
+}
