@@ -17,5 +17,6 @@
 
 }
 .clickHead{
-    background-color: #e68888;
+    border-bottom: 6rpx solid #FEDD00;
+    border-radius: 3rpx;
 }
