@@ -132,7 +132,6 @@ image{
     float: left;
 }
 .rd-body>image{
-        border: 1rpx solid #ff2222;
         width: 36rpx;
         height: 36rpx;
         margin-top: 18rpx;

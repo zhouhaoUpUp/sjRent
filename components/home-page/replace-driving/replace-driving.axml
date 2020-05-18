@@ -39,7 +39,7 @@
       <view>
         添加途经点
       </view>
-            <image src=""/>
+            <image src="../../../assets/home/add.png"/>
   </view>
 
     <view class="rd-head">
