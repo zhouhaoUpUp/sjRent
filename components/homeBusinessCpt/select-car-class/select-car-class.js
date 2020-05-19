@@ -23,11 +23,20 @@ className:"新能源",
     },{
 className:"皮卡",
         classId:7
-    }]
+    }],
+    option:-1
   },
   props: {},
   didMount() {},
   didUpdate() {},
   didUnmount() {},
-  methods: {},
+  methods: {
+      selected(e){
+            var id=e.target.dataset.id
+          this.setData({
+              option:id
+          })
+
+      }
+  },
 });

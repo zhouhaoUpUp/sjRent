@@ -4,6 +4,8 @@
     bottom:0;
     background-color: #fff;
     z-index: 11;
+        border-radius:40rpx 40rpx 0px 0px;
+
 }
 .scc-bg image{
     width: 24rpx;
@@ -12,7 +14,7 @@
 }
 .scc-head{
     height: 100rpx;
-    border: 1rpx solid #ff0000;
+    border-radius:40rpx 40rpx 0px 0px;
     position: relative;
 }
 .scc-head>view{
@@ -32,14 +34,26 @@
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
-    justify-content: space-around;
 }
 .scc-body>view{
 width:162rpx;
 height:72rpx;
 background:rgba(243,243,243,1);
 border-radius:4px;
-margin: 20rpx;
+margin: 30rpx;
+margin-left: 51rpx;
 text-align: center;
 line-height: 72rpx;
+}
+button{
+width:80%;
+height:80rpx;
+background:linear-gradient(270deg,rgba(254,221,0,1) 0%,rgba(251,195,43,1) 100%);
+border-radius:40rpx;
+margin-left: 10%
+}
+.scc-body>.options{
+    /* border: 1rpx solid #ff0000; */
+    background-color:rgba(254,221,0,1); 
+    color: #333333; 
 }

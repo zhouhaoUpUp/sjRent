@@ -8,11 +8,16 @@
   <image mode="scaleToFill" src=""/>
 </view>
   <view class="scc-body">
-    <view a:for="{{carClass}}">
+  
+    <view a:for="{{carClass}}" 
+    onTap="selected" 
+    data-id="{{index}}" 
+    class="{{index===option?'options':''}}"
+    >
       <text>{{item.className}}</text>
     </view>
   </view>
     <view>
-    <button size="default" type="primary">Button</button>
+    <button size="default" type="primary">确认</button>
   </view>
 </view>
