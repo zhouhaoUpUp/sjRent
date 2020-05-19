@@ -18,11 +18,11 @@
         "name": "首页"
       },
       {
-        "pagePath": "pages/orderFormList/affirmList/affirmList",
+        "pagePath": "pages/myOrderList/myOrderList",
         "name": "测试"
       },
       {
-        "pagePath": "pages/orderFormList/affirmWaitPay/affirmWaitPay",
+        "pagePath": "pages/orderFormList/affirmWaitDispatch/affirmWaitDispatch",
         "name": "测试2"
       }
     ]

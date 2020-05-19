@@ -1,0 +1,188 @@
+<view>
+<!-- 车辆信息部分 -->
+<view class="sec3 sec">
+    <view><image mode="scaleToFill" src="../../../assets/orderListimg/car.png"/></view>
+    <view>
+      <view>
+        <text>{{ carName }}</text>
+      </view>
+      <view>
+        <text>{{xiang}} |</text>
+        <text class="marl">{{pailiang}} |</text>
+        <text class="marl">{{zuo}}</text>
+      </view>
+    </view>
+  </view>
+  <!-- 分隔条 -->
+  <view class="tiao"></view>
+  <!-- 第四部分 自驾租车 -->
+  <view class="sec sec4">
+    <view class="tiao2">
+      <text class="fontTitle marl">自驾租车</text>
+    </view>
+    <view class="tiao2">
+      <view class="viewOne">
+        <text class="marl colZhuFo">用车时间</text>
+      </view>
+      <view class="viewTwo">
+        <text class="marr">{{timeCar}}</text>
+      </view>
+    </view>
+    <view class="tiao2">
+      <view class="viewOne">
+        <text class="marl colZhuFo">用车地点</text>
+      </view>
+      <view class="viewTwo">
+        <text class="marr">{{addressCar}}</text>
+      </view>
+    </view>
+    <view>
+      <view class="viewOne">
+        <text class="marl colZhuFo">还车地点</text>
+      </view>
+      <view class="viewTwo">
+        <text class="marr">{{returnCar}}</text>
+      </view>
+    </view>
+  </view>
+  <!-- 分隔条 -->
+  <view class="tiao"></view>
+  <!-- 第五部分 出行信息 -->
+  <view class="sec sec5">
+    <view class="tiao2">
+      <text class="fontTitle marl">出行信息</text>
+    </view>
+    <view class="tiao2">
+      <view class="viewOne">
+        <text class="marl colZhuFo">订车人</text>
+      </view>
+      <view class="viewTwo">
+        <text class="marr">{{orderName}}</text>
+      </view>
+    </view>
+    <view class="tiao2">
+      <view class="viewOne">
+        <text class="marl colZhuFo">身份证号</text>
+      </view>
+      <view class="viewTwo">
+        <text class="marr">{{orderId}}</text>
+      </view>
+    </view>
+    <view>
+      <view class="viewOne">
+        <text class="marl colZhuFo">手机号</text>
+      </view>
+      <view class="viewTwo">
+        <text class="marr">{{orderPhone}}</text>
+      </view>
+    </view>
+    <view class="tiao2">
+      <view class="viewOne">
+        <text class="marl colZhuFo">用车人</text>
+      </view>
+      <view class="viewTwo">
+        <text class="marr">{{useName}}</text>
+      </view>
+    </view>
+    <view class="tiao2">
+      <view class="viewOne">
+        <text class="marl colZhuFo">身份证</text>
+      </view>
+      <view class="viewTwo">
+        <text class="marr">{{useId}}</text>
+      </view>
+    </view>
+    <view class="tiao2">
+      <view class="viewOne">
+        <text class="marl colZhuFo">手机号</text>
+      </view>
+      <view class="viewTwo viewpro">
+        <text class="marr">{{usePhone}}</text>
+      </view>
+    </view>
+  </view>
+  <!-- 分隔条 -->
+  <view class="tiao"></view>
+  <!-- 第六部分  服务信息 -->
+  <view class="sec sec4">
+    <view class="tiao2">
+      <text class="fontTitle marl">服务信息</text>
+    </view>
+    <view class="tiao2">
+      <view class="viewOne">
+        <text class="marl colZhuFo">服务公司</text>
+      </view>
+      <view class="viewTwo">
+        <text class="marr">{{serveComp}}</text>
+      </view>
+    </view>
+    <view class="tiao2">
+      <view class="viewOne">
+        <text class="marl colZhuFo">营业时间</text>
+      </view>
+      <view class="viewTwo">
+        <text class="marr">{{bussiness}}</text>
+      </view>
+    </view>
+    <view class="tiao2">
+      <view class="viewOne">
+        <text class="marl colZhuFo">联系方式</text>
+      </view>
+      <view class="viewTwo">
+        <text class="marr">{{contactWay}}</text>
+				<image mode="scaleToFill" class="phoneImg" src="../../../assets/orderListimg/Order_phone@2x.png"/>
+      </view>
+    </view>
+  </view>
+
+
+
+ <!-- 分隔条 -->
+  <view class="tiao"></view>
+<!-- 第七部分 其他信息 -->
+	<view class="sec sec7">
+		<view class="tiao2">
+      <text class="fontTitle marl">其他信息</text>
+    </view>
+    <view class="tiao2">
+      <view class="viewOne">
+        <text class="marl colZhuFo">订单编号</text>
+      </view>
+      <view class="viewTwo">
+        <text class="marr">{{orderListId}}</text>
+      </view>
+    </view>
+    <view class="tiao2">
+      <view class="viewOne">
+        <text class="marl colZhuFo">支付方式</text>
+      </view>
+      <view class="viewTwo">
+        <text class="marr">{{payment}}</text>
+      </view>
+    </view>
+    <view class="tiao2">
+      <view class="viewOne">
+        <text class="marl colZhuFo">支付交易号</text>
+      </view>
+      <view class="viewTwo">
+        <text class="marr">{{payNumber}}</text>
+      </view>
+    </view>
+	 <view class="tiao2">
+      <view class="viewOne">
+        <text class="marl colZhuFo">创建时间</text>
+      </view>
+      <view class="viewTwo">
+        <text class="marr">{{cerateTime}}</text>
+      </view>
+    </view> <view class="tiao2">
+      <view class="viewOne">
+        <text class="marl colZhuFo">支付时间</text>
+      </view>
+      <view class="viewTwo">
+        <text class="marr">{{payTime}}</text>
+      </view>
+    </view>
+	</view>
+
+</view>

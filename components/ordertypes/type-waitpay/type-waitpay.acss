@@ -1,5 +1,5 @@
 
-.sec{
+.secCom{
   width: 100%;
   height: 200rpx;
   background-color: #FEA733;
@@ -15,13 +15,15 @@ image{
   margin-left: 550rpx;
   margin-top: -70rpx;
 }
-text{
+.secCom text{
   color: #FFFFFF
 }
-.txt1{
+.txt1_waitpay{
   margin-top: 50rpx !important;
   margin-left: 50rpx;
+  font-size: 32rpx;
 }
-.txt2{
+.txt2_waitpay{
   margin-top: 12rpx;
+  font-size: 28rpx;
 }

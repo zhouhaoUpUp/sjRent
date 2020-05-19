@@ -1,0 +1,13 @@
+<view class="secCom">
+<!-- 待送车状态 -->
+
+    <view  class="txt1_waitsend">
+    <text>等待送车</text>
+    <view class="txt2_waitsend">
+    <text >已为您安排服务车辆，请等待送车</text>
+    </view>
+    <view class="image">
+     <image mode="scaleToFill" src="../../../assets/orderListImg/Order_wait@2x.png"/>
+     </view>
+    </view>
+</view>

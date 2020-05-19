@@ -1,0 +1,13 @@
+<view class="secCom">
+<!-- 待接单状态 -->
+
+    <view  class="txt1_waitreceive">
+    <text>等待接单</text>
+    <view class="txt2_waitreceive">
+    <text >正在为您排单请稍后</text>
+    </view>
+    <view class="image">
+     <image mode="scaleToFill" src="../../../assets/orderListImg/Order_wait@2x.png"/>
+     </view>
+    </view>
+</view>

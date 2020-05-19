@@ -1,0 +1,109 @@
+.secappoint{
+  display: flex;
+  flex-direction: column;
+  width:96%;
+  margin-left: 2%;
+  /* border:1px solid red; */
+  border-radius: 5px;
+  border:1px solid #E6E6E6
+}
+.secappoint view{
+ width: 100%;
+}
+.secappoint view:first-child{
+  height: 70rpx;
+}
+.secappoint view:first-child text{
+  line-height: 70rpx;
+}
+.txt1{
+  font-size: 28rpx;
+}
+.txt_cancel{
+  font-size: 26rpx;
+  color:#000000;
+  float: right;
+}
+
+
+/* 第二部分 sec2 */
+.sec2{
+  height: 260rpx;
+}
+.sec2 view:first-child{
+  height: 54rpx;
+}
+.sec2 image {
+  display: inline-block;
+  height: 32rpx;
+  width: 32rpx;
+  vertical-align: middle;
+}
+.sec2 view:nth-child(2){
+  width: 80%;
+  margin-left: 40rpx;
+  height: 34rpx;
+  border-left: 1px solid #D8D8D8;
+  margin-top: 10rpx;
+}
+.sec2 view:nth-child(4){
+  width: 80%;
+  margin-left: 40rpx;
+  height: 34rpx;
+}
+.sec2 view:last-child{
+  height: 72rpx;
+  line-height: 72rpx;
+}
+
+/* 底部 金额 按钮 */
+.secappoint view:last-child{
+  height: 84rpx;
+  line-height: 84rpx;
+}
+.secappoint view:last-child text{
+  margin-left:34rpx;
+}
+.txtMoney{
+  color: #FBAB2A !important;
+  font-size: 32rpx;
+}
+ button{
+	width: 160rpx;
+	height: 60rpx;
+	border-radius: 32rpx;
+	display: inline-block;
+	font-size: 26rpx;
+	vertical-align: middle;
+}
+.btn_1{
+	background-color: white !important;
+	border: 1px solid #D7D7D7;
+	color:black;
+	line-height: 60rpx;
+	margin-left: 10%;
+}
+.btn_2{
+	background-color: #FEDD00;
+	border: 1px solid #D7D7D7;
+	line-height: 60rpx;
+  margin-left: 15rpx;
+}
+/* 左边间隔 */
+.marl{
+  margin-left: 24rpx;
+}
+/* 时间左边间隔 */
+.mart{
+  margin-left: 40rpx;
+}
+/* 上下间隔 */
+.martop{
+  margin-top: 10rpx;
+}
+/* 分隔条 */
+.listtiao{
+  width: 660rpx !important;
+  text-align: center;
+  border: 1px solid #F5F5F5;
+}

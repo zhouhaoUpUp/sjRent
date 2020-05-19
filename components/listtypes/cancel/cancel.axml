@@ -1,0 +1,42 @@
+<view class="secappoint">
+  <!-- 取消订单列表 -->
+  <view>
+    <text class="txt1 marl">成都——自驾租车</text>
+    <text class="txt_cancel marl">已取消</text>
+  </view>
+  <!-- 分隔条 -->
+  <view class="listtiao marl"></view>
+  <!-- 起点 终点 车辆信息 -->
+  <view class="sec2">
+    <view>
+      <image mode="scaleToFill" class="marl" src="../../../assets/listtypesimgs/Order_adress@2x.png"></image>
+      <text class="marl">{{startAddress}}</text>
+    </view>
+    <view>
+      <text class="mart">{{startTime}}</text>
+    </view>
+    <view class="martop">
+      <image mode="scaleToFill" class="marl" src="../../../assets/listtypesimgs/Order_adress@2x.png"></image>
+      <text class="marl">{{endAddress}}</text>
+    </view>
+    <view>
+      <text class="mart">{{endTime}}</text>
+    </view>
+    <view class="martop">
+      <image mode="scaleToFill" class="marl" src="../../../assets/listtypesimgs/车辆@2x.png"></image>
+      <text class="marl">{{carName}}</text>
+      <text class="marl">{{year}}年</text>
+      <text class="marl">{{pailiang}}</text>
+      <text class="marl">{{zuo}}</text>
+    </view>
+  </view>
+  <!-- 分隔条 -->
+  <view class="listtiao"></view>
+  <!-- 底部按钮部分 -->
+  <view>
+    <text>金额:</text>
+    <text class="txtMoney">￥ {{money}}</text>
+    <button size="default" type="primary" class="btn_1">删除订单</button>
+    <button size="default" type="primary" class="btn_2">重新下单</button>
+  </view>
+</view>
