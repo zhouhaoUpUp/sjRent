@@ -1,0 +1,13 @@
+<view class="secCom">
+<!-- 自驾租车（待审核 / 待付款 ） 状态组件 -->
+    <view  class="txt1_waitpay">
+    <text>{{types}}</text>
+    <view class="txt2_waitpay">
+    <text >剩 {{timeMin}} 分{{timeSec}} 秒,订单将自动关闭</text>
+    </view>
+    <view class="image">
+     <image mode="scaleToFill" src="{{imgSrc}}"/>
+     </view>
+   
+    </view>
+</view>

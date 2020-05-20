@@ -1,5 +1,5 @@
 <view class="content">
-  <!-- 续租申请 状态——处理中 -->
+  <!-- 续租申请 状态——申请失败 -->
 
   <!-- 车辆信息部分 续租页 -->
     <view>
@@ -9,7 +9,7 @@
     <view class="tiao"> </view>
   <!--橙色信息提示  -->
   <view class="infomation">
-    <text class="colSupF marl">正在等待平台审核</text>
+    <text class="colSupF marl">续租申请失败，当前选择时间无多余车辆</text>
   </view>
     <!-- 分隔条 -->
     <view class="tiao"> </view>
@@ -26,8 +26,8 @@
      </view>
      <view>
       <text>预估金额 :</text> <text class="fontMoney">￥300</text>
-      <button size="default" type="primary" class="btn_1">取消</button>
-      <button size="default" type="primary" class="btn_2">重新下单</button>
+      <button size="default" type="primary" class="btn_1">联系客服</button>
+    <button size="default" type="primary" class="btn_2">再次申请</button>
     </view>
   </view>
 

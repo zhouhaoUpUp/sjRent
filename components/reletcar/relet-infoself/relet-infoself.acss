@@ -1,0 +1,28 @@
+.selfcontent{
+  display: flex;
+  flex-direction: column;
+}
+.selfcontent view view{
+  height: 65rpx;
+}
+.selfcontent view text{
+  line-height: 65rpx;
+   font-size:26rpx;
+}
+/* 左边信息间距 */
+.selfcontent view>view>text:nth-child(1){
+  margin-left: 30rpx;
+  color:#666;
+}
+/* 右边信息间距 */
+.selfcontent view>view>text:nth-child(2){
+  margin-left: 54rpx;
+}
+.viewsec view text:nth-child(2){
+  margin-left: 80rpx !important;
+}
+.selfcontent view>view>text:nth-child(3){
+  margin-left: 102rpx;
+  color:#666;
+  font-size:24rpx;
+}

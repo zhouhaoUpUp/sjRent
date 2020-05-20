@@ -48,6 +48,8 @@ require('../../components/reletcar/relet-infolist/relet-infolist?hash=05d2a9730d
 require('../../node_modules/mini-ali-ui/es/loading/index?hash=05d2a9730dd6009bf9446182f9c985f40f8c0f43');
 require('../../node_modules/mini-ali-ui/es/button/index?hash=e1617a0257fb9de746f60d50b03404ad924976c9');
 require('../../node_modules/mini-ali-ui/es/modal/index?hash=febd4c40992222524e0db12a74760a28f8f9b339');
+require('../../components/reletcar/reletcar-type/reletcar-type?hash=05d2a9730dd6009bf9446182f9c985f40f8c0f43');
+require('../../components/reletcar/relet-infoself/relet-infoself?hash=05d2a9730dd6009bf9446182f9c985f40f8c0f43');
 require('../../pages/index/index?hash=e882105491eca8c232fa5f4053fc7705bc5c9724');
 require('../../pages/orderFormList/affirmList/affirmList?hash=32d7d2807ed4e666ef03b4b3fe8c38ecf2e34e68');
 require('../../pages/orderFormList/affirmWaitPay/affirmWaitPay?hash=966f3508be05009e7adfe4455bce55eaff428a09');
@@ -57,6 +59,10 @@ require('../../pages/orderFormList/affirmWaitRec/affirmWaitRec?hash=3ab97443fd3d
 require('../../pages/orderFormList/affirmWaitDispatch/affirmWaitDispatch?hash=7e37425f6b656a464df1f6ef83f1207d95e2f765');
 require('../../pages/reletCar/reletCar/reletCar?hash=2b3099fdcd94e75ac860009aeb361d55ef30ea6a');
 require('../../pages/reletCar/reletCarDeal/reletCarDeal?hash=fc8f9d8faceecf880fe55c63e571cdf05731bc41');
+require('../../pages/reletCar/reletCarSuccess/reletCarSuccess?hash=fc8f9d8faceecf880fe55c63e571cdf05731bc41');
+require('../../pages/reletCar/reletCarDefeat/reletCarDefeat?hash=fc8f9d8faceecf880fe55c63e571cdf05731bc41');
+require('../../pages/reletCar/reletCarWaitPay/reletCarWaitPay?hash=b6e976a7d44a9b0496d5ccc83c192eb9280bcc73');
+require('../../pages/reletCar/reletCarWaitAudit/reletCarWaitAudit?hash=b6e976a7d44a9b0496d5ccc83c192eb9280bcc73');
 }
 self.bootstrapApp ? self.bootstrapApp({ success }) : success();
 }

@@ -1,0 +1,107 @@
+<view class="selfcontent">
+  <!-- 自家续租 （待付款 待审核）订单详情信息组件 -->
+
+  <!-- 自驾租车 -->
+  <view>
+    <view>
+      <text class="fontTitle">自驾租车</text>
+    </view>
+     <view>
+      <text>订单状态</text><text>{{orderType}}</text>
+    </view>
+     <view>
+      <text>用车时间</text><text>{{useTime}}</text>
+    </view>
+     <view>
+      <text>续租时间</text><text>{{countTime}}</text>
+    </view>
+  </view>
+<!-- 分隔条 -->
+  <view class="tiao"> </view>
+  <!-- 预定信息 -->
+    <view class="viewsec">
+    <view>
+      <text class="fontTitle">预定信息</text>
+    </view>
+     <view>
+      <text>订车人</text><text>{{orderName}}</text>
+    </view>
+     <view>
+      <text>手机号</text><text>{{orderPhone}}</text>
+    </view>
+     <view>
+      <text>用车人</text><text>{{useName}}</text>
+    </view>
+    <view>
+      <text>手机号</text><text>{{usePhone}}</text>
+    </view>
+  </view>
+
+<!-- 分隔条 -->
+  <view class="tiao"></view>
+   <!-- 订单信息 -->
+    <view class="viewsec">
+    <view>
+      <text class="fontTitle">订单信息</text>
+    </view>
+     <view>
+      <text>订车人</text><text>  {{orderName}}</text>
+    </view>
+     <view>
+      <text>手机号</text><text>{{orderPhone}}</text>
+    </view>
+     <view>
+      <text>用车人</text><text>{{useName}}</text>
+    </view>
+    <view>
+      <text>手机号</text><text>{{usePhone}}</text>
+    </view>
+  </view>
+
+<!-- 分隔条 -->
+  <view class="tiao"> </view>
+
+ <!-- 服务信息 -->
+    <view>
+    <view>
+      <text class="fontTitle">服务信息</text>
+    </view>
+     <view>
+      <text>服务公司</text><text>{{serveComp}}</text>
+    </view>
+     <view>
+      <text>门店地址</text><text>{{shopSite}}</text>
+    </view>
+     <view>
+      <text>营业时间</text><text>{{bussiness}}</text>
+    </view>
+    <view>
+      <text>联系方式</text><text>{{contactWay}}</text>
+    </view>
+  </view>
+
+  <!-- 分隔条 -->
+  <view class="tiao"> </view>
+
+   <!-- 其他信息 -->
+    <view>
+    <view>
+      <text class="fontTitle">其他信息</text>
+    </view>
+     <view>
+      <text>订单编号</text><text>{{orderListId}}</text><text>续租生成新的订单号</text>
+    </view>
+     <view>
+      <text>提交时间</text><text>{{subTime}}</text>
+    </view>
+     <view>
+      <text>支付方式</text><text>{{payment}}</text>
+    </view>
+    <view>
+      <text>支付金额</text><text>￥{{payment}}</text>
+    </view>
+    <view>
+      <text>付款时间</text><text>{{payTime}}</text>
+    </view>
+  </view>
+</view>

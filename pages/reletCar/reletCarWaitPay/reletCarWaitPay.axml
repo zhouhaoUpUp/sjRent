@@ -1,0 +1,13 @@
+<view class="content">
+  <!-- 自家续租  待付款页面 -->
+  <reletcar-type typeArr="{{typeArr}}"></reletcar-type>
+  <relet-infocar></relet-infocar>
+  <view class="tiao"></view>
+  <relet-infoself></relet-infoself>
+  <view class="tiao"></view>
+   <view class="footer">
+      <text>预估金额 :</text> <text class="fontMoney">￥300</text><text>明细</text>
+      <button size="default" type="primary" class="btn_1">取消订单</button>
+      <button size="default" type="primary" class="btn_2 colZhuF">立即付款</button>
+    </view>
+</view>
