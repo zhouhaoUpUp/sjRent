@@ -1,23 +1,27 @@
 <mask type="{{type}}" show="{{sccBgShow}}" maskZindex="{{maskZindex}}"></mask>
 
-<view class="scc-bg">
-<view class="scc-head">
+<view>
+  New Component
+</view><mask type="{{type}}" show="{{sccBgShow}}" maskZindex="{{maskZindex}}"></mask>
+
+<view class="ssr-bg">
+<view class="ssr-head">
   <view>
   车辆类型
 </view>
   <image mode="scaleToFill" src="../../../assets/carList/Pop-ups_shut@2x.png"/>
 </view>
-  <view class="scc-body">
+  <view class="ssr-body">
   
     <view a:for="{{carClass}}" 
     onTap="selected" 
     data-id="{{index}}" 
-    class="{{index===option?'options':''}}"
+    class="{{index===option?'ssr-options':''}}"
     >
       <text>{{item.className}}</text>
     </view>
   </view>
     <view>
-    <button size="default" type="primary" class="scc-button">确认</button>
+    <button size="default" type="primary" class="ssr-button">确认</button>
   </view>
 </view>

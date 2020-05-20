@@ -1,4 +1,4 @@
-.scc-bg{
+.ssr-bg{
     width: 100%;
     position: fixed;
     bottom:0;
@@ -7,35 +7,35 @@
         border-radius:40rpx 40rpx 0px 0px;
 
 }
-.scc-bg image{
+.ssr-bg image{
     width: 24rpx;
     height: 24rpx;
 }
-.scc-head{
+.ssr-head{
     height: 100rpx;
     border-radius:40rpx 40rpx 0px 0px;
     position: relative;
     border-bottom:2rpx solid #f5f5f5; 
 }
-.scc-head>view{
+.ssr-head>view{
     text-align: center;
     line-height: 100rpx;
     font-size: 32rpx;
     color: #333;
 }
-.scc-head>image{
+.ssr-head>image{
     position: absolute;
     top: 38rpx;
     right: 62rpx
 }
 
-.scc-body{
+.ssr-body{
     margin-top: 20rpx;
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
 }
-.scc-body>view{
+.ssr-body>view{
 width:162rpx;
 height:72rpx;
 background:rgba(243,243,243,1);
@@ -47,7 +47,7 @@ line-height: 72rpx;
 font-size: 28rpx;
 color: #333333;
 }
-.scc-button{
+.ssr-button{
 width:80%;
 height:80rpx;
 background:linear-gradient(270deg,rgba(254,221,0,1) 0%,rgba(251,195,43,1) 100%);
@@ -55,7 +55,7 @@ border-radius:40rpx;
 margin-left: 10%;
 margin-top:40rpx 
 }
-.scc-body>.options{
+.ssr-body>.ssr-options{
     /* border: 1rpx solid #ff0000; */
     background-color:rgba(254,221,0,1); 
     color: #333333; 

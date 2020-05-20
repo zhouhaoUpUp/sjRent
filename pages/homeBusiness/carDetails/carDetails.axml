@@ -1,0 +1,34 @@
+<view>
+  <view class="cd-top">
+    <view a:for="{{dateWeekPrice}}" class="{{index===0?'time-bg':''}}" >
+      <view>
+        {{item.date}}
+      </view>
+      <view>
+        {{item.week}}
+      </view>
+      <view>
+        {{item.price}}
+      </view>
+    </view>
+  </view>
+  <view class="cd-top-right">
+    <view>
+    </view>
+    <view>
+    <image mode="scaleToFill" src="../../../assets/carList/Details_calendar@2x.png"/>
+    <image mode="scaleToFill" src="../../../assets/carList/Calendar_sele@2x.png"/>
+    </view>
+  </view>
+  <view class="cd-head">
+    <view 
+    a:for="{{carDetailsList}}" 
+    onTap="checkPage" 
+    data-id="{{index}}" 
+    class="{{index===state?'style':''}}"
+    >
+      {{item}}
+    </view>
+  </view>
+  <car-details-home/>
+</view>

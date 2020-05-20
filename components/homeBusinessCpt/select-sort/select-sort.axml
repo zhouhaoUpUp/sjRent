@@ -1,23 +1,22 @@
 <mask type="{{type}}" show="{{sccBgShow}}" maskZindex="{{maskZindex}}"></mask>
 
-<view class="scc-bg">
-<view class="scc-head">
+<view class="sst-bg">
+<view class="sst-head">
   <view>
-  车辆类型
+  排序
 </view>
   <image mode="scaleToFill" src="../../../assets/carList/Pop-ups_shut@2x.png"/>
 </view>
-  <view class="scc-body">
+  <view class="sst-body">
   
     <view a:for="{{carClass}}" 
     onTap="selected" 
     data-id="{{index}}" 
-    class="{{index===option?'options':''}}"
     >
-      <text>{{item.className}}</text>
+      <text>{{item.className}}</text><image mode="scaleToFill" src="" class="{{index===check?'check-icon':''}}"/>
     </view>
   </view>
     <view>
-    <button size="default" type="primary" class="scc-button">确认</button>
+    <button size="default" type="primary" class="sst-button">确认</button>
   </view>
 </view>

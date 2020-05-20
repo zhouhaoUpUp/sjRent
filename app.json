@@ -3,8 +3,12 @@
     "pages/index/index",
     "pages/orderFormList/affirmList/affirmList",
     "pages/orderFormList/affirmWaitPay/affirmWaitPay",
-    "pages/homeBusiness/carList/carList"
-  ],
+    "pages/homeBusiness/carList/carList",
+    "pages/myOrderList/myOrderList",
+    "pages/orderFormList/affirmWaitDispatch/affirmWaitDispatch",
+    "pages/homeBusiness/rentCarCompany/rentCarCompany",
+    "pages/homeBusiness/carDetails/carDetails"
+      ],
   "window": {
     "defaultTitle": "深驾租车"
   },
@@ -18,7 +22,7 @@
         "name": "首页"
       },
       {
-        "pagePath": "pages/myOrderList/myOrderList",
+        "pagePath": "pages/homeBusiness/carDetails/carDetails",
         "name": "测试"
       },
       {

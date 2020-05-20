@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+        "car-details-home":"../../../components/car-details/car-details-home/car-details-home"
+
+
+  }
+}

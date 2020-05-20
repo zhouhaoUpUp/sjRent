@@ -1,62 +1,64 @@
-.scc-bg{
+.sst-bg{
     width: 100%;
     position: fixed;
     bottom:0;
     background-color: #fff;
     z-index: 11;
-        border-radius:40rpx 40rpx 0px 0px;
-
+    border-radius:40rpx 40rpx 0px 0px;
 }
-.scc-bg image{
+.sst-bg image{
     width: 24rpx;
     height: 24rpx;
 }
-.scc-head{
+.sst-head{
     height: 100rpx;
     border-radius:40rpx 40rpx 0px 0px;
     position: relative;
     border-bottom:2rpx solid #f5f5f5; 
 }
-.scc-head>view{
+.sst-head>view{
     text-align: center;
     line-height: 100rpx;
     font-size: 32rpx;
     color: #333;
 }
-.scc-head>image{
+.sst-head>image{
     position: absolute;
     top: 38rpx;
     right: 62rpx
 }
 
-.scc-body{
+.sst-body{
     margin-top: 20rpx;
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
 }
-.scc-body>view{
-width:162rpx;
-height:72rpx;
-background:rgba(243,243,243,1);
-border-radius:4px;
-margin: 30rpx;
-margin-left: 51rpx;
-text-align: center;
-line-height: 72rpx;
-font-size: 28rpx;
+.sst-body>view{
+height:124rpx;
+border-bottom: 2rpx solid #f5f5f5;
+line-height: 124rpx;
+font-size: 32rpx;
 color: #333333;
 }
-.scc-button{
+.sst-button{
 width:80%;
 height:80rpx;
 background:linear-gradient(270deg,rgba(254,221,0,1) 0%,rgba(251,195,43,1) 100%);
 border-radius:40rpx;
 margin-left: 10%;
-margin-top:40rpx 
+margin-top:80rpx 
 }
-.scc-body>.options{
-    /* border: 1rpx solid #ff0000; */
-    background-color:rgba(254,221,0,1); 
-    color: #333333; 
+
+.sst-body image{
+    width: 34rpx;
+    height: 26rpx;
+    background: #ff0000;
+    float: right;
+    margin-top: 49rpx;
+    margin-right: 44rpx;
+    display: none;
+}
+.sst-body text{
+    margin-left:58rpx; 
+}
+.sst-body .check-icon{
+        display: block;
 }

@@ -1,0 +1,200 @@
+<view>
+    <view class="top">
+    <view>
+    西部智谷D区
+    </view>
+    <view>
+    11月27日
+    </view>
+    <view>
+    18:50
+    </view>
+    <view>
+    2天
+    <image mode="scaleToFill" src="../../../assets/carList/Calendar_sele@2x.png"/>
+    </view>
+  </view>
+
+  <view class="head">
+    <view>
+    <text>经济型</text>
+    <view>
+      上汽通用雪佛兰<text>科奥兹</text>
+    </view>
+    <image mode="scaleToFill" src="../../../assets/carList/ea58745d7a1da867f995dd75ee89960.png"/>
+    </view>
+  </view>
+
+  <view class="body">
+
+    <view>
+      <view>
+        吉祥租车
+      </view>
+      <view>
+        距离西部智谷约1.2km
+      </view>
+    </view>
+
+    <view>
+      <view>
+        <text>￥</text><text>129</text><text>/天</text>
+      </view>
+      <view>
+        一人付款
+      </view>
+    </view>
+
+    <view>
+      <text>4.9</text>
+      <view>
+        <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+        <text>平台推荐</text>
+      </view>
+    </view>
+
+  </view>
+<!-- 重复类容 -->
+    <view class="body">
+
+    <view>
+      <view>
+        吉祥租车
+      </view>
+      <view>
+        距离西部智谷约1.2km
+      </view>
+    </view>
+
+    <view>
+      <view>
+        <text>￥</text><text>129</text><text>/天</text>
+      </view>
+      <view>
+        一人付款
+      </view>
+    </view>
+
+    <view>
+      <text>4.9</text>
+      <view>
+        <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+        <text>平台推荐</text>
+      </view>
+    </view>
+
+  </view>  <view class="body">
+
+    <view>
+      <view>
+        吉祥租车
+      </view>
+      <view>
+        距离西部智谷约1.2km
+      </view>
+    </view>
+
+    <view>
+      <view>
+        <text>￥</text><text>129</text><text>/天</text>
+      </view>
+      <view>
+        一人付款
+      </view>
+    </view>
+
+    <view>
+      <text>4.9</text>
+      <view>
+        <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+        <text>平台推荐</text>
+      </view>
+    </view>
+
+  </view>  <view class="body">
+
+    <view>
+      <view>
+        吉祥租车
+      </view>
+      <view>
+        距离西部智谷约1.2km
+      </view>
+    </view>
+
+    <view>
+      <view>
+        <text>￥</text><text>129</text><text>/天</text>
+      </view>
+      <view>
+        一人付款
+      </view>
+    </view>
+
+    <view>
+      <text>4.9</text>
+      <view>
+        <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+        <text>平台推荐</text>
+      </view>
+    </view>
+
+  </view>  <view class="body">
+
+    <view>
+      <view>
+        吉祥租车
+      </view>
+      <view>
+        距离西部智谷约1.2km
+      </view>
+    </view>
+
+    <view>
+      <view>
+        <text>￥</text><text>129</text><text>/天</text>
+      </view>
+      <view>
+        一人付款
+      </view>
+    </view>
+
+    <view>
+      <text>4.9</text>
+      <view>
+        <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+        <text>平台推荐</text>
+      </view>
+    </view>
+
+  </view>  <view class="body">
+
+    <view>
+      <view>
+        吉祥租车
+      </view>
+      <view>
+        距离西部智谷约1.2km
+      </view>
+    </view>
+
+    <view>
+      <view>
+        <text>￥</text><text>129</text><text>/天</text>
+      </view>
+      <view>
+        一人付款
+      </view>
+    </view>
+
+    <view>
+      <text>4.9</text>
+      <view>
+        <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+        <text>平台推荐</text>
+      </view>
+    </view>
+
+  </view>
+  <!-- 结束 -->
+</view>

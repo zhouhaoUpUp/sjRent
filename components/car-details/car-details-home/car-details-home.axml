@@ -1,0 +1,55 @@
+<view>
+  <view class="cdh-head">
+    <image mode="scaleToFill" src="../../../assets/carList/ea58745d7a1da867f995dd75ee89960.png"/>
+    <view>
+      <text>经济型</text>
+      <text>东风标致301</text>
+      <text>（或同等级车型）</text>
+    </view>
+
+    <view>
+      <view>
+        <image mode="scaleToFill" src="../../../assets/carList/Label02@2x.png"/>
+        <text>5座</text>
+      </view>
+
+      <view>
+        <image mode="scaleToFill" src="../../../assets/carList/Label02@2x.png"/>
+        <text>5座</text>
+      </view>
+
+      <view>
+        <image mode="scaleToFill" src="../../../assets/carList/Label02@2x.png"/>
+        <text>5座</text>
+      </view>
+      
+    </view>
+  </view>
+
+  <view class="cdh-body">
+    <view>
+      <image mode="scaleToFill" src="../../../assets/carList/Details_label@2x.png"/>
+      <text>提前48小时免费取消</text>
+    </view>
+        <view>
+      <image mode="scaleToFill" src="../../../assets/carList/Details_label@2x.png"/>
+      <text>24小时内认证</text>
+    </view>
+  </view>
+
+  <view class="cdh-rump">
+    <view>
+      <text>服务公司</text>
+      <text>成都帅志商务有限公司</text>
+    </view>
+    <view>
+      <text>营业时间</text>
+      <text>00:00-23:59</text>
+    </view>
+    <view>
+      <text>联系电话</text>
+      <text>15549088834</text>
+    </view>
+  </view>
+
+</view>

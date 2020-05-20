@@ -1,3 +1,4 @@
+<!-- 选择时间组件 -->
 <select-site-time/>
 <view>
   <view class="top">
@@ -313,4 +314,11 @@
   </view>
 <!-- 重复类容完毕*----------------------------------------------------- -->
 </view>
-<select-car-class/>
+<!-- 选择车辆类型组件 -->
+<!-- <select-car-class/> -->
+<!-- 座位数组件 -->
+<!-- <select-seating/> -->
+<!-- 供应商选择 -->
+<!-- <select-supplier/> -->
+<!-- 排序组件 -->
+<!-- <select-sort/> -->
