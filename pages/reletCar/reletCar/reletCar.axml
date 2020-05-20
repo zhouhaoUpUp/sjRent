@@ -1,0 +1,35 @@
+<view class="content">
+  <!-- 续租申请页面 续租申请第一页  -->
+  <!-- 车辆信息 -->
+    <view>
+      <relet-infocar></relet-infocar>
+    </view>
+    <!-- 分隔条 -->
+    <view class="tiao"</view>
+    <!-- 订单详情信息 -->
+    <view>
+    <relet-infolist imgTypeSrc="{{imgTypeSrc}}"></relet-infolist>
+    </view>
+
+    <!-- 底部空白页 按钮 -->
+    <view class="footer">
+        <view>
+      
+      </view>
+      <view>
+        <text>预估金额 :</text> <text class="fontMoney">￥300</text>
+        <button size="default" type="primary" class="btn_1">取消</button>
+      <button size="default" type="primary" class="btn_2 colZhuF" onTap="subApplication">提交申请</button>
+      </view>
+    </view>
+
+  <!-- 模态弹窗 -->
+    <modal
+  	show="{{modaltype}}"
+    showClose="{{false}}"
+    onButtonClick="onButtonClick"
+    buttons="{{buttons}}"
+	>
+		是否确认发起续租？
+	</modal>
+</view>

@@ -68,6 +68,7 @@
   display: inline-block !important;
 	height: 68rpx;
 }
+ 
 .viewOne{
   width: 24% !important;
    /* border: 1px solid red !important; */

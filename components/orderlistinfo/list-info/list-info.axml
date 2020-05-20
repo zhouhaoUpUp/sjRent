@@ -79,6 +79,7 @@
     <view class="tiao2">
       <view class="viewOne">
         <text class="marl colZhuFo">用车人</text>
+        
       </view>
       <view class="viewTwo">
         <text class="marr">{{useName}}</text>
@@ -150,6 +151,7 @@
       </view>
       <view class="viewTwo">
         <text class="marr">{{orderListId}}</text>
+
       </view>
     </view>
     <view class="tiao2">

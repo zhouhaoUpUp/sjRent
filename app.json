@@ -6,7 +6,10 @@
     "pages/myOrderList/myOrderList",
     "pages/orderFormList/affirmWaitSend/affirmWaitSend",
     "pages/orderFormList/affirmWaitRec/affirmWaitRec",
-    "pages/orderFormList/affirmWaitDispatch/affirmWaitDispatch"
+    "pages/orderFormList/affirmWaitDispatch/affirmWaitDispatch",
+    "pages/reletCar/reletCar/reletCar",
+    "pages/reletCar/reletCarDeal/reletCarDeal"
+    
   ],
   "window": {
     "defaultTitle": "深驾租车"
@@ -21,11 +24,11 @@
         "name": "首页"
       },
       {
-        "pagePath": "pages/myOrderList/myOrderList",
+        "pagePath":  "pages/orderFormList/affirmWaitPay/affirmWaitPay",
         "name": "测试"
       },
       {
-        "pagePath": "pages/orderFormList/affirmWaitDispatch/affirmWaitDispatch",
+        "pagePath": "pages/reletCar/reletCarDeal/reletCarDeal",
         "name": "测试2"
       }
     ]

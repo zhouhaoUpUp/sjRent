@@ -1,0 +1,22 @@
+<view>
+<!-- 车辆信息 司机名字(续租页) -->
+  <view class="sec3 sec">
+      <view><image mode="scaleToFill" src="../../../assets/orderListimg/car.png"/></view>
+      <view>
+        <view>
+          <text>{{ carName }}</text>
+        </view>
+        <view>
+          <text>{{xiang}} |</text>
+          <text class="marl">{{pailiang}} |</text>
+          <text class="marl">{{zuo}}</text>
+        </view>
+      </view>
+      <view>
+       <image mode="scaleToFill" src="../../../assets/reletcarimg/Order_phone@1x.png"/>
+        <view>
+          <text>{{driveName}}</text>
+        </view>
+      </view>
+    </view>
+</view>

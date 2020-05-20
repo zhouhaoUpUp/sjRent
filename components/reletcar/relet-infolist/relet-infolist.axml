@@ -1,0 +1,60 @@
+<view class="content">
+  <!-- 订单信息组件（续租） -->
+  <!-- 订单信息 -->
+  <view>
+    <view class="sec1">
+      <view>
+        <text class="marl fontTitle">订单信息</text>
+      </view>
+      <view>
+      <text class="marl">订单类型</text><text class="marr">{{listStatus}}</text>
+      </view>
+      <view>
+        <image mode="scaleToFill" src="{{imgSrc}}"/>
+      </view>
+   </view>
+    <!-- 前两项包含图片显示隐藏 -->
+    <!-- 分隔条 -->
+    <view class="tiao2"></view>
+
+      <view class="viewonce">
+          <text class="marl">订单编号</text><text class="marr">{{listNum}}</text>
+        </view>
+          <!-- 分隔条 -->
+    <view class="tiao2"></view>
+      <view class="viewonce">
+          <text class="marl">用车时间</text><text class="marr">{{startTime}} --  {{endTime}}</text>
+      </view>
+        <!-- 分隔条 -->
+    <view class="tiao2"></view>
+      <view class="viewonce">
+          <text class="marl">用车地点</text><text class="marr">{{useAddress}}</text>
+      </view>
+        <!-- 分隔条 -->
+    <view class="tiao2"></view>
+      <view class="viewonce">
+          <text class="marl">还车地点</text><text class="marr">{{returnAddress}}</text>
+      </view>
+        <!-- 分隔条 -->
+    <view class="tiao2"></view>
+      <view class="viewonce">
+          <text class="marl">订单金额</text><text class="marr">￥{{listMoney}}</text><text class="detail">费用明细</text>
+      </view>
+      </view>
+
+      <view class="tiao"></view>
+      <!-- 申请续租 -->
+      <view>
+         <view class="viewonce">
+          <text class="marl fontTitle">申请续租</text>
+      </view>
+       <view class="viewonce">
+          <text class="marl">选择时间</text><text class="marr">￥{{selectTime}}</text>
+          <image mode="scaleToFill" class="calendar" src="{{imgSrc}}"/>
+      </view>
+      <view class="viewonce">
+          <text class="marl">续租租期</text><text class="marr">￥{{timeLimit}} 天</text>
+      </view>
+      </view>
+
+</view>
