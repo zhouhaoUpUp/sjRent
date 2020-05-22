@@ -1,5 +1,9 @@
 <view class="content">
-<!-- 等待派车 -->
+<!-- 等待接单 -->
+   <view class="sec1 sec">
+    <text><</text>
+    <text class="fontAddress">订单详情</text>
+  </view>
   <!-- 第二部分 状态组件 -->
   <view class="sec2 sec">
     <type-waitdispatch></type-waitdispatch>

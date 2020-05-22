@@ -1,6 +1,0 @@
-{
-  "usingComponents":{
-    "type-cancel":"../../../components/ordertypes/type-cancel/type-cancel",
-    "list-info" :"/components/orderlistinfo/list-info/list-info"
-  }
-}

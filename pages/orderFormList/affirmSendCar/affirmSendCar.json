@@ -1,6 +1,0 @@
-{
-  "usingComponents":{
-    "type-sendcar":"../../../components/ordertypes/type-sendcar/type-sendcar",
-    "list-info" :"/components/orderlistinfo/list-info/list-info"
-  }
-}

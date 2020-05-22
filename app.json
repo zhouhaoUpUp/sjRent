@@ -12,20 +12,7 @@
     "pages/reletCar/reletCarSuccess/reletCarSuccess",
     "pages/reletCar/reletCarDefeat/reletCarDefeat",
     "pages/reletCar/reletCarWaitPay/reletCarWaitPay",
-    "pages/reletCar/reletCarWaitAudit/reletCarWaitAudit",
-    "pages/earlyCar/earlyCar/earlyCar",
-    "pages/earlyCar/earlyCarDeal/earlyCarDeal",
-    "pages/earlyCar/earlyCarSuccess/earlyCarSuccess",
-    "pages/earlyCar/earlyCarRefund/earlyCarRefund",
-    "pages/earlyCar/earlyCarDefeat/earlyCarDefeat",
-    "pages/earlyCar/earlyCarRefundSuc/earlyCarRefundSuc",
-    "pages/personCenter/index/index",
-    "pages/personCenter/personalInfo/personalInfo",
-    "pages/personCenter/driveLicense/driveLicense",
-    "pages/orderFormList/affirmSendCar/affirmSendCar",
-    "pages/orderFormList/affirmJourney/affirmJourney",
-    "pages/orderFormList/affirmFinish/affirmFinish",
-    "pages/orderFormList/affirmCancel/affirmCancel"
+    "pages/reletCar/reletCarWaitAudit/reletCarWaitAudit"
   ],
   "window": {
     "defaultTitle": "深驾租车"
@@ -40,15 +27,15 @@
         "name": "首页"
       },
       {
-        "pagePath":"pages/orderFormList/affirmJourney/affirmJourney",
+        "pagePath": "pages/reletCar/reletCarDeal/reletCarDeal",
         "name": "测试"
       },
       {
-        "pagePath": "pages/orderFormList/affirmCancel/affirmCancel",
+        "pagePath": "pages/reletCar/reletCarWaitPay/reletCarWaitPay",
         "name": "测试2"
       },
       {
-        "pagePath": "pages/orderFormList/affirmFinish/affirmFinish",
+        "pagePath": "pages/reletCar/reletCarWaitAudit/reletCarWaitAudit",
         "name": "测试3"
       }
     ]

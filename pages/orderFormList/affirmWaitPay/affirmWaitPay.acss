@@ -213,13 +213,12 @@
 	border: 1px solid #D7D7D7;
 	color:black;
 	line-height: 60rpx;
-	margin-left: 5%;
+	margin-left: 10%;
 }
 .btn_2{
 	background-color: #FEDD00;
 	border: 1px solid #D7D7D7;
 	line-height: 60rpx;
-	margin-left: 10rpx;
 }
 .phoneImg{
 	display: inline-block;

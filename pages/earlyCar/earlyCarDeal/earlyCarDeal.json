@@ -1,6 +1,0 @@
-{
-  "usingComponents":{
-    "earlycar-infolist":"/components/earlycar/earlycar-infolist/earlycar-infolist",
-    "relet-infocar":"/components/reletcar/relet-infocar/relet-infocar"
-  }
-}

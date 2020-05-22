@@ -7,5 +7,4 @@
   </view>
 <self-driving />
   </view>
-  <button onTap="demo">demo</button>  
 </view>

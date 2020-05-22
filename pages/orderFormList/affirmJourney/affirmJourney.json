@@ -1,6 +1,0 @@
-{
-  "usingComponents":{
-    "type-journey":"../../../components/ordertypes/type-journey/type-journey",
-    "list-info" :"/components/orderlistinfo/list-info/list-info"
-  }
-}
