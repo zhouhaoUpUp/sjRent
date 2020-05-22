@@ -1,0 +1,13 @@
+<view class="secCom">
+<!-- 已取消状态 -->
+
+    <view  class="txt1_cancel">
+    <text> 已取消</text>
+    <view class="txt2_cancel">
+    <text >订单已取消，感谢您的使用</text>
+    </view>
+    <view class="image">
+     <image mode="scaleToFill" src="../../../assets/orderListImg/Order_complete@2x.png"/>
+     </view>
+    </view>
+</view>

@@ -1,0 +1,24 @@
+<view class="content">
+<!-- 提前还车 退款中 -->
+<!-- 汽车数据 -->
+  <relet-infocar></relet-infocar>
+  <view class="tiao"></view>
+  <view class="infomation">
+    <text class="colSupF marl">当前还车时间与订车时间冲突，建议更改时间</text>
+  </view>
+  <view class="tiao"></view>
+  <!-- 提前还车订单信息 -->
+  <earlycar-infolist imgTypeSrc="{{imgTypeSrc}}"></earlycar-infolist>
+  
+  <!-- 底部空白页 按钮 -->
+  <view class="footer">
+      <view>
+    
+     </view>
+     <view>
+      <button size="default" type="primary" class="btn_1">联系客服</button>
+      <button size="default" type="primary" class="btn_2">取消申请</button>
+    </view>
+  </view>
+
+</view>

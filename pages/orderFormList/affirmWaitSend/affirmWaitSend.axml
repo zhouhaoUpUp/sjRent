@@ -1,4 +1,5 @@
 <view class="content">
+<!-- 等待送车 -->
    <view class="sec1 sec">
     <text><</text>
     <text class="fontAddress">订单详情</text>

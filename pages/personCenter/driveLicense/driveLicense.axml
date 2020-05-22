@@ -1,0 +1,17 @@
+<view class="content"> 
+  <camera></camera>
+  <!-- 分隔条 -->
+  <view class="tiao"></view>
+  <view class="box">
+    <text>姓名</text>
+    <input class="input" focus="{{focus}}"  onInput="bindKeyInput" placeholder="请输入姓名" />
+  </view>
+<!-- 分隔条 -->
+  <view class="tiao2"></view>
+
+  <view class="box">
+    <text>编号</text>
+    <input class="input" focus="{{focus}}"  onInput="bindKeyInput2"  placeholder="请输入身份证号码" />
+  </view>
+  <button size="default" class="btn">提交</button>
+</view>

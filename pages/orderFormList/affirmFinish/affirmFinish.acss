@@ -1,0 +1,90 @@
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.sec{
+ width: 100%;
+}
+/* 头部 */
+.se1{
+  height: 88rpx;
+	color: black;
+}
+.sec1 text{
+  line-height: 88rpx;
+}
+.sec1 text:nth-child(1){
+  margin-left: 32rpx;
+}
+.sec1 text:nth-child(2){
+  width: 128rpx;
+  margin-left: 38%;
+}
+
+/* 第二部分  */
+.sec2{
+	height: 200rpx;
+	border:1px solid red;
+}
+/* 底部按钮 布局 */
+.sec8{
+	height: 180rpx;
+}
+.sec8 view:first-child{
+	height: 82rpx;
+}
+.sec8 view:last-child{
+	height: 100rpx;
+	line-height: 100rpx;
+}
+.sec8 view:last-child>text:nth-child(2){
+	font-size: 40rpx !important;
+}
+.sec8 view:last-child>text:nth-child(3){
+	color: #6D7278;
+}
+.sec8 view button{
+	width: 160rpx;
+	height: 60rpx;
+	border-radius: 32rpx;
+	display: inline-block;
+	font-size: 26rpx;
+	vertical-align: middle;
+}
+.btn_1{
+	background-color: white !important;
+	border: 1px solid #D7D7D7;
+	color:black;
+	line-height: 60rpx;
+	margin-left: 5%;
+}
+.btn_2{
+  background-color: white !important;
+	border: 1px solid #D7D7D7;
+	color:black;
+	line-height: 60rpx;
+	margin-left: 20rpx;
+}
+.phoneImg{
+	display: inline-block;
+	width: 36rpx;
+	height: 36rpx;
+	vertical-align: middle;
+	margin-left: 30rpx;
+}
+
+/* 左边间距 */
+.marl{
+  margin-left: 30rpx;
+}
+/* 右边间距 */
+.marr{
+margin-left: 40rpx;
+}
+/* 分隔条 */
+.tiao{
+  width: 100%;
+  height: 16rpx;
+  background-color: #F5F5F5;
+}
