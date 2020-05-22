@@ -1,0 +1,195 @@
+<view class="ac-bg">
+  <view class="ac-body">
+    <view>
+      <checkbox/>
+    </view>
+    <view>
+      <view>
+        唐雪莲 
+      </view>
+      <text>15549088834</text>
+    </view>
+  </view>
+
+    <view class="ac-body">
+    <view>
+      <checkbox/>
+    </view>
+    <view>
+      <view>
+        唐雪莲 
+      </view>
+      <text>15549088834</text>
+    </view>
+  </view>  <view class="ac-body">
+    <view>
+      <checkbox/>
+    </view>
+    <view>
+      <view>
+        唐雪莲 
+      </view>
+      <text>15549088834</text>
+    </view>
+  </view>  <view class="ac-body">
+    <view>
+      <checkbox/>
+    </view>
+    <view>
+      <view>
+        唐雪莲 
+      </view>
+      <text>15549088834</text>
+    </view>
+  </view>  <view class="ac-body">
+    <view>
+      <checkbox/>
+    </view>
+    <view>
+      <view>
+        唐雪莲 
+      </view>
+      <text>15549088834</text>
+    </view>
+  </view>  <view class="ac-body">
+    <view>
+      <checkbox/>
+    </view>
+    <view>
+      <view>
+        唐雪莲 
+      </view>
+      <text>15549088834</text>
+    </view>
+  </view>
+
+
+  <view class="ac-body">
+    <view>
+      <checkbox/>
+    </view>
+    <view>
+      <view>
+        唐雪莲 
+      </view>
+      <text>15549088834</text>
+    </view>
+  </view><view class="ac-body">
+    <view>
+      <checkbox/>
+    </view>
+    <view>
+      <view>
+        唐雪莲 
+      </view>
+      <text>15549088834</text>
+    </view>
+  </view><view class="ac-body">
+    <view>
+      <checkbox/>
+    </view>
+    <view>
+      <view>
+        唐雪莲 
+      </view>
+      <text>15549088834</text>
+    </view>
+  </view><view class="ac-body">
+    <view>
+      <checkbox/>
+    </view>
+    <view>
+      <view>
+        唐雪莲 
+      </view>
+      <text>15549088834</text>
+    </view>
+  </view><view class="ac-body">
+    <view>
+      <checkbox/>
+    </view>
+    <view>
+      <view>
+        唐雪莲 
+      </view>
+      <text>15549088834</text>
+    </view>
+  </view><view class="ac-body">
+    <view>
+      <checkbox/>
+    </view>
+    <view>
+      <view>
+        唐雪莲 
+      </view>
+      <text>15549088834</text>
+    </view>
+  </view><view class="ac-body">
+    <view>
+      <checkbox/>
+    </view>
+    <view>
+      <view>
+        唐雪莲 
+      </view>
+      <text>15549088834</text>
+    </view>
+  </view><view class="ac-body">
+    <view>
+      <checkbox/>
+    </view>
+    <view>
+      <view>
+        唐雪莲 
+      </view>
+      <text>15549088834</text>
+    </view>
+  </view><view class="ac-body">
+    <view>
+      <checkbox/>
+    </view>
+    <view>
+      <view>
+        唐雪莲 
+      </view>
+      <text>15549088834</text>
+    </view>
+  </view><view class="ac-body">
+    <view>
+      <checkbox/>
+    </view>
+    <view>
+      <view>
+        唐雪莲 
+      </view>
+      <text>15549088834</text>
+    </view>
+  </view><view class="ac-body">
+    <view>
+      <checkbox/>
+    </view>
+    <view>
+      <view>
+        唐雪莲 
+      </view>
+      <text>15549088834</text>
+    </view>
+  </view><view class="ac-body">
+    <view>
+      <checkbox/>
+    </view>
+    <view>
+      <view>
+        唐雪莲 
+      </view>
+      <text>15549088834</text>
+    </view>
+  </view>
+
+  <view class="ac-botton">
+  <view onTap="nextPage">
+    新增常用租车人
+  </view>
+  </view>
+  
+</view>

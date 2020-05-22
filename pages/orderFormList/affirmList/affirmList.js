@@ -11,7 +11,23 @@ Page({
    "year":'2013',//车年份
    "name":'唐雪林',//订车人姓名
    "phone":'1888888888',//订车人手机
-   "money":'450' //支付价格
+   "money":'450', //支付价格
+   detail:false
   },
   onLoad() {},
+  showDetail(){
+    this.setData({
+      detail:true
+    })
+  },
+  toShowDetail(e){
+      this.setData({
+      detail:e.show
+    })
+  },
+  selectUseCarPeople(){
+    my.navigateTo({
+      url: '../../homeBusiness/addContacts/addContacts'
+    });
+  }
 });

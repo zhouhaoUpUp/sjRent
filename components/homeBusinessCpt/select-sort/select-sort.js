@@ -25,6 +25,9 @@ className:"价格（由高到低）",
               check:id
           })
 
+      },
+      show(){
+        this.props.onSort({show:false})
       }
   },
 });

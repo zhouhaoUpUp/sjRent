@@ -106,3 +106,7 @@ font-size: 22rpx;
     color: #333;
     margin-left: 40rpx;
 }
+
+.cdh-bg{
+    margin-bottom: 98rpx;
+}

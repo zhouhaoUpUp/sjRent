@@ -1,10 +1,8 @@
-<view class="rd" a:if="{{banrizu}}">
+<view class="rd">
   <view class="rd-head-top">
     <view class="bg-left">
-      
     </view>
     <view class="bg-right">
-      
     </view>
     <view onTap="half">
       半日租
@@ -13,7 +11,6 @@
       整日租
     </view>
   </view>
-
   <view class="rd-head">
     <view>
       取车城市
@@ -22,7 +19,6 @@
       取车地点
     </view>
   </view>
-
   <view class="rd-head-bottom">
     <view>
       成都
@@ -31,54 +27,50 @@
       武侯区西部智谷D区
     </view>
   </view>
-
   <view class="rd-body">
     <view>
       途经点
     </view>
-      <view>
+    <view>
         添加途经点
-      </view>
-            <image src="../../../assets/home/add.png"/>
+    </view>
+    <image src="../../../assets/home/add.png"/>
   </view>
-
-    <view class="rd-head">
-      <view>
+  <view class="rd-head">
+    <view>
         还车城市
-      </view>
-      <view>
+    </view>
+    <view>
         还车地点
-      </view>
     </view>
-
-    <view class="rd-head-bottom">
-      <view>
+  </view>
+  <view class="rd-head-bottom">
+    <view>
         成都
-      </view>
-      <view>
+    </view>
+    <view>
         武侯区西部智谷D区
-      </view>
     </view>
-
-    <view class="rd-head">
-      <view>
+  </view>
+  <view class="rd-head">
+    <view>
         套餐时长
-      </view>
-      <view>
+    </view>
+    <view>
         用车时间
-      </view>
     </view>
-
-    <view class="rd-tail">
-      <view>
+  </view>
+  <view class="rd-tail">
+    <view>
         4小时
-      </view>
-      <view>
-        11月25日
-      </view>
-      <view>
-        周五 09:00
-      </view>
     </view>
-    <button size="default" type="primary" >立即选车</button>
+    <view>
+        11月25日
+    </view>
+    <view>
+        周五 09:00
+    </view>
+  </view>
+  {{name}}
+  <button size="default" type="primary">立即选车</button>
 </view>

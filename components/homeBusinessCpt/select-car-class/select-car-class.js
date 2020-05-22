@@ -37,6 +37,9 @@ className:"皮卡",
               option:id
           })
 
+      },
+      vanish(){
+          this.props.onCarClassShow({show:false})
       }
   },
 });

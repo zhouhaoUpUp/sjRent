@@ -1,0 +1,63 @@
+<mask type="{{type}}" show="{{sccBgShow}}" maskZindex="{{maskZindex}}"></mask>
+<view class="cdl-bg">
+
+  <view class="cdl-head">
+    <view>
+  费用明细
+    </view>
+    <image mode="scaleToFill" src="../../../assets/carList/Pop-ups_shut@2x.png" onTap="show"/>
+  </view>
+  <view class="cdl-body-top">
+    <view>
+      <view>
+        租车费
+      </view>
+      <view>
+        ¥176.00
+      </view>
+      <text>55.00x1天+57.00x1天+15.00x2小时</text>
+    </view>
+
+        <view>
+      <view>
+        基本保障服务费
+      </view>
+      <view>
+        ¥176.00
+      </view>
+      <text>40.00x2天</text>
+    </view>
+
+        <view>
+      <view>
+        门店服务费
+      </view>
+      <view>
+        ¥6.00
+      </view>
+    </view>
+
+        <view>
+      <view>
+        超里程费
+      </view>
+      <view>
+        ¥6.00
+      </view>
+    </view>
+  </view>
+  <view class="cdl-body-rump">
+    <view>
+      费用说明
+    </view>
+    <text>1、车辆租金：指用户订单确认的用车时长而产生的费用</text>
+    <view></view>
+    <text>2、保险：指客户需按天支付平台所提供车辆的交强险及商业保险费，不包括车辆出现交通事故后的间接损失费（包括但不限于车辆加速折旧费、次年保险上车费等）</text>
+    <view></view>
+    <text>3、门店手续费：指客户需按天支付平台所提供车辆的交强险及商业保险费</text>
+    <view></view>
+    <text>4、送车费：指按客户要求把车辆送到超出服务范围的指定地点所产生的费用。</text>
+    <view></view>
+    <text>5、夜间服务费：指22:00-7:00时间段送车或取车所产生的费用</text>
+  </view>
+</view>

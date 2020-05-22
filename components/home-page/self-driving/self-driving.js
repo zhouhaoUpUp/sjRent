@@ -4,8 +4,14 @@ Component({
     x: 1 ,
     show:false
   }, // 组件内部数据
-  props: { y: 1 }, // 可给外部传入的属性添加默认值
-  didMount(){}, // 生命周期函数
+  props: { 
+        sendData:{
+      type:"string"
+    }
+  }, // 可给外部传入的属性添加默认值
+  didMount(){
+     console.log(1111111111,this.props.sendData)
+  }, // 生命周期函数
   didUpdate(){},
   didUnmount(){},
   methods: {   // 自定义方法

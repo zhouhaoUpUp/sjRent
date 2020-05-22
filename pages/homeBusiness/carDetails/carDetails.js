@@ -28,8 +28,11 @@ Page({
       "评价列表",
       "费用说明"
     ],
-    state:0
-
+    state:0,
+    carDetails:true,
+    commentList:false,
+    chergeExplain:false,
+    detail:false
   },
   onLoad() {},
   checkPage(e){
@@ -38,11 +41,39 @@ Page({
         state:Inde
       })
     if(Inde===0){
-
+      this.setData({
+        carDetails:true,
+        commentList:false,
+        chergeExplain:false      
+        })
     }else if(Inde===1){
-
+              this.setData({
+        carDetails:false,
+        commentList:true,
+        chergeExplain:false      
+        })
     }else{
-
+            this.setData({
+        carDetails:false,
+        commentList:false,
+        chergeExplain:true      
+        })
     }
+  },
+  showDetail(){
+    this.setData({
+      detail:true
+    })
+  },
+  toShowDetail(e){
+    this.setData({
+      detail:e.show
+    })
+  },
+  nextPage(){
+    my.navigateTo({
+      url: '../../orderFormList/affirmList/affirmList'
+    });
   }
+  
 });

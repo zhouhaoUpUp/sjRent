@@ -1,0 +1,76 @@
+<view>
+  <view class="cl-head">
+    <view a:for="{{commentExtractive}}">
+    <text>{{item}}</text>
+    </view>
+  </view>
+
+  <view class="cl-body">
+    <view>
+        <image mode="scaleToFill" src="../../../assets/carList/comment_Equivalent02@2x.png"/>
+      <text>T鲸**糖</text>
+    </view>
+    <view>
+        <image a:for="{{5}}" mode="scaleToFill" src="../../../assets/carList/comment_Equivalent02@2x.png"/>
+      <text>2020-02-07</text>
+    </view>
+    <view>
+    <text>服务态度很好，免费升级了车型；车子也比较新，价格很划算，很不错的体验</text>
+    </view>
+  </view>
+
+    <view class="cl-body">
+    <view>
+        <image mode="scaleToFill" src="../../../assets/carList/comment_Equivalent02@2x.png"/>
+      <text>T鲸**糖</text>
+    </view>
+    <view>
+        <image a:for="{{5}}" mode="scaleToFill" src="../../../assets/carList/comment_Equivalent02@2x.png"/>
+      <text>2020-02-07</text>
+    </view>
+    <view>
+    <text>服务态度很好，免费升级了车型；车子也比较新，价格很划算，很不错的体验</text>
+    </view>
+  </view>
+
+    <view class="cl-body">
+    <view>
+        <image mode="scaleToFill" src="../../../assets/carList/comment_Equivalent02@2x.png"/>
+      <text>T鲸**糖</text>
+    </view>
+    <view>
+        <image a:for="{{5}}" mode="scaleToFill" src="../../../assets/carList/comment_Equivalent02@2x.png"/>
+      <text>2020-02-07</text>
+    </view>
+    <view>
+    <text>服务态度很好，免费升级了车型；车子也比较新，价格很划算，很不错的体验</text>
+    </view>
+  </view>
+
+      <view class="cl-body">
+    <view>
+        <image mode="scaleToFill" src="../../../assets/carList/comment_Equivalent02@2x.png"/>
+      <text>T鲸**糖</text>
+    </view>
+    <view>
+        <image a:for="{{5}}" mode="scaleToFill" src="../../../assets/carList/comment_Equivalent02@2x.png"/>
+      <text>2020-02-07</text>
+    </view>
+    <view>
+    <text>服务态度很好，免费升级了车型；车子也比较新，价格很划算，很不错的体验</text>
+    </view>
+  </view>
+      <view class="cl-body">
+    <view>
+        <image mode="scaleToFill" src="../../../assets/carList/comment_Equivalent02@2x.png"/>
+      <text>T鲸**糖</text>
+    </view>
+    <view>
+        <image a:for="{{5}}" mode="scaleToFill" src="../../../assets/carList/comment_Equivalent02@2x.png"/>
+      <text>2020-02-07</text>
+    </view>
+    <view>
+    <text>服务态度很好，免费升级了车型；车子也比较新，价格很划算，很不错的体验</text>
+    </view>
+  </view>
+</view>

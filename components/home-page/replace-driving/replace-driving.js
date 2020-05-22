@@ -1,17 +1,24 @@
 Component({
   mixins: [],
   data: {
-    banrizu:true
+    halfDay:true
   },
-  props: {},
-  didMount() {},
+  props: {
+      sendData:{
+        type:"string"
+      }
+  },
+  didMount() {
+   
+  },
   didUpdate() {},
   didUnmount() {},
   methods: {
     whole(){
       this.setData({
-        banrizu:false
+        halfDay:false
       })
-    }
+      this.props.onTaskDetail({replace:this.data.halfDay})
+    },
   },
 });

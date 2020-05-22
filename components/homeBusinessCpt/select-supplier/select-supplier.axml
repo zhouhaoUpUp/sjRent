@@ -7,9 +7,9 @@
 <view class="ssr-bg">
 <view class="ssr-head">
   <view>
-  车辆类型
+  供应商
 </view>
-  <image mode="scaleToFill" src="../../../assets/carList/Pop-ups_shut@2x.png"/>
+  <image mode="scaleToFill" src="../../../assets/carList/Pop-ups_shut@2x.png" onTap="show"/>
 </view>
   <view class="ssr-body">
   

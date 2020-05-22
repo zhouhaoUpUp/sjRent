@@ -7,8 +7,12 @@
     "pages/myOrderList/myOrderList",
     "pages/orderFormList/affirmWaitDispatch/affirmWaitDispatch",
     "pages/homeBusiness/rentCarCompany/rentCarCompany",
-    "pages/homeBusiness/carDetails/carDetails"
-      ],
+    "pages/homeBusiness/carDetails/carDetails",
+    "pages/homeBusiness/addContacts/addContacts",
+    "pages/payment/paymentSuccess/paymentSuccess",
+    "pages/payment/paymentFailure/paymentFailure",
+    "pages/homeBusiness/selectSection/selectSection"
+  ],
   "window": {
     "defaultTitle": "深驾租车"
   },
@@ -22,7 +26,7 @@
         "name": "首页"
       },
       {
-        "pagePath": "pages/homeBusiness/carDetails/carDetails",
+        "pagePath": "pages/orderFormList/affirmList/affirmList",
         "name": "测试"
       },
       {

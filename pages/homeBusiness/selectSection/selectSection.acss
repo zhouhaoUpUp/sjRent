@@ -1,0 +1,39 @@
+.am-checkbox-synthetic.am-checkbox-checked::before{
+    background-color:#FEDD00;
+    background-color:var(--am-checkbox-background,#FEDD00);
+    border-color:#FEDD00;
+    border-color:var(--am-checkbox-background,#FEDD00);
+    border-width:0}
+
+.head{
+    height: 88rpx;
+    line-height: 88rpx;
+    border-top: 2rpx solid rgba(245, 245, 245, 1);
+    background-color: #fff;
+}
+.head text{
+    margin-left: 30rpx;
+    color: #333;
+    font-size: 32rpx;
+}
+.body{
+    height: 100rpx;
+    border-bottom: 1rpx solid rgba(245,245,245,1);
+}
+.body>view:nth-child(1){
+    float: left;
+    margin-top: 25rpx;
+    margin-left: 32rpx;
+    transform: scale(0.8);
+}
+.body>view:nth-child(2){
+    height: 100rpx;
+    float: left;
+    margin-left: 16rpx;
+
+}
+.body>view:nth-child(2)>text{
+    line-height: 100rpx;
+    font-size: 30rpx;
+    color: #000;
+}

@@ -6,7 +6,8 @@ Page({
         {name:"自驾短租"},{name:"带驾包车"},{name:"长租"}],
       selectType:0,
       self:true,
-      replace:false
+      replace:false,
+      allDay:false
     }
   },
   onLoad(query) {
@@ -51,15 +52,31 @@ Page({
     if(e.target.dataset.id===0){
       this.setData({
         self:true,
-        replace:false
+        replace:false,
+        allDay:false
       })
     }else if(e.target.dataset.id===1){
             this.setData({
-        self:false,
-        replace:true
+            self:false,
+            replace:true,
+            allDay:true
       })
     }else{
 
     }
   },
+toTaskDetail(e){
+    console.log(e.replace)
+    this.setData({
+      replace:e.replace,
+      allDay:true
+    })
+},
+toWhole(e){
+      console.log(1111111,e.replace)
+    this.setData({
+      allDay:!e.replace,
+      replace:false
+    })
+}
 });

@@ -18,28 +18,28 @@
   </view>
   
   <view class="head">
-    <view>
+    <view onTap="carClassPopUp">
       车辆类型
       <image mode="scaleToFill" src="../../../assets/carList/Home_drop_down@2x.png"/>
     </view>
 
-    <view>
+    <view onTap="seatAmount">
       座位数量
       <image mode="scaleToFill" src="../../../assets/carList/Home_drop_down@2x.png"/>
     </view>
 
-    <view>
+    <view onTap="supply">
       供应商
       <image mode="scaleToFill" src="../../../assets/carList/Home_drop_down@2x.png"/>
     </view>
     
-    <view>
+    <view onTap="filtr">
       筛选
       <image mode="scaleToFill" src="../../../assets/carList/Home_drop_down@2x.png"/>
     </view>
   </view>
 
-  <view class="body">
+  <view class="body" onTap="nextPage">
     <view class="body-head">
       <image mode="scaleToFill" src="../../../assets/carList/ea58745d7a1da867f995dd75ee89960.png"/>
       <view class="body-head-right">
@@ -315,10 +315,10 @@
 <!-- 重复类容完毕*----------------------------------------------------- -->
 </view>
 <!-- 选择车辆类型组件 -->
-<!-- <select-car-class/> -->
+<select-car-class a:if="{{carClassState}}" onCarClassShow="toCarClassShow"/>
 <!-- 座位数组件 -->
-<!-- <select-seating/> -->
+<select-seating a:if="{{seatAmountState}}" onSeatingShow="toSeatingShow"/>
 <!-- 供应商选择 -->
-<!-- <select-supplier/> -->
+<select-supplier a:if="{{supplyState}}" onSupplier="toSupplier"/>
 <!-- 排序组件 -->
-<!-- <select-sort/> -->
+<select-sort a:if="{{filtrSteta}}" onSort="toSort"/>

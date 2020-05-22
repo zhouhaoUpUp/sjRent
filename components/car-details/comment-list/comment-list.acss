@@ -1,0 +1,81 @@
+.cl-head{
+    max-height: 246rpx;
+    overflow: hidden;
+}
+.cl-head>view>text{
+    padding-left: 24rpx;
+    padding-right: 24rpx;
+    text-align: center;
+    color: #333;
+    font-size: 24rpx;
+}
+
+.cl-head>view{
+    float: left;
+    margin-left: 30rpx;
+    height:54rpx;
+    line-height: 54rpx;
+    background:rgba(254,238,213,1);
+    border-radius:27rpx;
+    margin-top: 28rpx;
+}
+.cl-body{
+    margin-top: 28rpx;
+    border-bottom: 4rpx solid #f5f5f5;
+    height: 248rpx;
+}
+.cl-body>view:nth-child(1)>image{
+    margin-left: 30rpx;
+    float: left;
+    width:68rpx;
+    height:68rpx;
+    border-radius:68rpx;
+}
+.cl-body>view:nth-child(2)>image{
+    width: 20rpx;
+    height: 20rpx;
+    vertical-align: middle;
+}
+.cl-body>view:nth-child(1){
+    height: 68rpx;
+    margin-top: 26rpx;
+}
+.cl-body>view:nth-child(1)>text{
+    vertical-align: middle;
+    float: left;
+    margin-top: 18rpx;
+    font-size: 24rpx;
+    color: #333;
+    margin-left: 20rpx;
+}
+.cl-body>view:nth-child(2){
+    margin-top: 28rpx;
+    height: 34rpx;
+}
+.cl-body>view:nth-child(2)>text{
+    float: right;
+    font-size: 24rpx;
+    color: #333;
+    margin-right: 30rpx;
+}
+.cl-body>view:nth-child(2)>image{
+    float: left;
+    margin-left: 4rpx;
+    margin-top: 6rpx;
+}
+.cl-body>view:nth-child(2)>image:nth-child(1){
+    margin-left: 52rpx;
+}
+.cl-body>view:nth-child(3){
+    margin-top: 16rpx;
+    width: 682rpx;
+    margin-left: 52rpx;
+}
+.cl-body>view:nth-child(3){
+    font-size: 24rpx;
+    color:#333;
+    line-height: 34rpx;
+}
+.cl-body:last-child{
+    margin-bottom: 98rpx;
+}

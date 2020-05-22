@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+            "checkbox": "../../../node_modules/mini-ali-ui/es/am-checkbox/index",
+            "cost-detail":"../../../components/homeBusinessCpt/cost-detail/cost-detail"
+    }
+}

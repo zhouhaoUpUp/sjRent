@@ -30,5 +30,28 @@
       {{item}}
     </view>
   </view>
-  <car-details-home/>
+  
+  <view class="cd-bottom">
+    <view>
+      <text>总额：</text><text>￥3000.00</text>
+    </view>
+    <view>
+
+         <text onTap="nextPage">
+        下一步
+      </text>
+    <text onTap="showDetail">费用明细</text>
+ 
+    </view>
+  </view>
+
+  <!-- 组件 -->
+  <!-- 车辆详情 -->
+    <car-details-home a:if="{{carDetails}}"/>
+  <!-- 评论列表 -->
+  <comment-list a:if="{{commentList}}"/>
+  <!-- 费用说明 -->
+  <cherge-explain a:if="{{chergeExplain}}"/>
+  <!-- 明细弹框 -->
+  <cost-detail a:if="{{detail}}" onShowDetail="toShowDetail"/>
 </view>

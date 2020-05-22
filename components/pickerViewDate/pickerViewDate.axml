@@ -1,0 +1,60 @@
+<!-- <van-popup show="{{pickerShow}}" position="bottom" class="pickerDate_wrap" bind:click-overlay="overlay"> -->
+    <mask type="{{type}}" show="{{sccBgShow}}" maskZindex="{{maskZindex}}"></mask>
+
+    <view class="pickerDate_header font_30">
+        <text bindtap="overlay">取消</text>
+        <text a:if="{{showDay && pickerDay}}">共{{pickerDay}}</text>
+        <text class="font_active" bindtap="submit">确定</text>
+    </view>
+    <view class="pickerDate_type">
+        <view bindtap="pickerDateTypeChoose" data-pickerType="onTime" class="pickerDate_type_start {{pickerType=='onTime'? 'pickerDate_type_active':''}}">
+            <text class="font_24">{{onTitle}}</text>
+            <text class="font_28" a:if="{{dateType=='dateTime'}}">{{filter.dateFormat('MM DD n week n HH : mm',startDate)}}</text>
+            <text class="font_28" a:else>{{filter.dateFormat('MM DD n week',startDate)}}</text>
+        </view>
+        <view bindtap="pickerDateTypeChoose" a:if="{{showDay}}" data-pickerType="endTime" class="pickerDate_type_end {{pickerType=='endTime'? 'pickerDate_type_active':''}}">
+            <text class="font_24">{{endTitle}}</text>
+            <text class="font_28" a:if="{{dateType=='dateTime'}}">{{filter.dateFormat('MM DD n week n HH : mm',endDate)}}</text>
+            <text class="font_28" a:else>{{filter.dateFormat('MM DD n week',endDate)}}</text>
+        </view>
+    </view>
+    <!-- start 时间 -->
+    <view class="picker_wrap">
+        <picker-view indicator-class='picker_column_class' bindpickstart="startSlide" bindpickend="endSlide" class="picker_view {{pickerType!='onTime'?'picker_view_hNone':''}}" value="{{startValue}}" data-type="onTime" bindchange="bindChange">
+            <picker-view-column style="flex:2">
+                <view class="picker_column column_main" a:for="{{onMains}}" date-type="main" a:key="key">
+                    {{filter.dateFormat('MM DD n week',item)}}
+                </view>
+            </picker-view-column>
+            <picker-view-column hidden="{{dateType=='date'?true:false}}">
+                <view class="picker_column column_hour" a:for="{{onHours}}" date-type="hour" a:key="key">
+                    {{item}}时
+                </view>
+            </picker-view-column>
+            <picker-view-column hidden="{{dateType=='date'?true:false}}">
+                <view class="picker_column column_minute" a:for="{{onMinutes}}" date-type="minute" a:key="key">
+                    {{item}}分
+                </view>
+            </picker-view-column>
+        </picker-view>
+        <!-- end 时间 -->
+        <picker-view bindpickstart="startSlide" indicator-class='picker_column_class' bindpickend="endSlide" class="picker_view {{pickerType!='endTime'?'picker_view_hNone':''}}" value="{{endValue}}" data-type="endTime" bindchange="bindChange">
+            <picker-view-column style="flex:2">
+                <view class="picker_column column_main" a:for="{{endMains}}" a:key="key">
+                    {{filter.dateFormat('MM DD n week',item)}}
+                </view>
+            </picker-view-column>
+            <picker-view-column hidden="{{dateType=='date'?true:false}}">
+                <view class="picker_column column_hour" a:for="{{endHours}}" a:key="key">
+                    {{item}}时
+                </view>
+            </picker-view-column>
+            <picker-view-column hidden="{{dateType=='date'?true:false}}">
+                <view class="picker_column column_minute" a:for="{{endMinutes}}" a:key="key">
+                    {{item}}分
+                </view>
+            </picker-view-column>
+        </picker-view>
+    </view>
+    <!-- 过滤器 -->
+<sjs module="filter" src="../../utils/globalArea.sjs"></sjs>

@@ -1,9 +1,6 @@
 <view class=".content">
 <!-- 顶部标题 -->
-  <view class="sec1 sec">
-    <text><</text>
-    <text class="fontAddress">确认订单</text>
-  </view>
+
   <!-- 第二部分 地址时间 -->
   <view class="sec2 sec">
     <view>
@@ -69,7 +66,7 @@
             <text class="marl colFont">用车人</text>
           </view>
           <view class="viewTwo">
-            <text class="marr colFont" >请选择用车人</text>
+            <text class="marr colFont" onTap="selectUseCarPeople" >请选择用车人</text>
             <!-- <image class="imgs" mode="scaleToFill" src="../../../assets/orderListImg/Order_more@2x.png"/> -->
           </view>
         </view>
@@ -175,15 +172,21 @@
     </text>
   </view>
 
-  <view class="vie">
-   <text class="marl">总额</text>
-   <text class="colSupF marl">￥{{money}}.00</text>
-   <text class="txt3 marl">费用明细</text>
-   <button size="default" type="primary" class="btn_pay">立即支付</button>
+  <view class="al-bottom">
+    <view>
+      <text>总额：</text><text>￥3000.00</text>
+    </view>
+    <view>
+
+         <text onTap="nextPage">
+        下一步
+      </text>
+    <text onTap="showDetail">费用明细</text>
+ 
+    </view>
   </view>
 </view>
-
-
+  <cost-detail a:if="{{detail}}" onShowDetail="toShowDetail"/>
 
 
 

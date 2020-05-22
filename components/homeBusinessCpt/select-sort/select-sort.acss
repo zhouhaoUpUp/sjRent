@@ -4,6 +4,7 @@
     bottom:0;
     background-color: #fff;
     z-index: 11;
+    border: 1rpx solid #fff;
     border-radius:40rpx 40rpx 0px 0px;
 }
 .sst-bg image{
@@ -48,11 +49,10 @@ margin-top:80rpx
 }
 
 .sst-body image{
-    width: 34rpx;
-    height: 26rpx;
-    background: #ff0000;
+    width: 50rpx;
+    height: 50rpx;
     float: right;
-    margin-top: 49rpx;
+    margin-top: 38rpx;
     margin-right: 44rpx;
     display: none;
 }

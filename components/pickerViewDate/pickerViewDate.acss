@@ -1,0 +1,81 @@
+/* components/pickerViewDate/pickerViewDate.wxss */
+
+.pickerDate_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25rpx;
+    color: #555;
+}
+
+.pickerDate_type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffbb1c !important;
+    margin-bottom: 20rpx;
+}
+
+.pickerDate_type>view {
+    padding: 15rpx;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    line-height: 40rpx;
+    background: #efefef;
+}
+
+.picker_view {
+    width: 100%;
+    height: 320rpx;
+}
+
+.picker_view_hNone {
+    height: 0;
+    overflow: hidden;
+}
+
+.font_24 {
+    font-size: 24rpx;
+}
+
+.font_28 {
+    font-size: 28rpx;
+}
+
+.font_26 {
+    font-size: 26rpx;
+}
+
+.font_30 {
+    font-size: 30rpx;
+}
+
+.font_active {
+    color: #fcc32b !important;
+}
+
+.picker_column {
+    font-size: 32rpx;
+    text-align: center;
+    height: 80rpx !important;
+    line-height: 80rpx !important;
+}
+
+.picker_column_class {
+    font-size: 32rpx;
+    height: 80rpx !important;
+    line-height: 80rpx !important;
+    display: flex !important;
+    align-content: center;
+}
+
+.pickerDate_type_active {
+    background: #ffbb1c !important;
+    color: #fff !important;
+}
+
+picker-view-column {
+    overflow: initial !important;
+}

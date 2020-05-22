@@ -1,1 +1,5 @@
-{}
+{
+        "usingComponents": {
+        "cost-detail":"../../../components/homeBusinessCpt/cost-detail/cost-detail"
+  }
+}

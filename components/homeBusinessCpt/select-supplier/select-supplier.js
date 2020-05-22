@@ -40,6 +40,9 @@ className:"海友租车",
               option:id
           })
 
+      },
+      show(){
+          this.props.onSupplier({show:false})
       }
   },
 });

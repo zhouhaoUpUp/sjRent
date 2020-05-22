@@ -36,6 +36,9 @@ className:"7座以上",
           this.setData({
               option:id
           })
+      },
+      vanish(){
+           this.props.onSeatingShow({show:false})
       }
   },
 });

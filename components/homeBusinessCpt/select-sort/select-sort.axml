@@ -5,7 +5,7 @@
   <view>
   排序
 </view>
-  <image mode="scaleToFill" src="../../../assets/carList/Pop-ups_shut@2x.png"/>
+  <image mode="scaleToFill" src="../../../assets/carList/Pop-ups_shut@2x.png" onTap="show"/>
 </view>
   <view class="sst-body">
   
@@ -13,7 +13,7 @@
     onTap="selected" 
     data-id="{{index}}" 
     >
-      <text>{{item.className}}</text><image mode="scaleToFill" src="" class="{{index===check?'check-icon':''}}"/>
+      <text>{{item.className}}</text><image mode="scaleToFill" src="../../../assets/carList/a5cf475169be66886ab722a85bf4b5d.png" class="{{index===check?'check-icon':''}}"/>
     </view>
   </view>
     <view>

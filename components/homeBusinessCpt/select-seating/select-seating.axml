@@ -3,9 +3,9 @@
 <view class="ss-bg">
 <view class="ss-head">
   <view>
-  车辆类型
+  座位数量
 </view>
-  <image mode="scaleToFill" src="../../../assets/carList/Pop-ups_shut@2x.png"/>
+  <image mode="scaleToFill" src="../../../assets/carList/Pop-ups_shut@2x.png" onTap="vanish"/>
 </view>
   <view class="ss-body">
   

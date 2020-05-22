@@ -1,0 +1,17 @@
+.ce-body view view{
+    margin-top: 28rpx;
+    font-size: 28rpx;
+    color: #333;
+}
+
+.ce-body{
+    margin-top: 10rpx;
+    margin-left: 30rpx;
+    margin-right: 30rpx;
+    margin-bottom:98rpx; 
+}
+.ce-body view text{
+    margin-top: 10rpx;
+    font-size: 26rpx;
+    color: #666;
+}

@@ -1,4 +1,4 @@
-<view>
+<view class="cdh-bg">
   <view class="cdh-head">
     <image mode="scaleToFill" src="../../../assets/carList/ea58745d7a1da867f995dd75ee89960.png"/>
     <view>

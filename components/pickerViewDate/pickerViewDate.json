@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "defaultTitle": "Am-switch",
+  "usingComponents": {
+  "mask": "mini-ali-ui/es/mask/index"
+  }
+}

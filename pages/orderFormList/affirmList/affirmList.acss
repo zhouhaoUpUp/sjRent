@@ -166,7 +166,6 @@ margin-left: 40rpx;
 /* 第五部分 */
 .sec5{
   height:80rpx;
-  border:1px solid red !important;
 }
 .sec5>view{
   display: inline-block;
@@ -177,8 +176,7 @@ margin-left: 40rpx;
 
 /* 第六部分 */
 .sec6{
-  height: 1110rpx !important;
-  border:1px solid red !important;
+  height: 1000rpx !important;
 }
 .sec6 view:first-child{
   height: 70rpx;
@@ -206,7 +204,6 @@ margin-left: 40rpx;
   margin-left: 36rpx;
 }
 .circle{
-  border:1px solid red !important;
   width:5rpx;
   height:5rpx !important;
   border-radius: 5rpx;
@@ -226,6 +223,7 @@ margin-left: 40rpx;
 /* 底部 */
 .sec7{
   height: 150rpx;
+  margin-bottom:100rpx; 
 }
 .se7>view:nth-child(1){
   height: 50rpx;
@@ -249,14 +247,72 @@ margin-left: 40rpx;
   font-size: 40rpx;
 }
 .btn_pay{
+
   display: inline-block;
   width: 228rpx;
   height: 100rpx;
   border:none;
   background-color: #FEDD00;
   float: right;
+  color: #333;
 }
 .txt3{
   color:#6D7278;
   margin-left: 150rpx;
+}
+.vie{
+    position: fixed;
+  bottom: 0;
+  background: #fff;
+  width: 100%;
+  z-index: 11;
+}
+
+.al-bottom{
+    width: 100%;
+height:98rpx;
+background:rgba(255,255,255,1);
+position: fixed;
+bottom: 0;
+}
+
+.al-bottom>view:nth-child(1){
+    float: left;
+    margin-top: 18rpx;
+    width: 250rpx;
+    height:50rpx;
+    line-height: 50rpx;
+}
+.al-bottom>view:nth-child(1)>text:nth-child(1){
+    color: #000000;
+    font-size: 26rpx;
+    margin-left: 36rpx;
+}
+
+.al-bottom>view:nth-child(1)>text:nth-child(2){
+    color: #FF5911;
+    font-size: 30rpx;
+}
+.al-bottom>view:nth-child(2){
+    height: 98rpx;
+}
+.al-bottom>view:nth-child(2)>text:nth-child(1){
+    float: right;
+    height:98rpx;
+    line-height: 98rpx;
+    text-align: center;
+    width:248rpx;
+background:rgba(254,221,0,1);
+color: #333;
+font-size: 30rpx;
+}
+
+.al-bottom>view:nth-child(2)>text:nth-child(2){
+    float: right;
+    height:98rpx;
+    line-height: 98rpx;
+    text-align: center;
+    color: #6D7278;
+    font-size: 24rpx;
+    margin-right: 20rpx;
 }
