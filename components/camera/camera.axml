@@ -1,0 +1,11 @@
+<view class="camera">
+ <!-- 拍照 各种证件检测组件 -->
+    <view class="border">
+      <image mode="aspectFill" onTap="chooseFront" src="{{imgFront}}"/>
+    </view>
+    <view><text>{{license1}}</text></view>
+     <view class="border" >
+      <image mode="aspectFill" onTap="chooseVerso" src="{{imgVerso}}" />
+    </view>
+    <view><text>{{license2}}</text></view>
+</view>

@@ -1,5 +1,5 @@
 {
       "usingComponents": {
-    "self-driving":"../../components/self-driving/self-driving"
+     "self-driving":"../../components/self-driving/self-driving"
   }
 }

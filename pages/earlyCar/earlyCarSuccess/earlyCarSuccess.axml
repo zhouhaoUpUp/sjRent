@@ -1,0 +1,25 @@
+<view class="content">
+<!-- 提前还车 申请成功 -->
+<!-- 汽车数据 -->
+  <relet-infocar></relet-infocar>
+  <view class="tiao"></view>
+  <view class="infomation">
+    <text class="colSupF marl">申请成功，等待平台退款</text>
+  </view>
+  <view class="tiao"></view>
+  <!-- 提前还车订单信息 -->
+  <earlycar-infolist imgTypeSrc="{{imgTypeSrc}}"></earlycar-infolist>
+  
+  <!-- 底部空白页 按钮 -->
+  <view class="footer">
+      <view>
+    
+     </view>
+     <view>
+      <text>退款金额 :</text> <text class="fontMoney">￥300</text>
+      <button size="default" type="primary" class="btn_1">联系客服</button>
+      <button size="default" type="primary" class="btn_2">取消申请</button>
+    </view>
+  </view>
+
+</view>

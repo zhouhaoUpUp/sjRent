@@ -1,0 +1,27 @@
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box{
+  height: 100rpx;
+  /* border: 1px solid red; */
+  margin-left:-100rpx; 
+}
+.box text{
+  line-height: 100rpx;
+  width: 60rpx;
+}
+.box input{
+  vertical-align: middle;
+  height: 36rpx;
+  /* border: 1px solid red; */
+  margin-left:60rpx;
+}
+.btn{
+  margin-top: 200rpx;
+  width:315px;
+  height:40px;
+  background:rgba(254,221,0,1);
+  border-radius:4px;
+}

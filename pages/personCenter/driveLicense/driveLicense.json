@@ -1,0 +1,6 @@
+{
+  "usingComponents":{
+    "camera":"/components/camera/camera"
+  } 
+  ,"defaultTitle": "驾照认证"
+}
