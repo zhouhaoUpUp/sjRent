@@ -1,0 +1,42 @@
+.rdn-head-top{
+    width: 94%;
+    height: 90rpx;
+    border-radius:8rpx 8rpx 0px 0px;
+    margin-left: 3%;
+    position: relative;
+}
+.rdn-head-top>image{
+    width: 50%;
+    height: 90rpx;
+}
+.rdn-head-top>.rdn-left{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.rdn-head-top>.rdn-right{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.rdn-head-top>.rdn-half{
+        position: relative;
+        float: left;
+        height: 90rpx;
+        width: 40%;
+        text-align: center;
+        line-height: 90rpx;
+        font-size: 26rpx;
+}
+.rdn-head-top>.rdn-whole{
+        position: relative;
+        float: right;
+        height: 90rpx;
+        width: 40%;
+        text-align: center;
+        line-height: 90rpx;
+        font-size: 26rpx;
+}
+.rdn-font{
+    color: #999;
+}

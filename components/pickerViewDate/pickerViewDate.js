@@ -98,7 +98,7 @@ Component({
 
         /**
          * 确定
-         * @method submit
+         * method submit
          */
         submit () {
             /* 滚动结束才进行回调赋值 */
@@ -123,7 +123,7 @@ Component({
 
         /**
          * 初始化开始时间
-         * @method initOn
+         * method initOn
          */
         initOn () {
             //没有默认选择时间时 为当前最小渲染时间
@@ -169,7 +169,7 @@ Component({
 
         /**
          * 初始化结束时间
-         * @method initEnd
+         * method initEnd
          */
         initEnd () {
             if (!this.data.endCurrent) return
@@ -204,9 +204,9 @@ Component({
 
         /**
          * 计算主要时间部分
-         * @method computeDateMian
-         * @param {Object} options 配置 {type,minTime,maxTime}
-         * @return {Array} 主要时间 
+         * method computeDateMian
+         * param {Object} options 配置 {type,minTime,maxTime}
+         * return {Array} 主要时间 
          */
         computeDateMain (options) {
             let mains = [];
@@ -220,9 +220,9 @@ Component({
 
         /**
          *计算小时
-         * @method computeDateHour
-         * @param {Object} options 配置 {type,minTime,maxTime,currentTime}
-         * @return {Array} 小时 
+         * method computeDateHour
+         * param {Object} options 配置 {type,minTime,maxTime,currentTime}
+         * return {Array} 小时 
          */
         computeDateHour (options) {
             let hours = []
@@ -300,9 +300,9 @@ Component({
 
         /**
          * 计算分钟
-         * @method computeDateMinute
-         * @param {Object} options 配置 {type,minTime,maxTime,currentTime}
-         * @return {Array} 分钟 
+         * method computeDateMinute
+         * param {Object} options 配置 {type,minTime,maxTime,currentTime}
+         * return {Array} 分钟 
          */
         computeDateMinute (options) {
             let minutes = [], curDate;
@@ -358,8 +358,8 @@ Component({
 
         /**
          * picker change 事件
-         * @method bindChange
-         * @param {Object} e
+         * method bindChange
+         * param {Object} e
          */
         bindChange (e) {
             let curType = e.currentTarget.dataset.type;
@@ -429,7 +429,7 @@ Component({
 
         /**
          * 计算时间总天数
-         * @method computedDayNum
+         * method computedDayNum
          */
         computedDayNum () {
             if (!this.data.showDay) return
@@ -448,8 +448,8 @@ Component({
 
         /**
          * 选择时间类型
-         * @method pickerDateTypeChoose
-         * @param {object} currentTarget 
+         * method pickerDateTypeChoose
+         * param {object} currentTarget 
          */
         pickerDateTypeChoose ({ currentTarget }) {
             if (this.data.pickerSlide) return
@@ -460,7 +460,7 @@ Component({
 
         /**
          * 遮罩层
-         * @method overlay
+         * method overlay
          */
         overlay () {
             if (this.data.pickerSlide) return
@@ -471,7 +471,7 @@ Component({
 
         /**
          * 触发滚动
-         * @method startSlide
+         * method startSlide
          */
         startSlide () {
             this.data.pickerSlide = true
@@ -479,7 +479,7 @@ Component({
 
         /**
          * 结束滚动
-         * @method endSlide
+         * method endSlide
          */
         endSlide () {
             this.data.pickerSlide = false

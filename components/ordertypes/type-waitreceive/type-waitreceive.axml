@@ -7,7 +7,7 @@
     <text >正在为您排单请稍后</text>
     </view>
     <view class="image">
-     <image mode="scaleToFill" src="../../../assets/orderListImg/Order_wait@2x.png"/>
+     <image mode="scaleToFill" src="../../../assets/orderListImg/Order_wait2x.png"/>
      </view>
     </view>
 </view>

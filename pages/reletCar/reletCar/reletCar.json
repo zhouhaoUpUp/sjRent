@@ -1,0 +1,7 @@
+{
+    "usingComponents":{
+    "relet-infocar":"/components/reletcar/relet-infocar/relet-infocar",
+    "relet-infolist":"/components/reletcar/relet-infolist/relet-infolist",
+    "modal": "mini-ali-ui/es/modal/index"
+  }
+}

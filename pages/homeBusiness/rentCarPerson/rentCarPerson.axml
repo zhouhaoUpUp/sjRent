@@ -1,0 +1,34 @@
+<view class="rcp-bg"></view>
+<view>
+  <view class="rcp-head">
+  <view>
+    <text>姓名</text><text class="rcp-head-name"><input placeholder="唐雪莲" /></text>
+  </view>  
+  <view>
+    <text>电话</text><text class="rcp-head-phone"><input placeholder="14725836914" /></text>
+  </view>  
+  <view>
+    <text>证件类型</text><text>身份证</text>
+  </view>  
+  <view>
+    <text>证件号码</text><text class="rcp-head-number"><input placeholder="请填写证件号码" /></text>
+  </view>  
+</view>
+<view class="rcp-body">
+    <view>
+      <image mode="scaleToFill" src=""/>
+    </view>
+    <text>身份证正面</text>
+    <view>
+      <image mode="scaleToFill" src=""/>
+    </view>
+    <text>身份证反面</text>
+</view>
+
+<view class="rcp-botton">
+  <view>
+    <text>提交</text>
+  </view>
+</view>
+
+</view>

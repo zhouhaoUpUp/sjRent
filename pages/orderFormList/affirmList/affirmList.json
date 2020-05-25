@@ -1,5 +1,6 @@
 {
         "usingComponents": {
-        "cost-detail":"../../../components/homeBusinessCpt/cost-detail/cost-detail"
+        "cost-detail":"../../../components/homeBusinessCpt/cost-detail/cost-detail",
+        "replace-drive-nav":"../../../components/home-page/replaceDriveNav/replaceDriveNav"
   }
 }

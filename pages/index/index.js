@@ -7,7 +7,6 @@ Page({
       selectType:0,
       self:true,
       replace:false,
-      allDay:false
     }
   },
   onLoad(query) {
@@ -53,30 +52,15 @@ Page({
       this.setData({
         self:true,
         replace:false,
-        allDay:false
       })
     }else if(e.target.dataset.id===1){
             this.setData({
             self:false,
             replace:true,
-            allDay:true
       })
     }else{
 
     }
   },
-toTaskDetail(e){
-    console.log(e.replace)
-    this.setData({
-      replace:e.replace,
-      allDay:true
-    })
-},
-toWhole(e){
-      console.log(1111111,e.replace)
-    this.setData({
-      allDay:!e.replace,
-      replace:false
-    })
-}
+
 });

@@ -1,18 +1,4 @@
-<view class="rd" a:if="{{whole}}">
-  <view class="rd-head-top">
-    <view class="bg-left-wd">
-      
-    </view>
-    <view class="bg-right-wd">
-      
-    </view>
-    <view onTap="half">
-      半日租
-    </view>
-    <view>
-      整日租
-    </view>
-  </view>
+<view class="rd">
 
   <view class="rd-head">
     <view>
@@ -76,7 +62,7 @@
 
           <view>
             <text>2天</text>
-            <image mode="scaleToFill" src="../../assets/home/Home_time@2x.png"/>
+            <image mode="scaleToFill" src="../../assets/home/Home_time2x.png"/>
           </view>
 
           <view>

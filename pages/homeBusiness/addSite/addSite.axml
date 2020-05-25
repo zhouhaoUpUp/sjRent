@@ -1,0 +1,30 @@
+<view>
+    <view class="as-head" a:if="{{siteData[0].siteName===undefined}}">
+      <view>
+        <image mode="scaleToFill" src="../../../assets/carList/Empty_state3x.png"/>
+      </view>
+      <view>
+        <text>暂无途经点，可以立即添加</text>
+      </view>
+    </view>
+
+
+    <view class="as-body" a:for="{{siteData}}" a:for-item="item">
+      <view>
+        <text>{{index+1}}</text>
+        <text>{{item.siteName}}</text>
+      </view>
+
+      <view>
+        <text>编辑</text>
+        <text>删除</text>
+      </view>
+    </view>
+
+    
+    <view class="as-botton">
+      <view>
+        <text><text>+</text>添加途经点</text>
+      </view> 
+    </view>
+</view>

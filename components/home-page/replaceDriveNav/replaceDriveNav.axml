@@ -1,0 +1,14 @@
+<view>
+  <view class="rdn-head-top">
+    <image mode="scaleToFill" src="../../../assets/carList/left.png" class="rdn-left" a:if="{{replaceShow}}"/>
+    <image mode="scaleToFill" src="../../../assets/carList/right.png" class="rdn-right" a:if="{{wholeShow}}"/>
+    <view onTap="half" class="rdn-half {{wholeShow?'rdn-font':''}}">
+      半日租
+    </view>
+    <view onTap="whole" class="rdn-whole {{replaceShow?'rdn-font':''}}">
+      整日租
+    </view>
+  </view>
+<replace-driving a:if="{{replaceShow}}"/>
+<whole-driving a:if="{{wholeShow}}"/>
+  </view>

@@ -3,7 +3,7 @@ Page({
   onLoad() {},
   nextPage(){
     my.navigateTo({
-      url: ''
+      url: '../rentCarPerson/rentCarPerson'
     });
   }
 });

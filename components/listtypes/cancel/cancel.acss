@@ -95,7 +95,7 @@
 }
 /* 时间左边间隔 */
 .mart{
-  margin-left: 40rpx;
+  margin-left: 40rpx !important;
 }
 /* 上下间隔 */
 .martop{

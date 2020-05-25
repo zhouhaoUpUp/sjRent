@@ -1,7 +1,7 @@
 <view class="pf-bg">
   <view class="pf-body">
     <view>
-      <image mode="scaleToFill" src="../../../assets/carList/Pop-ups_failure@2x@2x.png"/>
+      <image mode="scaleToFill" src="../../../assets/carList/Pop-ups_failure2x2x.png"/>
       <text>支付成功</text>
     </view>
     <view>

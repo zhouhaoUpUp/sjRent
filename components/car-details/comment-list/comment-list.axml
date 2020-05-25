@@ -7,11 +7,11 @@
 
   <view class="cl-body">
     <view>
-        <image mode="scaleToFill" src="../../../assets/carList/comment_Equivalent02@2x.png"/>
+        <image mode="scaleToFill" src="../../../assets/carList/comment_Equivalent022x.png"/>
       <text>T鲸**糖</text>
     </view>
     <view>
-        <image a:for="{{5}}" mode="scaleToFill" src="../../../assets/carList/comment_Equivalent02@2x.png"/>
+        <image a:for="{{5}}" mode="scaleToFill" src="../../../assets/carList/comment_Equivalent022x.png"/>
       <text>2020-02-07</text>
     </view>
     <view>
@@ -21,11 +21,11 @@
 
     <view class="cl-body">
     <view>
-        <image mode="scaleToFill" src="../../../assets/carList/comment_Equivalent02@2x.png"/>
+        <image mode="scaleToFill" src="../../../assets/carList/comment_Equivalent022x.png"/>
       <text>T鲸**糖</text>
     </view>
     <view>
-        <image a:for="{{5}}" mode="scaleToFill" src="../../../assets/carList/comment_Equivalent02@2x.png"/>
+        <image a:for="{{5}}" mode="scaleToFill" src="../../../assets/carList/comment_Equivalent022x.png"/>
       <text>2020-02-07</text>
     </view>
     <view>
@@ -35,11 +35,11 @@
 
     <view class="cl-body">
     <view>
-        <image mode="scaleToFill" src="../../../assets/carList/comment_Equivalent02@2x.png"/>
+        <image mode="scaleToFill" src="../../../assets/carList/comment_Equivalent022x.png"/>
       <text>T鲸**糖</text>
     </view>
     <view>
-        <image a:for="{{5}}" mode="scaleToFill" src="../../../assets/carList/comment_Equivalent02@2x.png"/>
+        <image a:for="{{5}}" mode="scaleToFill" src="../../../assets/carList/comment_Equivalent022x.png"/>
       <text>2020-02-07</text>
     </view>
     <view>
@@ -49,11 +49,11 @@
 
       <view class="cl-body">
     <view>
-        <image mode="scaleToFill" src="../../../assets/carList/comment_Equivalent02@2x.png"/>
+        <image mode="scaleToFill" src="../../../assets/carList/comment_Equivalent022x.png"/>
       <text>T鲸**糖</text>
     </view>
     <view>
-        <image a:for="{{5}}" mode="scaleToFill" src="../../../assets/carList/comment_Equivalent02@2x.png"/>
+        <image a:for="{{5}}" mode="scaleToFill" src="../../../assets/carList/comment_Equivalent022x.png"/>
       <text>2020-02-07</text>
     </view>
     <view>
@@ -62,11 +62,11 @@
   </view>
       <view class="cl-body">
     <view>
-        <image mode="scaleToFill" src="../../../assets/carList/comment_Equivalent02@2x.png"/>
+        <image mode="scaleToFill" src="../../../assets/carList/comment_Equivalent022x.png"/>
       <text>T鲸**糖</text>
     </view>
     <view>
-        <image a:for="{{5}}" mode="scaleToFill" src="../../../assets/carList/comment_Equivalent02@2x.png"/>
+        <image a:for="{{5}}" mode="scaleToFill" src="../../../assets/carList/comment_Equivalent022x.png"/>
       <text>2020-02-07</text>
     </view>
     <view>

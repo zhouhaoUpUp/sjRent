@@ -9,17 +9,17 @@
 
     <view>
       <view>
-        <image mode="scaleToFill" src="../../../assets/carList/Label02@2x.png"/>
+        <image mode="scaleToFill" src="../../../assets/carList/Label022x.png"/>
         <text>5座</text>
       </view>
 
       <view>
-        <image mode="scaleToFill" src="../../../assets/carList/Label02@2x.png"/>
+        <image mode="scaleToFill" src="../../../assets/carList/Label022x.png"/>
         <text>5座</text>
       </view>
 
       <view>
-        <image mode="scaleToFill" src="../../../assets/carList/Label02@2x.png"/>
+        <image mode="scaleToFill" src="../../../assets/carList/Label022x.png"/>
         <text>5座</text>
       </view>
       
@@ -28,11 +28,11 @@
 
   <view class="cdh-body">
     <view>
-      <image mode="scaleToFill" src="../../../assets/carList/Details_label@2x.png"/>
+      <image mode="scaleToFill" src="../../../assets/carList/Details_label2x.png"/>
       <text>提前48小时免费取消</text>
     </view>
         <view>
-      <image mode="scaleToFill" src="../../../assets/carList/Details_label@2x.png"/>
+      <image mode="scaleToFill" src="../../../assets/carList/Details_label2x.png"/>
       <text>24小时内认证</text>
     </view>
   </view>

@@ -9,7 +9,7 @@
   <view>
   供应商
 </view>
-  <image mode="scaleToFill" src="../../../assets/carList/Pop-ups_shut@2x.png" onTap="show"/>
+  <image mode="scaleToFill" src="../../../assets/carList/Pop-ups_shut2x.png" onTap="show"/>
 </view>
   <view class="ssr-body">
   

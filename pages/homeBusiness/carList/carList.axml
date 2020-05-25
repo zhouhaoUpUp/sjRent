@@ -13,29 +13,29 @@
     </view>
     <view>
     2天
-    <image mode="scaleToFill" src="../../../assets/carList/Calendar_sele@2x.png"/>
+    <image mode="scaleToFill" src="../../../assets/carList/Calendar_sele2x.png"/>
     </view>
   </view>
   
   <view class="head">
     <view onTap="carClassPopUp">
       车辆类型
-      <image mode="scaleToFill" src="../../../assets/carList/Home_drop_down@2x.png"/>
+      <image mode="scaleToFill" src="../../../assets/carList/Home_drop_down2x.png"/>
     </view>
 
     <view onTap="seatAmount">
       座位数量
-      <image mode="scaleToFill" src="../../../assets/carList/Home_drop_down@2x.png"/>
+      <image mode="scaleToFill" src="../../../assets/carList/Home_drop_down2x.png"/>
     </view>
 
     <view onTap="supply">
       供应商
-      <image mode="scaleToFill" src="../../../assets/carList/Home_drop_down@2x.png"/>
+      <image mode="scaleToFill" src="../../../assets/carList/Home_drop_down2x.png"/>
     </view>
     
     <view onTap="filtr">
       筛选
-      <image mode="scaleToFill" src="../../../assets/carList/Home_drop_down@2x.png"/>
+      <image mode="scaleToFill" src="../../../assets/carList/Home_drop_down2x.png"/>
     </view>
   </view>
 
@@ -65,7 +65,7 @@
 
     <view class="body-body">
     <view a:for="{{signTab}}">
-    <image mode="scaleToFill" src="../../../assets/carList/Label02@2x.png"/>
+    <image mode="scaleToFill" src="../../../assets/carList/Label022x.png"/>
       {{item}}
     </view>
     </view>
@@ -75,13 +75,13 @@
         4.0
       </view>
       <view>
-      <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+      <image mode="scaleToFill" src="../../../assets/carList/Label012x.png"/>
         平台推荐
       </view>
     </view>
     <view>
       1家供应商
-      <image mode="scaleToFill" src="../../../assets/carList/Label_more@2x.png"/>
+      <image mode="scaleToFill" src="../../../assets/carList/Label_more2x.png"/>
     </view>
     </view>
   </view>
@@ -112,7 +112,7 @@
 
     <view class="body-body">
     <view a:for="{{signTab}}">
-    <image mode="scaleToFill" src="../../../assets/carList/Label02@2x.png"/>
+    <image mode="scaleToFill" src="../../../assets/carList/Label022x.png"/>
       {{item}}
     </view>
     </view>
@@ -122,13 +122,13 @@
         4.0
       </view>
       <view>
-      <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+      <image mode="scaleToFill" src="../../../assets/carList/Label012x.png"/>
         平台推荐
       </view>
     </view>
     <view>
       1家供应商
-      <image mode="scaleToFill" src="../../../assets/carList/Label_more@2x.png"/>
+      <image mode="scaleToFill" src="../../../assets/carList/Label_more2x.png"/>
     </view>
     </view>
   </view>  <view class="body">
@@ -157,7 +157,7 @@
 
     <view class="body-body">
     <view a:for="{{signTab}}">
-    <image mode="scaleToFill" src="../../../assets/carList/Label02@2x.png"/>
+    <image mode="scaleToFill" src="../../../assets/carList/Label022x.png"/>
       {{item}}
     </view>
     </view>
@@ -167,13 +167,13 @@
         4.0
       </view>
       <view>
-      <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+      <image mode="scaleToFill" src="../../../assets/carList/Label012x.png"/>
         平台推荐
       </view>
     </view>
     <view>
       1家供应商
-      <image mode="scaleToFill" src="../../../assets/carList/Label_more@2x.png"/>
+      <image mode="scaleToFill" src="../../../assets/carList/Label_more2x.png"/>
     </view>
     </view>
   </view>  <view class="body">
@@ -202,7 +202,7 @@
 
     <view class="body-body">
     <view a:for="{{signTab}}">
-    <image mode="scaleToFill" src="../../../assets/carList/Label02@2x.png"/>
+    <image mode="scaleToFill" src="../../../assets/carList/Label022x.png"/>
       {{item}}
     </view>
     </view>
@@ -212,13 +212,13 @@
         4.0
       </view>
       <view>
-      <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+      <image mode="scaleToFill" src="../../../assets/carList/Label012x.png"/>
         平台推荐
       </view>
     </view>
     <view>
       1家供应商
-      <image mode="scaleToFill" src="../../../assets/carList/Label_more@2x.png"/>
+      <image mode="scaleToFill" src="../../../assets/carList/Label_more2x.png"/>
     </view>
     </view>
   </view>  <view class="body">
@@ -247,7 +247,7 @@
 
     <view class="body-body">
     <view a:for="{{signTab}}">
-    <image mode="scaleToFill" src="../../../assets/carList/Label02@2x.png"/>
+    <image mode="scaleToFill" src="../../../assets/carList/Label022x.png"/>
       {{item}}
     </view>
     </view>
@@ -257,13 +257,13 @@
         4.0
       </view>
       <view>
-      <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+      <image mode="scaleToFill" src="../../../assets/carList/Label012x.png"/>
         平台推荐
       </view>
     </view>
     <view>
       1家供应商
-      <image mode="scaleToFill" src="../../../assets/carList/Label_more@2x.png"/>
+      <image mode="scaleToFill" src="../../../assets/carList/Label_more2x.png"/>
     </view>
     </view>
   </view>  <view class="body">
@@ -292,7 +292,7 @@
 
     <view class="body-body">
     <view a:for="{{signTab}}">
-    <image mode="scaleToFill" src="../../../assets/carList/Label02@2x.png"/>
+    <image mode="scaleToFill" src="../../../assets/carList/Label022x.png"/>
       {{item}}
     </view>
     </view>
@@ -302,13 +302,13 @@
         4.0
       </view>
       <view>
-      <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+      <image mode="scaleToFill" src="../../../assets/carList/Label012x.png"/>
         平台推荐
       </view>
     </view>
     <view>
       1家供应商
-      <image mode="scaleToFill" src="../../../assets/carList/Label_more@2x.png"/>
+      <image mode="scaleToFill" src="../../../assets/carList/Label_more2x.png"/>
     </view>
     </view>
   </view>

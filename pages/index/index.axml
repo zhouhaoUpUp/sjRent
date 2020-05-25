@@ -14,7 +14,8 @@
 <!-- 自驾短租 -->
 <self-driving a:if="{{self}}" sendData="{{self}}"/>
 <!-- 带驾包车 -->
-<replace-driving a:if="{{replace}}" sendDat="{{replace}}" onTaskDetail="toTaskDetail"/>
-<whole-driving a:if="{{allDay}}" sendDat="{{allDay}}" onWhole="toWhole"/>
+<replace-drive-nav a:if="{{replace}}"/>
+<!-- <replace-driving a:if="{{replace}}" sendDat="{{replace}}" onTaskDetail="toTaskDetail"/>
+<whole-driving a:if="{{allDay}}" sendDat="{{allDay}}" onWhole="toWhole"/> -->
   </view>
 </view>

@@ -11,7 +11,7 @@
     </view>
     <view>
     2天
-    <image mode="scaleToFill" src="../../../assets/carList/Calendar_sele@2x.png"/>
+    <image mode="scaleToFill" src="../../../assets/carList/Calendar_sele2x.png"/>
     </view>
   </view>
 
@@ -48,7 +48,7 @@
     <view>
       <text>4.9</text>
       <view>
-        <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+        <image mode="scaleToFill" src="../../../assets/carList/Label012x.png"/>
         <text>平台推荐</text>
       </view>
     </view>
@@ -78,7 +78,7 @@
     <view>
       <text>4.9</text>
       <view>
-        <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+        <image mode="scaleToFill" src="../../../assets/carList/Label012x.png"/>
         <text>平台推荐</text>
       </view>
     </view>
@@ -106,7 +106,7 @@
     <view>
       <text>4.9</text>
       <view>
-        <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+        <image mode="scaleToFill" src="../../../assets/carList/Label012x.png"/>
         <text>平台推荐</text>
       </view>
     </view>
@@ -134,7 +134,7 @@
     <view>
       <text>4.9</text>
       <view>
-        <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+        <image mode="scaleToFill" src="../../../assets/carList/Label012x.png"/>
         <text>平台推荐</text>
       </view>
     </view>
@@ -162,7 +162,7 @@
     <view>
       <text>4.9</text>
       <view>
-        <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+        <image mode="scaleToFill" src="../../../assets/carList/Label012x.png"/>
         <text>平台推荐</text>
       </view>
     </view>
@@ -190,7 +190,7 @@
     <view>
       <text>4.9</text>
       <view>
-        <image mode="scaleToFill" src="../../../assets/carList/Label01@2x.png"/>
+        <image mode="scaleToFill" src="../../../assets/carList/Label012x.png"/>
         <text>平台推荐</text>
       </view>
     </view>

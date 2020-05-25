@@ -1,0 +1,8 @@
+{
+  "component": true,
+          "usingComponents": {
+        "whole-driving":"../whole-driving/whole-driving",
+        "replace-driving":"../replace-driving/replace-driving"
+
+  }
+}

@@ -1,7 +1,7 @@
 <view class="ps-bg">
   <view class="ps-body">
     <view>
-      <image mode="scaleToFill" src="../../../assets/carList/Pop-ups_failure@2x.png"/>
+      <image mode="scaleToFill" src="../../../assets/carList/Pop-ups_failure2x.png"/>
       <text>支付失败</text>
     </view>
     <view>

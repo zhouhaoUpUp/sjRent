@@ -1,16 +1,4 @@
 <view class="rd">
-  <view class="rd-head-top">
-    <view class="bg-left">
-    </view>
-    <view class="bg-right">
-    </view>
-    <view onTap="half">
-      半日租
-    </view>
-    <view onTap="whole">
-      整日租
-    </view>
-  </view>
   <view class="rd-head">
     <view>
       取车城市

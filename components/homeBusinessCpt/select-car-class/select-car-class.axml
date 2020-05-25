@@ -5,7 +5,7 @@
   <view>
   车辆类型
 </view>
-  <image mode="scaleToFill" src="../../../assets/carList/Pop-ups_shut@2x.png" onTap="vanish"/>
+  <image mode="scaleToFill" src="../../../assets/carList/Pop-ups_shut2x.png" onTap="vanish"/>
 </view>
   <view class="scc-body">
   

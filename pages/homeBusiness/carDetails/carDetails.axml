@@ -16,8 +16,8 @@
     <view>
     </view>
     <view>
-    <image mode="scaleToFill" src="../../../assets/carList/Details_calendar@2x.png"/>
-    <image mode="scaleToFill" src="../../../assets/carList/Calendar_sele@2x.png"/>
+    <image mode="scaleToFill" src="../../../assets/carList/Details_calendar2x.png"/>
+    <image mode="scaleToFill" src="../../../assets/carList/Calendar_sele2x.png"/>
     </view>
   </view>
   <view class="cd-head">
