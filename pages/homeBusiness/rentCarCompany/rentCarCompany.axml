@@ -1,5 +1,5 @@
 <view>
-    <view class="top">
+    <view class="top" onTap="selectTimeFN">
     <view>
     西部智谷D区
     </view>
@@ -198,3 +198,6 @@
   </view>
   <!-- 结束 -->
 </view>
+<popup show="{{selectTime}}" position="top" onSelectTime="toSelectTime">
+  <select-site-time onSelectTime="toSelectTime" a:if="{{selectTime}}"/>
+</popup>

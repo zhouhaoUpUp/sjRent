@@ -1,4 +1,5 @@
 {
+  "defaultTitle":"车辆详情",
     "usingComponents": {
         "car-details-home":"../../../components/car-details/car-details-home/car-details-home",
         "comment-list":"../../../components/car-details/comment-list/comment-list",

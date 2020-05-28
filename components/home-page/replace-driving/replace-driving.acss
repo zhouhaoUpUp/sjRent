@@ -4,9 +4,14 @@ image{
 }
 .rd{
     width: 94%;
-    height: 790rpx;
     margin-left: 3%;
     background-color: #ffffff;
+    margin-top: -32rpx;
+}
+
+.rd-head:nth-child(1){
+    padding-top: 30rpx;
+    height: 30rpx;
 }
 .rd-head-top{
     height: 90rpx;
@@ -145,4 +150,9 @@ button{
     height: 80rpx;
     font-size: 32rpx;
     color: #333333;
+    
+}
+
+.rd-bottom-bottom{
+    height: 20rpx;
 }

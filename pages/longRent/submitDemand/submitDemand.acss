@@ -1,0 +1,207 @@
+.sd-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    height: 142rpx;
+    border-top: 2rpx solid #f5f5f5;
+    border-bottom: 2rpx solid #f5f5f5;
+    padding: 0 38rpx 0 38rpx;
+}
+.sd-head>view>image{
+    height: 16rpx;
+    width: 10rpx;
+    margin-top: 68rpx;
+}
+.sd-head>view:nth-last-child(2n-1){
+    width: 136rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sd-head>view:nth-last-child(2n-1)>view{
+    text-align: center;
+}
+.sd-head>view:nth-last-child(2n-1)>view:nth-child(1){
+    color: #F59A23;
+    border: 1rpx solid #f1f1f1;
+    border-radius: 8rpx 8rpx 0 0;
+    border-bottom: 0;
+}
+.sd-head>view:nth-last-child(2n-1)>view:nth-child(2){
+    border: 1rpx solid #f1f1f1;
+    border-radius: 0 0 8rpx 8rpx;
+    border-top: 0;
+}
+.sd-head>view:nth-last-child(2n-1)>view:nth-child(1)>text:nth-child(1){
+    font-size:28rpx;
+}
+.sd-head>view:nth-last-child(2n-1)>view:nth-child(1)>text:nth-child(2){
+    font-size: 40rpx;
+}
+.sd-head>view:nth-last-child(2n-1)>view:nth-child(2)>text{
+    font-size: 24rpx;
+    color: #333;
+    display: inline-block;
+    margin-bottom: 5rpx;
+    font-weight:bold;
+}
+.sd-body>view>view{
+    display: inline-block;
+    transform: scale(0.8);
+    position: absolute;
+    right: -76rpx;
+    top: 6rpx;
+    width: 86%;
+}
+.sd-body{
+    margin-top: 24rpx;
+}
+.sd-body>view:nth-child(1){
+    margin-left: 30rpx;
+    font-size: 28rpx;
+    font-weight: bold;
+}
+
+.sd-body>view{
+    height: 76rpx;
+    line-height: 76rpx;
+    position: relative;
+}
+.sd-body>view:not(:nth-child(1)){
+    border-bottom: 1rpx solid #F5F5F5;
+}
+.sd-body>view:last-child{
+    border-bottom: 16rpx solid #F5F5F5;
+}
+.sd-body>view>text{
+    display: inline-block;
+    margin-left: 10rpx;
+}
+.sd-body>view>view:last-child{
+}
+.sd-body>view>text:nth-child(1){
+    color: rgb(208, 2, 27)
+}
+.sd-body>view:nth-child(1)>text:nth-child(1){
+    color: #333;
+}
+.sd-body>view:nth-child(2)>text:nth-child(3){
+height:54rpx;
+line-height: 58rpx;
+text-align: center;
+border-radius:8rpx;
+border:1px solid rgba(220,220,220,1);
+padding:0 22rpx 0 22rpx;
+ font-size: 24rpx;
+ margin-left: 114rpx;
+  color: #dcdcdc;
+}
+
+.sd-body>view:nth-child(2)>text:nth-child(4){
+height:54rpx;
+line-height: 58rpx;
+text-align: center;
+border-radius:8rpx;
+border:1px solid rgba(220,220,220,1);
+padding:0 22rpx 0 22rpx;
+ font-size: 24rpx;
+ margin-left: 20rpx;
+ color: #dcdcdc;
+}
+.sd-body>view:nth-child(4)>text:nth-child(3){
+    margin-left: 144rpx;
+    font-size: 26rpx;
+}
+.sd-body>view>text:nth-child(2){
+    font-size: 26rpx;
+    color: #666;
+}
+
+
+
+
+/* 按钮样式 */
+.sd-button{
+    width: 100%;
+    position: fixed;
+    height: 160rpx;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 11;
+}
+
+.sd-button>view:nth-child(1){
+    text-align: center;
+    font-size: 26rpx;
+    color: #9FA5AA;
+    margin-top: 10rpx;
+    margin-bottom: 10rpx;
+}
+.sd-button>view:nth-child(2){
+    width: 80%;
+    margin-left: 10%;
+    height: 80rpx;
+    background-color: #FEDD00;
+    line-height: 80rpx;
+    text-align: center;
+    border-radius:40rpx; 
+}
+
+.sd-rump{
+    margin-top: 24rpx;
+}
+.sd-rump>view:nth-child(1){
+    margin-left: 32rpx;
+}
+.sd-rump>view>image{
+    width: 10rpx;
+    height: 20rpx;
+    }
+.sd-rump>view{
+    height: 76rpx;
+    border-bottom: 2rpx solid #f5f5f5;
+    line-height: 76rpx;
+}
+.sd-rump>view>text{
+    margin-left: 8rpx;
+}
+.sd-rump>view:not(:nth-child(1))>text:nth-child(1){
+    color: rgb(208, 2, 27);
+}
+.sd-rump>view:not(:nth-child(1))>text:nth-child(2){
+    color: #666;
+    font-size: 26rpx;
+}
+
+.sd-rump>view:not(:nth-child(1))>text:nth-child(3){
+    color: #999;
+    font-size: 26rpx;
+    margin-left: 58rpx;
+}
+.sd-rump>view:nth-child(4)>text:nth-child(3){
+    margin-left: 32rpx;
+}
+.sd-rump image{
+    float: right;
+    margin-top: 26rpx;;
+    margin-right: 36rpx;
+}
+
+.sd-input{
+    margin-top: 36rpx;
+    margin-bottom: 160rpx;
+    padding-left: 36rpx;
+    padding-right: 36rpx;
+}
+
+.font{
+    background-color: #f5f5f5;
+    font-size: 26rpx;
+}
+#orderStyle{
+    border: 2rpx solid rgb(253,235, 211);;
+    color:rgba(245,154,35,1);
+    background:rgb(253,235, 211);
+}

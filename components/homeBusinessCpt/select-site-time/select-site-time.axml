@@ -1,78 +1,42 @@
-<mask type="{{type}}" show="{{bgShow}}" maskZindex="{{maskZindex}}"></mask>
-<view class="sst-bg" a:if="{{bgShow}}">
-          <view class="sst-body">
+<view class="sst--bg" a:if="{{bgShow}}">
+  <view class="sst--body">
     <!-- 还车 -->
-      <view class="sst-body-head">
+    <view class="sst--body-head">
       <view>
         <view>取车城市</view>
-        <text>成都</text>
+        <text>成都·武侯区西部智谷D区</text>
       </view>
-      <view>
-         <view>取车地点</view>
-         <text>武侯区西部智谷D区</text>
+      <view a:if="{{show}}">
+        <view>换车城市</view>
+        <text>成都·武侯区西部智谷D区</text>
       </view>
-       <view>
+      <view class="sst--button">
         <view>
-        异地还车
+          <am-switch color="#FEDD00" onChange="switchChange"/>
         </view>
-        <!-- <image mode="scaleToFill" src="../../assets/home/shouye_moren.png"/> -->
-        <view class="sst-changeSize">
-          <am-switch checked="{{false}}" onChange="switch1Change" controlled="{{false}}" color="#FEDD00" id="select"/>
-        </view>
-       </view>
+        <text>异地还车</text>
       </view>
-      <!-- 还车完毕 -->
-      <!-- 异地还车 -->
-      <view class="sst-body-centre" a:if="{{show}}" controlled="{{false}}">
-        <view>
-          <view>还车城市</view>
-          <text>成都市</text>
-        </view>
-        <view>
-          <view>还车地点</view>
-          <text>武侯区西部智谷其他区</text>
-        </view>
-      </view>
-      <!-- 异地还车完毕 -->
-      <!-- 用车还车时间 -->
-        <view class="sst-body-rump">
-          <view>
-            <view>
-            用车时间
-            </view>
-            <view>
-            11月25日
-            </view>
-            <view>
-            周五 09:00
-            </view>
-          </view>
-
-          <view>
-            <text>2天</text>
-            <image mode="scaleToFill" src="../../../assets/home/Home_time2x.png"/>
-          </view>
-
-          <view>
-            <view>
-            还车时间
-            </view>
-            <view>
-            11月27日
-            </view>
-            <view>
-            周日 09:00
-            </view>
-          </view>
-
-        </view>
-        <!-- 还车完毕 -->
-        <view class="sst-rump">
-
-        </view>
-        <button size="default" type="primary" onTap="selectCar">立即选车</button>
-      <view>
-      </view>
-
     </view>
+    <view class="sst--body-body">
+      <view>
+        <text>用车时间</text>
+      </view>
+      <view>
+        <text>11月25日</text><text>11月25日</text>
+      </view>
+      <view>
+        <text>周五 09:00</text><text>周五 09:00</text>
+      </view>
+      <view>
+        <text>2天</text>
+        <image mode="scaleToFill" src="../../../assets/home/Home_time2x.png"/>
+      </view>
+    </view>
+    <view class="sst--botton" onTap="selectCar">
+      <text>立即选车</text>
+    </view>
+    <view style="height:30rpx;">
+      
+    </view>
+  </view>
 </view>

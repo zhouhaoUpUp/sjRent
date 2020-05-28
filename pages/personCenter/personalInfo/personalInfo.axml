@@ -1,0 +1,79 @@
+<view class="content">
+ <!-- 个人信息页面 -->
+ <!-- 分隔条 -->
+    <view class="tiao"> </view>
+    <!-- 选项条列表 -->
+    <!-- 头像单独排列 -->
+    <view class="head">
+    <view class="text"><text>头像</text></view>
+      <view class="img">
+        <image mode="scaleToFill" src="../../../assets/personcenter/Personal_icon02@3x.png"/>
+      </view>
+      <view class="img2">
+             <image mode="scaleToFill" src="../../../assets/personcenter/Personal_more@2x.png"/> 
+      </view>
+    </view>
+  <!--分隔条  -->
+    <view class="tiao2"></view>
+    <!-- 个人信息选项卡 -->
+    <view class="personlist">
+      <view>
+        <text class="txt">昵称</text>
+        <view class="list">
+          <text>{{petName}}</text>
+          <image mode="scaleToFill" src="../../../assets/personcenter/Personal_more@2x.png"/> 
+        </view>
+      </view>
+ <!--分隔条  -->
+    <view class="tiao2"></view>
+      <view>
+        <text class="txt">生日</text>
+        <view class="list" onTap="datePicker">
+          <text>{{birthday}}</text>
+          <image mode="scaleToFill" src="../../../assets/personcenter/Personal_more@2x.png"/> 
+        </view>
+      </view>
+       <!--分隔条  -->
+    <view class="tiao2"></view>
+      <view>
+        <text class="txt">城市</text>
+        <view class="list" onTap="openMultiLevelSelect">
+          <text>{{city}}</text>
+          <image mode="scaleToFill" src="../../../assets/personcenter/Personal_more@2x.png"/> 
+        </view>
+      </view>
+       <!--分隔条  -->
+    <view class="tiao2"></view>
+      <view>
+        <text class="txt">手机号</text>
+        <view class="list">
+          <text>{{mobile}}</text>
+          <image mode="scaleToFill" src="../../../assets/personcenter/Personal_more@2x.png"/> 
+        </view>
+      </view>
+       <!--分隔条  -->
+    <view class="tiao2"></view>
+      <view>
+        <text class="txt">邮箱</text>
+        <view class="list">
+          <text>{{email}}</text>
+          <image mode="scaleToFill" src="../../../assets/personcenter/Personal_more@2x.png"/> 
+        </view>
+      </view>
+       <!--分隔条  -->
+    <view class="tiao"></view>
+     <!-- 驾照认证 -->
+      <view>
+        <text class="txt">驾照认证</text>
+        <view class="list">
+          <text>{{licenseType}}</text>
+          <image mode="scaleToFill" src="../../../assets/personcenter/Personal_more@2x.png"/> 
+        </view>
+      </view>
+    </view>
+   <!-- 底部退出登陆按钮 -->
+  <view class="footer">
+    <button size="default" type="primary" class="btn">退出登录</button>
+  </view>
+   
+</view>

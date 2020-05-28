@@ -1,6 +1,6 @@
 .cd-top {
+    width: 630rpx;
     height: 136rpx;
-    border-bottom: 16rpx solid rgba(245,245,245,1);
     display: flex;
     flex-direction: row;
     padding-left: 16rpx;
@@ -8,12 +8,11 @@
 }
 
 .cd-top>view {
-    width: 124rpx;
+    min-width: 124rpx;
     height: 124rpx;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 1rpx solid #ff0000; */
     border-radius: 4px;
 }
 
@@ -43,6 +42,8 @@
     background: linear-gradient(180deg, rgba(193, 193, 193, 1) 0%, rgba(255, 255, 255, 1) 100%);
     display: none;
 }
+
+
 
 .time-bg{
     background-color: #FEDD00;

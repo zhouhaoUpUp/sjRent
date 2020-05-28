@@ -1,0 +1,22 @@
+<view>
+  <view>
+    <text class="tital">扣费规则</text>
+  </view>
+  <view class="cont1">
+    <view class="role1">
+      <text>订单提前还车扣费规则：</text>
+    </view>
+    <view class="roles">
+      <text>1、退款会在确认后3-15个工作日内返还至您原支付账户；</text>
+    </view>
+    <view class="roles">
+      <text>2、距离订单行程结束大于24小时的，将扣除违约金（违约金计算方式为：剩余租金计算出平均日租金的一天的费用）；</text>
+    </view>
+     <view class="roles">
+      <text>3、不作退还费用：手续费、保险、附加服务</text>
+    </view>
+    <view class="roles">
+      <text>4、退款到账日期以银行为准，如超3-15个工作日未到账，请至您的银行卡发卡行客服查询。</text>
+    </view>
+  </view>
+</view>

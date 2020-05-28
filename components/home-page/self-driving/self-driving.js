@@ -2,7 +2,8 @@ Component({
   mixins: [], // minxin 方便复用代码
   data: { 
     x: 1 ,
-    show:false
+    show:false,
+    stateUseCarImage:"../../assets/home/Home_Selection_N2x.png"
   }, // 组件内部数据
   props: { 
         sendData:{
@@ -22,12 +23,33 @@ Component({
        this.setData({
          show:e.detail.value
        })
-      console.log('switch1 发生 change 事件，携带值为', e.detail.value);
     },
     goCarList(e){
-      my.navigateTo({
+      if(this.data.stateUseCarImage==="../../assets/home/Home_Selection_N2x.png"){
+            my.navigateTo({
         url: '../../../pages/homeBusiness/carList/carList'
       });
+      }else{
+        my.navigateTo({
+          url:'../../../pages/homeBusiness/selectSection/selectSection'
+        })
+      }
+
+    },
+    stateUseCar(){
+      if(this.data.stateUseCarImage==="../../assets/home/Home_Selection_N2x.png"){
+              this.setData({
+        stateUseCarImage:"../../assets/home/Home_Selection2x.png"
+      })
+        // my.navigateTo({
+        //   url:""
+        // })
+      }else{
+              this.setData({
+        stateUseCarImage:"../../assets/home/Home_Selection_N2x.png"
+      })
+      }
+
     }
   },
 })

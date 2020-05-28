@@ -1,6 +1,8 @@
 {
+     "defaultTitle": "选择部门",
     "usingComponents": {
-            "checkbox": "../../../node_modules/mini-ali-ui/es/am-checkbox/index",
-            "cost-detail":"../../../components/homeBusinessCpt/cost-detail/cost-detail"
+            "checkbox": "mini-ali-ui/es/am-checkbox/index",
+            "cost-detail":"../../../components/homeBusinessCpt/cost-detail/cost-detail",
+            "popup": "mini-ali-ui/es/popup/index"
     }
 }

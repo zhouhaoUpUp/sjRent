@@ -1,5 +1,5 @@
 <view>
-  <view class="cd-top">
+  <scroll-view class="cd-top" scroll-x>
     <view a:for="{{dateWeekPrice}}" class="{{index===0?'time-bg':''}}" >
       <view>
         {{item.date}}
@@ -11,7 +11,8 @@
         {{item.price}}
       </view>
     </view>
-  </view>
+  </scroll-view>
+  <view style="border-bottom: 16rpx solid rgba(245,245,245,1);"></view>
   <view class="cd-top-right">
     <view>
     </view>

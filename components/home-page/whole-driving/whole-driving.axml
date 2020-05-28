@@ -79,5 +79,8 @@
 
         </view>
         <!-- 还车完毕 -->
-    <button size="default" type="primary" >立即选车</button>
+    <button size="default">立即选车</button>
+  <view class="wd-bottom-bottom" style="height:20rpx;">
+    
+  </view>
 </view>

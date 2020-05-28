@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "城市列表",
+  "usingComponents":{
+    "alphabet": "mini-ali-ui/es/list/alphabet/index",
+    "am-icon": "mini-ali-ui/es/am-icon/index",
+    "search-bar": "mini-ali-ui/es/search-bar/index"
+  }
+}

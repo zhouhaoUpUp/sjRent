@@ -1,10 +1,3 @@
-.am-checkbox-synthetic.am-checkbox-checked::before{
-    background-color:#FEDD00;
-    background-color:var(--am-checkbox-background,#FEDD00);
-    border-color:#FEDD00;
-    border-color:var(--am-checkbox-background,#FEDD00);
-    border-width:0}
-
 .head{
     height: 88rpx;
     line-height: 88rpx;
@@ -16,24 +9,79 @@
     color: #333;
     font-size: 32rpx;
 }
-.body{
-    height: 100rpx;
-    border-bottom: 1rpx solid rgba(245,245,245,1);
+.radio {
+  display: block;
+  border-bottom: 2rpx solid #f5f5f5;
+  height: 104rpx;
+  line-height: 104rpx;
+  background-color: #f5f5f5;
 }
-.body>view:nth-child(1){
-    float: left;
-    margin-top: 25rpx;
+.radio-text {
+}
+.radio>radio{
+    margin-top: 30rpx;
     margin-left: 32rpx;
-    transform: scale(0.8);
+    margin-right: 32rpx;
+    color: #FEDD00;
 }
-.body>view:nth-child(2){
-    height: 100rpx;
-    float: left;
-    margin-left: 16rpx;
+.radio image{
+    height: 24rpx;
+    width: 12rpx;
+    float: right;
+    margin-right: 38rpx;
+    margin-top: 40rpx;
+}
+.ss-botton{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* border: 1rpx solid red; */
+    height: 160rpx;
+    background: #f5f5f5;
+}
+.ss-botton text{
+    display: inline-block;
+    width: 80%;
+    height: 80rpx;
+    margin-left: 10%;
+    margin-top: 40rpx;
+    background: #FEDD00;
+    text-align: center;
+    line-height: 80rpx;
+    font-size: 32rpx;
+    color: #333;
+    border-radius: 8rpx;
+}
+.bg{
+    position: fixed;
+    background: #f5f5f5;
+    width: 100%;
+    height: 100%;
+}
 
+
+.ss-body>view{
+    height: 104rpx;
+    width: 100%;
+    line-height: 104rpx;
 }
-.body>view:nth-child(2)>text{
-    line-height: 100rpx;
+.ss-body>view>image:nth-child(1){
+    float: left;
+    width: 32rpx;
+    height: 32rpx;
+    border-radius:16rpx; 
+    margin-top: 34rpx;
+    margin-left: 32rpx;
+    margin-right: 32rpx;
+}
+.ss-body>view>text{
     font-size: 30rpx;
     color: #000;
+}
+.ss-body>view>image:nth-child(3){
+    height: 24rpx;
+    width: 12rpx;
+    float: right;
+    margin-right: 38rpx;
+    margin-top: 40rpx;
 }

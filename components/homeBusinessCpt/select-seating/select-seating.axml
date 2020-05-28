@@ -1,4 +1,3 @@
-<mask type="{{type}}" show="{{sccBgShow}}" maskZindex="{{maskZindex}}"></mask>
 
 <view class="ss-bg">
 <view class="ss-head">

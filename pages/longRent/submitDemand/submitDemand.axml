@@ -1,0 +1,149 @@
+<view>
+  <view class="sd-head">
+    <view>
+      <view>
+      <text>STER</text><text>.1</text>
+      </view>
+      <view>
+      <text>提交需求</text>
+      </view>
+    </view>
+
+    <view>
+      <image mode="scaleToFill" src="../../../assets/submitDemandImg/Personal_more2x.png"/>
+    </view>
+
+    <view>
+      <view>
+      <text>STER</text><text>.2</text>
+      </view>
+      <view>
+      <text>电话沟通</text>
+      </view>
+    </view>
+
+    <view>
+      <image mode="scaleToFill" src="../../../assets/submitDemandImg/Personal_more2x.png"/>
+    </view>
+
+    <view>
+      <view>
+      <text>STER</text><text>.3</text>
+      </view>
+      <view>
+      <text>确认细节</text>
+      </view>
+    </view>
+
+    <view>
+      <image mode="scaleToFill" src="../../../assets/submitDemandImg/Personal_more2x.png"/>
+    </view>
+
+    <view>
+      <view>
+      <text>STER</text><text>.4</text>
+      </view>
+      <view>
+      <text>签约用车</text>
+      </view>
+    </view>
+  </view>
+  <view class="sd-body">
+  <view>
+    <text>客户信息</text>
+  </view>
+    <view>
+      <text>*</text>
+      <text>订单类型</text>
+      <text a:for="{{order}}" onTap="orderFN" data-name="{{item,index}}" id="{{index===orderIndex?'orderStyle':''}}">{{item}}</text>
+    </view>
+
+    <view hidden="{{orderIndex===0}}">
+      <text>*</text>
+      <text>企业名称</text>
+      <view>
+        <input placeholder="请输入企业名称" />
+      </view>
+    </view>
+
+    <view>
+      <text>*</text>
+      <text>联系人</text>
+        <text>邓福舰</text>
+    </view>
+    <view>
+      <text>*</text>
+      <text>联系电话</text>
+      <view>
+        <input placeholder="请填写联系电话" />
+      </view>
+    </view>
+
+    <view hidden="{{orderIndex===0}}">
+      <text>*</text>
+      <text>企业邮箱</text>
+      <view>
+        <input placeholder="请输入企业邮箱" />
+      </view>
+    </view>
+  </view>
+  <view class="sd-rump">
+    <view>
+      <text>用车信息</text>
+    </view>
+    <view>
+      <text>*</text>
+      <text>取车城市</text>
+      <text>请选择取车城市</text>
+      <image mode="scaleToFill" src="../../../assets/submitDemandImg/Personal_more2x.png"/>
+    </view>
+    <view>
+      <text>*</text>
+      <text>用车周期</text>
+      <text>2020.05.19—2020.6.20</text>
+      <image mode="scaleToFill" src="../../../assets/submitDemandImg/Personal_more2x.png"/>
+    </view>
+    <view onTap="driver">
+      <text>*</text>
+      <text>是否带司机</text>
+      <text>{{driverData?driverData:"请选择"}}</text>
+      <image mode="scaleToFill" src="../../../assets/submitDemandImg/Personal_more2x.png"/>
+    </view>
+  </view>
+<view class="sd-input">
+    <view>
+        <multi-liner data-field="area" 
+              placeholder="备注：如有特殊要求，请说明。" 
+              type="text" 
+              value="{{value}}" 
+              placeholderStyle="font-size:26rpx;"
+              onInput="onInput" 
+              last="{{true}}" 
+              auto-height="{{true}}" 
+              controlled="{{controlled}}"
+              inputCls="font"/>
+    </view>
+</view>
+  <view class="sd-button">
+    <view>
+      <text>提交成功后，我们会主动联系您，沟通详细用车需求</text>
+    </view>
+    <view onTap="submit">
+      <text>提交用车需求</text>
+    </view>
+  </view>
+</view>
+<view style="z-index:12;position: relative;">
+  <popup show="{{hint}}" position="top" >
+    <hint a:if="{{hint}}"/>
+  </popup>
+</view>
+
+<view style="z-index:12;position: relative;">
+  <popup show="{{driverShow}}" position="bottom" >
+    <carry-driver a:if="{{driverShow}}" onCarryDriver="toCarryDriver" onCarryDriverSuer="toCarryDriverSuer"/>
+  </popup>
+</view>
+
+
+

@@ -1,7 +1,7 @@
 <!-- 选择时间组件 -->
-<select-site-time/>
+<!-- <select-site-time/> -->
 <view>
-  <view class="top">
+  <view class="top" onTap="selectTimeFN">
     <view>
     西部智谷D区
     </view>
@@ -266,7 +266,8 @@
       <image mode="scaleToFill" src="../../../assets/carList/Label_more2x.png"/>
     </view>
     </view>
-  </view>  <view class="body">
+  </view>  
+  <view class="body">
     <view class="body-head">
       <image mode="scaleToFill" src="../../../assets/carList/ea58745d7a1da867f995dd75ee89960.png"/>
       <view class="body-head-right">
@@ -315,10 +316,25 @@
 <!-- 重复类容完毕*----------------------------------------------------- -->
 </view>
 <!-- 选择车辆类型组件 -->
+ <popup show="{{carClassState}}" position="bottom"  onCarClassShow="toCarClassShow">
 <select-car-class a:if="{{carClassState}}" onCarClassShow="toCarClassShow"/>
+ </popup>
 <!-- 座位数组件 -->
+<popup show="{{seatAmountState}}" position="bottom" onSeatingShow="toSeatingShow">
 <select-seating a:if="{{seatAmountState}}" onSeatingShow="toSeatingShow"/>
+</popup>
+
 <!-- 供应商选择 -->
-<select-supplier a:if="{{supplyState}}" onSupplier="toSupplier"/>
+<popup show="{{supplyState}}" position="bottom" onSupplier="toSupplier">
+  <select-supplier a:if="{{supplyState}}" onSupplier="toSupplier"/>
+</popup>
+
 <!-- 排序组件 -->
-<select-sort a:if="{{filtrSteta}}" onSort="toSort"/>
+<popup show="{{filtrSteta}}" position="bottom" onSort="toSort">
+  <select-sort a:if="{{filtrSteta}}" onSort="toSort"/>
+</popup>
+
+<!-- 选择时间 -->
+<popup show="{{selectTime}}" position="top" onSelectTime="toSelectTime">
+  <select-site-time onSelectTime="toSelectTime" a:if="{{selectTime}}"/>
+</popup>

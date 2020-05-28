@@ -1,4 +1,3 @@
-<mask type="{{type}}" show="{{sccBgShow}}" maskZindex="{{maskZindex}}"></mask>
 
 <view>
   New Component

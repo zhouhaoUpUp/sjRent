@@ -4,6 +4,7 @@
     border-radius:8rpx 8rpx 0px 0px;
     margin-left: 3%;
     position: relative;
+    background-color: #fff;
 }
 .rdn-head-top>image{
     width: 50%;

@@ -1,0 +1,6 @@
+<view class="hint">
+  <view>
+    <image mode="scaleToFill" src="../../../assets/carList/huanggougou.png"/>
+    <text>您的订车需求已提交成功，请等待客服联系</text>
+  </view>
+</view>

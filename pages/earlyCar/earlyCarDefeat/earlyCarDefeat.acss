@@ -1,0 +1,55 @@
+.content{
+  display: flex;
+  flex-direction: column;
+}
+
+/* 信息提示 */
+.infomation{
+  height: 84rpx;
+}
+.infomation text{
+  line-height: 84rpx;
+  margin-left: 30rpx;
+}
+
+/* 底部样式 */
+.footer{
+  width: 100%;
+  height: 460rpx;
+  /* border:1rpx solid red; */
+}
+.footer view:nth-child(1){
+  width: 100%;
+  height: 360rpx;
+}
+.footer view:nth-child(2){
+  height: 100rpx;
+  width: 100%;
+  /* border:1px solid red; */
+}
+.footer view:nth-child(2)>text{
+  line-height:100rpx;
+}
+.footer view:nth-child(2)>text:first-child{
+  margin-left: 22rpx;
+}
+/* 底部按钮样式 */
+ button{
+	width: 160rpx;
+	height: 60rpx;
+	border-radius: 32rpx;
+	display: inline-block;
+	font-size: 26rpx;
+	vertical-align: middle;
+  background-color: white !important;
+  border: 1px solid #D7D7D7;
+  color:black;
+}
+.btn_1{
+	line-height: 60rpx;
+	margin-left: 50%;
+}
+.btn_2{
+	line-height: 60rpx;
+  margin-left: 20rpx;
+}

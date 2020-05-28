@@ -1,7 +1,11 @@
 .body {
-    height: 594rpx;
     width: 94%;
     margin-left: 3%;
+    position: relative;
+    z-index: 2;
+    border: 1rpx solid #fff;;
+    background-color: #fff;
+    border-radius:8rpx;
 }
 
 .body-head {
@@ -225,6 +229,9 @@
 }
 .rump{
     height: 32rpx;
+    position: relative;
+    z-index: 2;
+    left: 28rpx;
 }
 .rump>image{
     width: 22rpx;
@@ -243,9 +250,12 @@ button{
     background-color: #FEDD00;
     border: 0;
     color: #333333;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 40rpx;
 }
 .changeSize{
-    transform: scale(0.7);
+    transform: scale(0.6);
     padding: 0;
     width: 66rpx;
     height: 40rpx

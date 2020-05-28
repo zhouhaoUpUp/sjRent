@@ -61,4 +61,7 @@
   </view>
   {{name}}
   <button size="default" type="primary">立即选车</button>
+  <view class="rd-bottom-bottom">
+    
+  </view>
 </view>

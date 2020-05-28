@@ -3,7 +3,8 @@ Component({
   data: {
     type: 'market',
     maskZindex: 10,
-    bgShow:false,
+    bgShow:true,
+    show:false
   },
   props: {},
   didMount() {},
@@ -17,9 +18,14 @@ Component({
       console.log('switch1 发生 change 事件，携带值为', e.detail.value);
     },
     selectCar(){
-             this.setData({
-        bgShow:false
-       })
+      console.log(111)
+       this.props.onSelectTime({show:false})
+    },
+    switchChange(e){
+        console.log(e.detail.value)
+        this.setData({
+          show:e.detail.value
+        })
     }
   },
 });

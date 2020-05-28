@@ -1,4 +1,4 @@
-
+let myRequest = require('/utils/api.js')
 App({
   onLaunch(options) {
     // 第一次打开
@@ -10,7 +10,4 @@ App({
     // options.query == {number:1}
   },
 
-
-
-  
 });

@@ -1,0 +1,81 @@
+<view>
+  <view>
+  <view>
+     <search-bar
+   value="{{value}}"
+   focus="{{true}}"
+   disabled="{{false}}"
+   maxLength="{{20}}"
+   showVoice="{{showVoice}}"
+   placeholder="输入城市查询"
+   onBlur="getData"
+   showCancelButton="{{false}}" />
+  </view>
+
+  <view class="cl-body-top">
+    <text>当前城市</text><text>成都市</text>
+  </view>
+
+  <view class="cl-body-body">
+    <view>
+      热门城市
+    </view>
+    <view>
+      <text>成都</text>
+    </view>
+        <view>
+      <text>三大按我</text>
+    </view>
+        <view>
+      <text>热儿阿赫哥</text>
+    </view>
+        <view>
+      <text>个人而</text>
+    </view>
+        <view>
+      <text> 热个人更</text>
+    </view>
+        <view>
+      <text>如果而</text>
+    </view>
+        <view>
+      <text>成都</text>
+    </view>
+            <view>
+      <text>个人而</text>
+    </view>
+        <view>
+      <text> 热个人更</text>
+    </view>
+        <view>
+      <text>如果而</text>
+    </view>
+        <view>
+      <text>成都</text>
+    </view>
+            <view>
+      <text>个人而</text>
+    </view>
+        <view>
+      <text> 热个人更</text>
+    </view>
+        <view>
+      <text>如果而</text>
+    </view>
+        <view>
+      <text>成都</text>
+    </view>
+  </view>
+  <view class="cl-rump">
+    <view>
+        <text>成都</text>
+    </view>
+  </view>
+  </view>
+  <view style="position: relative; height: 100vh;">
+    <alphabet alphabet="{{alphabet}}" onClick="onAlphabetClick">
+      <view slot="prefix">
+        <am-icon size="12" type="check_"/></view>
+    </alphabet>
+  </view>
+</view>

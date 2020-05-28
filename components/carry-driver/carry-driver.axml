@@ -1,0 +1,14 @@
+<view class="carry-body">
+  <view>
+    <text onTap="cancelFN">取消</text>
+    <text onTap="makeSureFN">确定</text>
+  </view>
+  <view>
+      <picker-view value="{{value}}" onChange="onChange" class="my-picker">
+        <picker-view-column>
+          <view>是</view>
+          <view>否</view>
+        </picker-view-column>
+      </picker-view>
+  </view>
+</view>

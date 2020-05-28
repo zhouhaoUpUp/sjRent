@@ -65,11 +65,11 @@
 
         </view>
         <!-- 还车完毕 -->
-        <view class="rump">
-          <image mode="scaleToFill" src="../../assets/home/Details_label2x.png"/>
+        <view class="rump" onTap="stateUseCar">
+          <image mode="scaleToFill" src="{{stateUseCarImage}}"/>
           <view>政企用车</view>
         </view>
-        <button size="default" type="primary" onTap="goCarList">立即选车</button>
+        <button size="default" onTap="goCarList">立即选车</button>
       <view>
       </view>
 

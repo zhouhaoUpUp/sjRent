@@ -4,10 +4,16 @@ Page({
     carClassState:false,
     seatAmountState:false,
     supplyState:false,
-    filtrSteta:false
+    filtrSteta:false,
+    selectTime:false,
   },
   onLoad() {},
   //组件点击显示的方法
+  selectTimeFN(){
+    this.setData({
+      selectTime:true
+    })
+  },
   carClassPopUp(){
     this.setData({
       carClassState:true
@@ -50,7 +56,12 @@ Page({
       filtrSteta:e.show
     })
   },
-  
+  toSelectTime(e){
+    this.setData({
+      selectTime:e.show
+    })
+
+  },
   nextPage(){
     my.navigateTo({
       url: '../rentCarCompany/rentCarCompany'

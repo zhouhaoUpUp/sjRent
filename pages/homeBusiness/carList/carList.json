@@ -1,11 +1,12 @@
 {
-"navigationStyle":"custom",
-      "usingComponents": {
-    "select-site-time":"../../../components/homeBusinessCpt/select-site-time/select-site-time",
+"defaultTitle":"车辆列表",
+    "usingComponents": {
     "mask": "../../../node_modules/mini-ali-ui/es/mask/index",
     "select-car-class":"../../../components/homeBusinessCpt/select-car-class/select-car-class",
     "select-seating":"../../../components/homeBusinessCpt/select-seating/select-seating",
     "select-supplier":"../../../components/homeBusinessCpt/select-supplier/select-supplier",
-    "select-sort":"../../../components/homeBusinessCpt/select-sort/select-sort"
+    "select-sort":"../../../components/homeBusinessCpt/select-sort/select-sort",
+    "select-site-time":"../../../components/homeBusinessCpt/select-site-time/select-site-time",
+    "popup": "mini-ali-ui/es/popup/index"
   }
 }

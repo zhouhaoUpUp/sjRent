@@ -1,258 +1,116 @@
- .sst-bg{
-    width: 100%;position: relative;
-    background-color: rgb(255, 255, 255);
-    border: 1rpx solid #ff0000;
-    z-index: 11;
-}
-.sst-body {
-    width: 94%;
-    margin-left: 3%;
-}
-
-.sst-body-head {
+.sst--bg{
+    position: fixed;
+    top: 0;
     width: 100%;
-    border-bottom: 1rpx solid #FAF9F9;
+    border-radius:0; 
+    z-index: 15;
+    background: #fff;
 }
-
-.sst-body-head>view {
-}
-
-.sst-body-head>view:nth-child(1) {
-    height: 110rpx;
+.sst--body{
     position: relative;
-    width: 176rpx;
-    float: left;
 }
-
-.sst-body-head>view:nth-child(1)>view {
-    font-size: 24rpx;
-    color: #999999;
-    position: absolute;
-    left: 30rpx;
-    top: 18rpx;
-}
-
-.sst-body-head>view:nth-child(1)>text {
-    display: inline-block;
-    font-size: 32rpx;
-    color: #333333;
-    font-family: Medium;
-    margin-top: 66rpx;
+.sst--body-head{
     margin-left: 30rpx;
+    margin-top: 16rpx;
+    overflow: hidden;
 }
-
-.sst-body-head>view:nth-child(2) {
-    height: 110rpx;
-    position: relative;
-    float: left;
-    width: 388rpx;
-}
-
-.sst-body-head>view:nth-child(2)>view {
+.sst--body-head>view>view:nth-child(1){
     font-size: 24rpx;
-    color: #999999;
-    position: absolute;
-    top: 18rpx;
+    color: #999;
+    margin-top: 22rpx;
 }
-
-.sst-body-head>view:nth-child(2)>text {
+.sst--body-head>view>text{
     display: inline-block;
     font-size: 32rpx;
-    color: #333333;
-    font-family: Medium;
-    margin-top: 66rpx;
-}
-
-.sst-body-head>view:nth-child(3) {
-    height: 110rpx;
-    position: relative;
-}
-
-.sst-body-head>view:nth-child(3)>view {
-    font-size: 24rpx;
-    color: #999999;
-    margin-top: 18rpx;
-    float: right;
-    margin-right: 32rpx
-}
-
-.sst-body-head>view:nth-child(3)>#select{
-    float: right;
-    margin-right: 32rpx;
+    color: #333;
+    font-weight: bold;
     margin-top: 14rpx;
-    width: 66rpx;
-    height: 40rpx;
-}
-/* .am-switch .checkbox{
-    width: 66rpx;
-    height: 40rpx;
 }
 
-.am-switch .checkbox:after{
-    width: 30rpx;
-    height: 30rpx;
-} */
-.sst-body-centre {
-    height: 110rpx;
-}
-
-.sst-body-centre>view:nth-child(1) {
-    height: 110rpx;
-    position: relative;
-    width: 176rpx;
-    float: left;
-}
-
-.sst-body-centre>view:nth-child(1)>view {
-    font-size: 24rpx;
-    color: #999999;
-    position: absolute;
-    left: 30rpx;
-    top: 18rpx;
-}
-
-.sst-body-centre>view:nth-child(1)>text {
+.sst--body-head>.sst--button>view{
     display: inline-block;
-    font-size: 32rpx;
-    color: #333333;
-    font-family: Medium;
-    margin-top: 66rpx;
-    margin-left: 30rpx;
-}
-
-.sst-body-centre>view:nth-child(2) {
-    height: 110rpx;
+     transform: scale(0.6);
     position: relative;
+    margin-top: -50rpx;
+    top: -20rpx;
+    left: -20rpx;
     float: left;
-    width: 388rpx;
+    margin-bottom: -20rpx;
 }
-
-.sst-body-centre>view:nth-child(2)>view {
-    font-size: 24rpx;
-    color: #999999;
-    position: absolute;
-    top: 18rpx;
-}
-
-.sst-body-centre>view:nth-child(2)>text {
+.sst--body-head>.sst--button>text{
     display: inline-block;
-    font-size: 32rpx;
-    color: #333333;
-    font-family: Medium;
-    margin-top: 66rpx;
-}
-
-.sst-body-rump {
-    height: 154rpx;
-    position: relative;
-}
-
-.sst-body-rump>view:nth-child(1) {
+    margin-top: 20rpx;
     float: left;
-    height: 154rpx;
-    margin-left: 30rpx;
-}
-
-.sst-body-rump>view:nth-child(1)>view:nth-child(1) {
-    color: #999999;
     font-size: 24rpx;
-    margin-top: 20rpx;
+    font-weight: bolder;
+    margin-left: -20rpx;
+    margin-bottom: -20rpx;
 }
 
-.sst-body-rump>view:nth-child(1)>view:nth-child(2) {
-    color: #333333;
-    font-size: 36rpx;
-    margin-top: 12rpx;
-}
-
-.sst-body-rump>view:nth-child(1)>view:nth-child(3) {
-    color: #999999;
-    font-size: 28rpx;
-}
-
-
-
-.sst-body-rump>view:nth-child(3) {
-    position: absolute;
-    float: right;
-    height: 154rpx;
-    right: 30rpx;
-
-}
-
-.sst-body-rump>view:nth-child(3)>view:nth-child(1) {
-    color: #999999;
-    font-size: 24rpx;
-    margin-top: 20rpx;
-    text-align: right;
-}
-
-.sst-body-rump>view:nth-child(3)>view:nth-child(2) {
-    color: #333333;
-    font-size: 36rpx;
-    margin-top: 12rpx;
-    text-align: right;
-}
-
-.sst-body-rump>view:nth-child(3)>view:nth-child(3) {
-    color: #999999;
-    font-size: 28rpx;
-    text-align: right;
-}
-
-
-.sst-body-rump>view:nth-child(2) {
-    height: 100rpx;
-    width: 100rpx;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-}
-.sst-body-rump>view:nth-child(2)>text{
-    font-size: 28rpx;
-    color: #999999;
-    width: 46rpx;
-    height: 40rpx;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-}
-.sst-body-rump>view:nth-child(2)>image{
+.sst--body-body image{
+    width: 92rpx;
     height: 14rpx;
-    width: 96rpx;
-    margin-top: 70rpx
 }
-.sst-rump{
-    height: 32rpx;
+.sst--body-body{
+    margin-top: 10rpx;
+    position: relative;
+    margin-left: 30rpx;
+    margin-right: 30rpx;
 }
-.sst-rump>image{
-    width: 22rpx;
-    height: 22rpx;
-    float: left;
-    margin-top: 2rpx;
-    margin-left: 6rpx;
+.sst--body-body>view:nth-child(1){
+    font-size: 24rpx;
+    color: #999;
 }
-.sst-rump>view{
-        float: left;
-    font-size: 22rpx;
-    color: #999999;
-    margin-left: 6rpx;
+.sst--body-body>view:nth-child(2){
+    margin-top: 12rpx;
+    font-size: 36rpx;
+    color: #333;
+    font-weight: bold;
 }
-button{
-    background-color: #FEDD00;
-    border: 0;
-    color: #333333;
-    margin-bottom: 30rpx;
+.sst--body-body>view:nth-child(2)>text:nth-child(2){
+    float: right;
 }
-.sst-changeSize{
-    transform: scale(0.7);
-    padding: 0;
-    width: 66rpx;
-    height: 40rpx
+
+.sst--body-body>view:nth-child(3){
+    font-size: 28rpx;
+    color: #999;
+}
+.sst--body-body>view:nth-child(3)>text:nth-child(2){
+    float: right;
+
+}
+.sst--body-body>view:nth-child(4){
+    height: 30rpx;
+    width: 92rpx;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+.sst--body-body>view:nth-child(4)>text{
+    font-size: 28rpx;
+    color: #999;
+    margin-bottom: -20rpx;
+}
+.sst--body-body>view:nth-child(4)>image{
+    position: relative;
+    left: -10rpx;
+    top: -6rpx;
+}
+.sst--botton{
+    width:90%;
+height:80rpx;
+background:rgba(254,221,0,1);
+border-radius:8rpx;
+margin-left: 5%;
+margin-top: 38rpx;
+line-height: 80rpx;
+text-align: center;
+}
+.sst--botton>text{
+    color: #333;
+    font-size: 32rpx;
 }

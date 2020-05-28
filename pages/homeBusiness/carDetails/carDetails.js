@@ -21,6 +21,22 @@ Page({
         date:"11月25日",
         week:"周一",
         price:"￥129"
+      },{
+        date:"11月25日",
+        week:"周一",
+        price:"￥129"
+      },{
+        date:"11月25日",
+        week:"周一",
+        price:"￥129"
+      },{
+        date:"11月25日",
+        week:"周一",
+        price:"￥129"
+      },{
+        date:"11月25日",
+        week:"周一",
+        price:"￥129"
       }
     ]
     ,carDetailsList:[

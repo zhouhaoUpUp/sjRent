@@ -48,3 +48,40 @@
     border-radius: 18rpx;
     margin-right: 10rpx;
 }
+
+.as-body>view:nth-child(1){
+    color: #333;
+    font-size: 28rpx;
+    float: left;
+    font-size: 28rpx;
+    color: #333;
+    line-height: 96rpx;
+}
+.as-body>view:nth-child(1)>text:nth-child(1){
+    display: inline-block;
+    width: 32rpx;
+    height: 32rpx;
+    line-height: 32rpx;
+    font-size: 24rpx;
+    color: #fff;
+    text-align: center;
+    background-color: #F7B500;
+    margin-left: 26rpx;
+    margin-right: 6rpx;
+    border-radius: 16rpx;
+}
+.as-body>view:nth-child(2){
+display: inline-block;
+    float: right;
+    font-size: 28rpx;
+    color: #999;;
+    line-height: 96rpx;
+    margin-right: 24rpx;
+}
+.as-body>view:nth-child(2)>text{
+    margin-right: 24rpx;
+}
+.as-body{
+    height: 96rpx;
+    border-bottom: 2rpx solid rgb(245, 245, 245);
+}

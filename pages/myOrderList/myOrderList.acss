@@ -10,6 +10,8 @@
 /* 订单上边距 */
 .mart{
   margin-top:16rpx;
-  margin-left: 1%;
+}
+.content{
+  margin-left:-20rpx !important; 
 }
 
