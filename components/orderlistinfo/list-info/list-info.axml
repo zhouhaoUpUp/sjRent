@@ -131,7 +131,7 @@
       </view>
       <view class="viewTwo">
         <text class="marr">{{contactWay}}</text>
-				<image mode="scaleToFill" class="phoneImg" src="../../../assets/orderListimg/Order_phone@2x.png"/>
+				<image mode="scaleToFill" class="phoneImg" src="../../../assets/orderListimg/Order_phone2x.png"/>
       </view>
     </view>
   </view>

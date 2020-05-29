@@ -1,0 +1,13 @@
+<view class="secCom">
+<!-- 送车中状态 -->
+
+    <view  class="txt1_sendcar">
+    <text> 等待司机到达</text>
+    <view class="txt2_sendcar">
+    <text >司机即将到达，请及时前往用车地点</text>
+    </view>
+    <view class="image">
+     <image mode="scaleToFill" src="../../../assets/orderListImg/Order_wait2x.png"/>
+     </view>
+    </view>
+</view>

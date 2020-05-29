@@ -1,0 +1,11 @@
+<view class="content">
+<!-- 政企认证列表 -->
+    <view>
+      <text>成都深驾科技有限公司</text>
+    </view>
+    <govlisttype></govlisttype>
+     <govlisttype></govlisttype>
+      <govlisttype></govlisttype>
+
+      <button size="default" class="btn" >申请政企认证</button>
+</view>

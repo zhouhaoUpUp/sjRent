@@ -1,0 +1,48 @@
+
+.header{
+  margin-top:10rpx; 
+  position: relative;
+}
+.head{
+  height: 36rpx;
+  margin-top:30rpx;
+}
+
+.header image{
+  width: 176rpx;
+  height: 176rpx;
+  position: absolute;
+  top:0rpx;
+  left: 544rpx;
+}
+
+button{
+  width:630rpx;
+  height:80rpx;
+  border-radius:40rpx;
+  border:1px solid rgba(197,197,197,1);
+  background-color: white;
+  line-height:80rpx;
+  color: black;
+  position: fixed;
+  top: 950rpx;
+  left: 60rpx;
+}
+
+.cause{
+  margin-top: 44rpx;
+  font-size: 22rpx;
+}
+
+/* 前两个间距 */
+.marg{
+  margin-left: 114rpx;
+}
+/* 左间距 */
+.marl{
+  margin-left: 30rpx;
+}
+/* 右键距 */
+.marr{
+  margin-left: 62rpx;
+}

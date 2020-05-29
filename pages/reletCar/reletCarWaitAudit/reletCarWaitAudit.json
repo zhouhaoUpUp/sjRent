@@ -1,6 +1,6 @@
 {
   "usingComponents":{
-    "reletcar-type":"/components/reletcar/reletcar-type/reletcar-type",
+     "reletcar-type":"/components/reletcar/reletcar-type/reletcar-type",
      "relet-infocar":"/components/reletcar/relet-infocar/relet-infocar",
      "relet-infoself":"/components/reletcar/relet-infoself/relet-infoself"
   }

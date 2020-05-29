@@ -1,0 +1,7 @@
+.derule{
+  font-size: 26rpx;
+  margin-left: 28rpx;
+  margin-top: 22rpx;
+  color:#666666;
+  width: 694rpx
+}

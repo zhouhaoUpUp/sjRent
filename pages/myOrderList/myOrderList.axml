@@ -18,7 +18,7 @@
  
 
   <!-- 预约订单组件 -->
-  <view class="mart" a:if="{{appointype}}">
+  <view class="mart" a:if="{{appointype}}" onTap="navtoWaitPay">
     <appoint></appoint>
   </view>
 

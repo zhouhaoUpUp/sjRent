@@ -1,0 +1,45 @@
+.session{
+  height: 620rpx;
+}
+
+
+.box1 {
+  position: relative;
+  height: 68rpx;
+}
+.box1 image{
+  width: 68rpx;
+  height: 68rpx;
+  display: inline-block;
+  position: absolute;
+  left: 24rpx;
+
+}
+.box1 text{
+  line-height: 68rpx;
+}
+.box1 text:nth-child(2){
+  margin-left: 112rpx;
+}
+.box1 text:last-child{
+  margin-left: 400rpx;
+}
+.box2{
+  height: 60rpx;
+  width: 90%;
+  margin-left: 46rpx;
+  border: 1px solid red;
+}
+.box2 image{
+  width: 20rpx;
+  height: 20rpx;
+  display: inline-block;
+}
+.box2 text{
+  margin-left: 440rpx;
+}
+.box3{
+  width: 90%;
+  margin-left: 46rpx;
+  border: 1px solid red;
+}

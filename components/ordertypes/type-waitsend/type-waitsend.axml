@@ -7,7 +7,7 @@
     <text >已为您安排服务车辆，请等待送车</text>
     </view>
     <view class="image">
-     <image mode="scaleToFill" src="../../../assets/orderListImg/Order_wait@2x.png"/>
+     <image mode="scaleToFill" src="../../../assets/orderListImg/Order_wait2x.png"/>
      </view>
     </view>
 </view>

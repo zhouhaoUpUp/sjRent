@@ -13,7 +13,7 @@
         </view>
       </view>
       <view>
-       <image mode="scaleToFill" src="../../../assets/reletcarimg/Order_phone@1x.png"/>
+       <image mode="scaleToFill" src="../../../assets/reletcarimg/Order_phone1x.png"/>
         <view>
           <text>{{driveName}}</text>
         </view>

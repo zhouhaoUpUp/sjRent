@@ -1,6 +1,6 @@
 Page({
   data: {
-   imgTypeSrc:"../../../assets/reletcarimg/Details_order01@2x.png"
+   imgTypeSrc:"../../../assets/reletcarimg/Details_order012x.png"
   },
 
    

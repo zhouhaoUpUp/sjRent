@@ -1,0 +1,31 @@
+.session{
+  height: 300rpx;
+  /* border:1rpx solid red; */
+  position: relative;
+}
+.img1{
+  height: 124rpx;
+  width: 116rpx;
+  display: inline-block;
+  position:absolute;
+  top:54rpx;
+  left: 192rpx;
+}
+.info{
+  position: absolute;
+  top: 220rpx;
+}
+.info text{
+  font-size: 28rpx;
+}
+.buttonBold{
+  font-size: 28rpx;
+  color: #666;
+}
+.buttonBold2{
+  font-size: 28rpx;
+  color: #F59A23;
+}
+.head{
+  font-size: 32rpx;
+}

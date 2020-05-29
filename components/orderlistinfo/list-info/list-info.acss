@@ -1,7 +1,7 @@
 .sec3{
   height: 188rpx;
   	display: flex;
-	flex-direction: row;
+	  flex-direction: row;
 }
 .sec3 view:nth-child(1) image{
 	width: 188rpx;

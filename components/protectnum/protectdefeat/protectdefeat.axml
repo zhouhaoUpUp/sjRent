@@ -1,0 +1,16 @@
+<modal
+		show="{{modalOpened}}"
+    showClose="{{false}}"
+    onButtonClick="onButtonClick5"
+    buttons="{{buttonss}}"
+	>
+		<view slot="header" class="head">号码保护已失效</view>
+		<view class="session">
+    <image mode="scaleToFill" class="img1" src="../../../assets/protect/Protection032x.png"/>
+    <view class="info">
+      <text>行程已结束，已无法为您加密呼出。建议您联系客服处理</text>    
+    </view>
+    </view>
+	</modal>
+
+  <!-- 号码保护 -->

@@ -1,0 +1,11 @@
+<view class="session">
+  <view>
+    <text class="colZhuFo">所在部门 :</text><text>{{depart}}</text>
+  </view>
+   <view>
+    <text class="colZhuFo">租赁公司 :</text><text>{{company}}</text>
+  </view>
+   <view>
+      <image mode="scaleToFill" src="../../../assets/govern/Personal_status022x.png"/>
+  </view>
+</view>

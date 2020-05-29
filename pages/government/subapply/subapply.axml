@@ -1,0 +1,68 @@
+<view class="content">
+  <!-- 政企认证申请 -->
+
+    <view class="sec">
+         <view class="sec1">
+          <text>*</text><text>姓名</text>
+        </view>
+        <view class="sec2">
+        <input class="input" placeholder="请输入真实姓名" />
+        </view>
+    </view>   
+    
+       <view class="sec">
+         <view class="sec1">
+          <text>*</text><text>电话</text>
+        </view>
+        <view class="sec2">
+        <input class="input" placeholder="请输入手机号" />
+        </view>
+    </view>   
+
+        </view>   
+       <view class="sec">
+         <view class="sec1">
+          <text>*</text><text>身份证号</text>
+        </view>
+        <view class="sec2">
+        <input class="input" placeholder="请输入有效身份证号" />
+        </view>
+    </view>  
+
+        </view>   
+       <view class="sec">
+         <view class="sec1">
+          <text>*</text><text>单位名称</text>
+        </view>
+        <view class="sec2">
+        <input class="input" placeholder="请输入完整公司/单位名称" />
+        </view>
+    </view>  
+
+        </view>   
+       <view class="sec">
+         <view class="sec1">
+          <text>*</text><text>租赁公司</text>
+        </view>
+        <view class="sec2">
+        <input class="input" placeholder="请输入有效身份证号" />
+        </view>
+    </view>  
+
+      </view>   
+       <view class="sec">
+         <view class="sec1">
+          <text>*</text><text>所属部门</text>
+        </view>
+        <view class="sec2 secl" onTap="chooseDep">
+         <picker onChange="bindPickerChange" value="{{index}}" range="{{deps}}">
+                <view class="picker">
+                 <text>{{deps[index]}}</text>
+                </view>
+              </picker>
+          <image mode="scaleToFill" src="../../../assets/govern/topdown.png"/>
+        </view>
+    </view>  
+
+    <button size="default" class="btn" >提交申请</button>
+</view>

@@ -11,14 +11,14 @@
  <!-- 起点 终点 车辆信息 -->
   <view class="sec2">
     <view>
-      <image mode="scaleToFill" class="marl" src="../../../assets/listtypesimgs/Order_adress@2x.png"/>
+      <image mode="scaleToFill" class="marl" src="../../../assets/listtypesimgs/Order_adress2x.png"/>
       <text class="marl">{{startAddress}}</text>
     </view>
     <view>
       <text class="mart">{{startTime}}</text>
     </view>
     <view class="martop">
-       <image mode="scaleToFill" class="marl" src="../../../assets/listtypesimgs/Order_adress@2x.png"/>
+       <image mode="scaleToFill" class="marl" src="../../../assets/listtypesimgs/Order_adress22x.png"/>
       <text class="marl">{{endAddress}}</text>
     </view>
     <view>
@@ -26,7 +26,7 @@
     </view>
     
       <view class="martop">
-       <image mode="scaleToFill" class="marl" src="../../../assets/listtypesimgs/车辆@2x.png"/>
+       <image mode="scaleToFill" class="marl" src="../../../assets/listtypesimgs/车辆2x.png"/>
       <text class="marl">{{carName}}</text><text class="marl">{{year}}年</text>
       <text class="marl">{{pailiang}}</text><text class="marl">{{zuo}}</text>
     </view>

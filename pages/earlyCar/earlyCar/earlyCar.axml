@@ -1,0 +1,60 @@
+  <view class="content">
+  <view class="cont">
+   <relet-infocar></relet-infocar> 
+  </view>
+  <view class="tiao"> </view>
+  <view class="cont apply">
+    <infortext></infortext>
+  </view> 
+  <view class="apply cont">
+      <text class="titals">申请提前还车</text>
+     <view class="icolSupS line"></view>
+     <view class="chooset">
+      <view>
+        <text class="gauyp choosep">选择时间</text>
+        <text class="choosep2">{{ctime}}</text>
+      </view> 
+      <view>
+      <button class="imageb" type="button" onTap="datePickerYMDHMS"></button>
+         <popup show="{{showdown}}" position="bottom" onClose="onPopupClose">
+            <view >hello world</view>
+        </popup>
+      </view>
+     </view>
+  </view>
+  <view class="conts">
+  <view class="contsr1"> 
+    <text class="gauyp">温馨提示：</text>
+  </view>
+  <view class="contsr">
+    <text class="gauyp">\n1、申请提前还车只可更改行程时间，不可更改行程地点，请确认行程无误；</text>
+  </view>
+  <view class="contsr">
+    <text class="gauyp">\n2、退款会在确认后3-15个工作日内返还至您的原支付账户；</text>
+  </view>  
+  <view class="contsr">
+     <text class="gauyp">\n3、订单提前还车可能会涉及到扣款，扣款规责请查看
+     <button class="imageb1" type="text" onTap="onBtnTap">扣费规则</button>
+        <popup show="{{showdown1}}" position="bottom" onClose="onClose">
+        <view class="role">
+          <role></role>
+        </view>
+        </popup>
+     </text>
+  </view>  
+   
+  </view>
+  <view class="foot">
+    <button  type="button" class="cancel">取消</button>
+    <button  type="button" onTap="openModal" class="submit colZhuF">提交申请</button>
+    <modal show="{{modalOpened}}" onModalClick="onModalClick" onModalClose="onModalClose">
+      <view slot="header"></view>
+        <text>是否确认提前还车</text>
+      <view slot="footer" class="btnf">
+        <button  type="text" class="no">取消</button>
+        <button  type="text" class="yes">确认</button>
+      </view>
+    </modal>
+  </view>
+</view>
+ </view>

@@ -1,0 +1,26 @@
+<view>
+  <view class="derule">
+    <text>订单取消扣费规则：</text>
+  </view>
+  <view class="derule">
+    <text>1、退款会在确认后48小时内退款至您的原支付账户</text>
+  </view>
+  <view class="derule">
+    <text>2、距订单行程开始大于24小时不足72小时的，取消将会产生违约金（每天总金额的5%）</text>
+  </view>
+  <view class="derule"> 
+    <text>3、距订单行程开始大于4小时不足24小时的，取消将会产生违约金（每天总金额的10%）</text>
+  </view>
+  <view class="derule">
+    <text>4、距订单行程开始大于一个小时不足4小时的，取消将会产生违约金（每天总金额的30%）</text>
+  </view>
+  <view class="derule">
+    <text>5、距订单行程开始不足一个小时的，取消将会产生违约金（每天总金额的50%）</text>
+  </view>
+  <view class="derule">
+    <text>6、订单行程已到用车时间，取消将会产生违约金（每天总金额的100%）</text>
+  </view>
+  <view class="derule">
+    <text>退款到账日期以银行为准，如超过3-7个工作日未到账，请至您银行卡发卡行银行客服咨询</text>
+  </view>
+</view>

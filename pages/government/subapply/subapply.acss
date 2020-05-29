@@ -1,0 +1,66 @@
+
+.content{
+  display: flex;
+  flex-direction: column;
+}
+.sec{
+  width: 100%;
+  height: 101rpx;
+  position: relative;
+}
+
+.sec1{
+  width: 22%;
+  display: inline-block;
+  height: 101rpx;
+  /* border: 1px solid red; */
+  position: absolute;
+  top:0;
+}
+.sec1 text{
+  line-height: 100rpx;
+  margin-left:10rpx; 
+}
+.sec1 text:nth-child(1){
+  color: red;
+}
+.sec1 text:nth-child(2){
+  font-size: 28rpx;
+}
+.sec2{
+  width:74%;
+  display: inline-block;
+  height: 101rpx;
+  border-bottom: 1px solid rgb(245,245,245);
+  margin-left: 23%;
+  position: relative; 
+}
+.sec2 input{
+    height: 60rpx;
+    position: absolute;
+    top: 15rpx;
+      /* border: 1px solid red; */
+  }
+  .secl text{
+    margin-left: 20rpx;
+    line-height: 101rpx;
+  }
+  .secl image{
+    width: 16rpx;
+    height: 28rpx;
+    /* display: inline-block; */
+    position:absolute;
+    left: 90%;
+    top: 36rpx;
+  }
+
+  .btn{
+  width:630rpx;
+  height:80rpx;
+  background:rgba(254,221,0,1);
+  border-radius:8rpx;
+  line-height: 80rpx;
+  position: fixed;
+  bottom: 100rpx;
+  left: 68rpx;
+}

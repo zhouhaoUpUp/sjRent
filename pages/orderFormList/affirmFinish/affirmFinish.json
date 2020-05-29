@@ -1,0 +1,6 @@
+{
+  "usingComponents":{
+    "type-finish":"../../../components/ordertypes/type-finish/type-finish",
+    "list-info" :"/components/orderlistinfo/list-info/list-info"
+  }
+}

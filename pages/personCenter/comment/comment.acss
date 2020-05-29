@@ -1,0 +1,149 @@
+.content{
+  display: flex;
+  flex-direction: column;
+}
+
+.head{
+  height: 170rpx;
+  position: relative;
+}
+.head image{
+  width: 188rpx;
+  height: 116rpx;
+  position: absolute;
+  top: 30rpx;
+  left: 32rpx;
+}
+.head>view:nth-child(2){
+  position: absolute;
+  left: 240rpx;
+  top:36rpx;
+}
+.head>view:last-child{
+  position: absolute;
+  left: 240rpx;
+  top:94rpx;
+}
+
+.head2{
+  height: 98rpx;
+  position: relative;
+}
+.head2>view:nth-child(1){
+  height: 56rpx;
+  line-height: 56rpx;
+  position: absolute;
+  top:16rpx;
+  left: 30rpx;
+}
+.head2>view:nth-child(1)>text:first-child{
+      font-weight: bold;
+      font-size: 40rpx;
+}
+.head2>view:nth-child(1)>text:last-child{
+  font-size: 24rpx;
+}
+.head2>text{
+  /* border:1px solid red; */
+  display: inline-block;
+    height: 32rpx;
+  position: absolute;
+  top:30rpx;
+  left: 616rpx;
+}
+.head3{
+  display: flex;
+  justify-content: space-around;
+  height: 120rpx;
+}
+.box{
+  border:1px solid red;
+}
+.box{
+  display: inline-block;
+  width:180rpx;
+  height:54rpx;
+  border-radius:28rpx;
+  opacity:0.2;
+  border:1px solid rgba(167,167,167,1);
+  line-height: 54rpx;
+  text-align: center;
+  margin-top: 26rpx;
+}
+
+.head4{
+  height: 80rpx;
+  /* border: 1rpx solid red; */
+  position: relative
+}
+.head41{
+  /* border: 1rpx solid red; */
+  display: inline-block;
+  width: 120rpx;
+  height: 46rpx;
+  line-height: 46rpx;
+  position: absolute;
+  top:17rpx;
+  left: 32rpx;
+}
+.head42{
+  /* border: 1rpx solid red; */
+  display: inline-block;
+  width: 320rpx;
+  height: 50rpx;
+  margin-top: 15rpx;
+  margin-left: 160rpx;
+}
+.head42>view{
+  display: inline-block;
+  width: 50rpx;
+  height: 46rpx;
+}
+.head42 image{
+  width: 50rpx;
+  height: 46rpx;
+  margin-left: 5rpx;
+  /* position: relative;
+  z-index: 2; */
+}
+
+.head5{
+  height: 800rpx;
+}
+.head5>view:nth-child(1){
+  height: 92rpx;
+}
+.head5>view:nth-child(1) text{
+  
+  line-height: 92rpx;
+  margin-left: 30rpx;
+  
+}
+.area{ 
+  width:690rpx;
+  height:222rpx;
+  background:rgba(245,245,245,1);
+  border-radius:16rpx;
+  margin-left: 16rpx;
+}
+
+.font{
+font-size: 28rpx;
+font-weight: bold;
+}
+
+.col{
+  border: 1px solid red;
+}
+.col1{
+  border: 1rpx solid black;
+}
+
+.btn{
+  width:345px;
+  height:40px;
+  background:rgba(254,221,0,1);
+  border-radius:4px;
+  margin-top: 360rpx;
+  margin-left: 16rpx;
+}

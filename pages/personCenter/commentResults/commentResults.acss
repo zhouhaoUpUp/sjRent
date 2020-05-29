@@ -1,0 +1,46 @@
+
+.sec{
+  height: 60rpx;
+  /* border:1rpx solid red; */
+  position: relative;
+  margin-top: 132rpx;
+}
+.sec image{
+  height: 60rpx;
+  width: 60rpx;
+  margin-left: 244rpx;
+}
+.sec text{
+  line-height: 40rpx;
+  font-size: 32rpx;
+  display: inline-block;
+  height: 40rpx;
+  position: absolute;
+  top: 10rpx;
+  left: 314rpx;
+}
+.sec2{
+  height: 70rpx;
+  position: relative;
+  margin-top: 156rpx;
+}
+.sec2 button:first-child{
+    position: absolute;
+    top: 3rpx;
+    left: 168rpx;
+}
+.sec2 button:last-child{
+  position: absolute;
+    top: 3rpx;
+    left: 400rpx;
+}
+.sec2 button{
+  width:184rpx;
+  height:64rpx;
+  border-radius:32rpx;
+  border:1px solid rgba(153,153,153,1);
+  display: inline-block;
+  background-color: white;
+  line-height: 64rpx;
+  font-size: 26rpx;
+}

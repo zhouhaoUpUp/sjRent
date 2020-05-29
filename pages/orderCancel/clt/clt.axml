@@ -1,0 +1,13 @@
+<view>
+ <view class="strats"></view>
+<view class="clt1">
+  <image  src="../../../assets/listtypesimgs/get.png" class="clt1m"/><text class="clm1t">订单取消成功</text>
+</view>
+<view class="btns">
+  <button  type="button" class="btns1">查看订单</button>
+  <button  type="button" class="btns2">回到首页</button>
+</view>
+<view class="waring">
+    <text>温馨提示：订单取消可能会涉及到扣款，扣款规则请查看<navigator url="/pages/orderCancel/derule/derule" class="url">扣费规则</navigator></text>
+</view> 
+</view>

@@ -1,0 +1,5 @@
+{
+  "usingComponents":{
+    "govlisttype":"/components/government/govlisttype/govlisttype"
+  }
+}

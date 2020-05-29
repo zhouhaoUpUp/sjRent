@@ -1,0 +1,12 @@
+<view class="content">
+  <!-- 评价成功后结果 -->
+  <view class="tiao"></view>
+  <view class="sec">
+    <image mode="scaleToFill" src="../../../assets/personcenter/Comment_status2x.png"/>
+    <text>感谢您的评价</text>
+  </view>
+  <view class="sec2">
+  <button size="default" onTap="navToindex">返回首页</button>
+  <button size="default" onTap="navTomycomment" >查看评价</button>
+  </view>
+</view>

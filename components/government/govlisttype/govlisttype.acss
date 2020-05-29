@@ -1,0 +1,32 @@
+.session{
+  height: 164rpx;
+  border-bottom:1px solid rgb(225,225,225);
+  position: relative;
+}
+.session>view:first-child,.session>view:nth-child(2){
+  width: 480rpx;
+  height: 40rpx;
+  font-size: 28rpx;
+}
+.session>view:last-child{
+  height: 146rpx;
+  width: 146rpx;
+  display: inline-block;
+}
+.session>view:last-child image{
+   height: 146rpx;
+    width: 146rpx;
+    position: absolute;
+    top:0;
+    left: 580rpx;
+}
+.session>view:first-child{
+  position: absolute;
+  top:30rpx;
+  left: 34rpx;
+}
+.session>view:nth-child(2){
+  position: absolute;
+  top: 90rpx;
+  left: 34rpx;
+}

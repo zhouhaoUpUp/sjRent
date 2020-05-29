@@ -1,0 +1,5 @@
+<view>
+ <!-- 我的评价页面 -->
+ <view class="tiao"></view>
+  <mycomment></mycomment>
+</view>

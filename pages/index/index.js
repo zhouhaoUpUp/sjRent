@@ -39,5 +39,7 @@ Page({
       path: 'pages/index/index',
     };
   },
-  
+  demo(){
+    App.myRequest
+  }
 });

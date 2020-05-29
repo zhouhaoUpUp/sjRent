@@ -1,0 +1,38 @@
+<view>
+  <!-- 政企认证审核状态 -->
+    <view class="tiao2"></view>
+    <!-- 头部  前三列带图片 -->
+    <view class="header">
+        <view class="head">
+          <text class="marl">姓名</text> <text class="marg">{{name}}</text>
+        </view>
+        <view class="head">
+           <text class="marl">电话</text> <text class="marg">{{mobile}}</text>
+        </view>
+        <view class="head">
+           <text class="marl">身份证号</text> <text class="marr">{{idcard}}</text>
+        </view>
+      <image mode="scaleToFill" src="{{imgSrc[index]}}"/>
+    </view>
+
+     <view class="head">
+           <text class="marl">单位名称</text> <text class="marr">{{company}}</text>
+        </view>
+
+      <view class="head">
+          <text class="marl">租赁公司</text> <text class="marr">{{leasecom}}</text>
+       </view>
+
+      <view class="head">
+         <text class="marl">所属部门</text> <text class="marr">{{depart}}</text>
+     </view>
+
+      <view class="head">
+          <text class="marl">认证状态</text> <text class="marr">{{auditype}}</text>
+      </view>
+      <view class="cause">
+          <text class="marl colSupF">{{cause}}</text>
+      </view>
+
+      <button size="default">{{btn[index]}}</button>
+</view>

@@ -7,7 +7,7 @@
   <!-- 第二部分 地址时间 -->
   <view class="sec2 sec">
     <view>
-      <image src="../../../assets/orderListImg/Order_adress@2x.png"/>
+      <image src="../../../assets/orderListImg/Order_adress2x.png"/>
       <text class="txt1">{{time}}</text>
       <text class="txt2">{{adress}}</text>
     </view>
@@ -15,7 +15,7 @@
       <text>{{timeRight}}</text>
     </view>
     <view>
-      <image src="../../../assets/orderListImg/Order_adress2@2x.png"/>
+      <image src="../../../assets/orderListImg/Order_adress22x.png"/>
       <text class="txt1">{{time}}</text>
       <text class="txt2">{{adress}}</text>
     </view>
@@ -70,7 +70,7 @@
           </view>
           <view class="viewTwo">
             <text class="marr colFont" >请选择用车人</text>
-            <!-- <image class="imgs" mode="scaleToFill" src="../../../assets/orderListImg/Order_more@2x.png"/> -->
+            <!-- <image class="imgs" mode="scaleToFill" src="../../../assets/orderListImg/Order_more2x.png"/> -->
           </view>
         </view>
   </view>
@@ -102,13 +102,13 @@
   <text class="colFont">取车证件 :</text>
   </view>
   <view class="info marl">
-    <image mode="scaleToFill" src="../../../assets/orderListImg/Process-ID card@2x.png"/>
+    <image mode="scaleToFill" src="../../../assets/orderListImg/Process-ID card2x.png"/>
     <text>身份证</text>
     <text class="marlf">+</text>
-    <image class="marlf" mode="scaleToFill" src="../../../assets/orderListImg/Process-driver@2x.png"/>
+    <image class="marlf" mode="scaleToFill" src="../../../assets/orderListImg/Process-driver2x.png"/>
     <text>驾驶证</text>
      <text class="marlf">+</text>
-    <image class="marlf" mode="scaleToFill" src="../../../assets/orderListImg/Process-bank card@2x.png"/>
+    <image class="marlf" mode="scaleToFill" src="../../../assets/orderListImg/Process-bank card2x.png"/>
     <text>银行卡</text>
   </view>
   <view class="mart">

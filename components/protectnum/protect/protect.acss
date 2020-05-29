@@ -1,0 +1,54 @@
+.session{
+  height: 370rpx;
+  /* border:1rpx solid red; */
+  position: relative;
+}
+.img1{
+  height: 100rpx;
+  width: 90rpx;
+  display: inline-block;
+  position:absolute;
+  top:68rpx;
+  left: 70rpx;
+}
+.img2{
+  height: 100rpx;
+  width: 76rpx;
+  display: inline-block;
+  vertical-align: middle;
+   position:absolute;
+  top:68rpx;
+  left: 360rpx;
+}
+.cir{
+  width:16rpx;
+  height:16rpx;
+  background:rgba(216,216,216,1);
+  border-radius: 16rpx;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 24rpx;
+}
+.cirs{
+  position: absolute;
+  top: 90rpx;
+  left: 164rpx;
+}
+.info{
+  position: absolute;
+  top: 250rpx;
+}
+.info text{
+  font-size: 28rpx;
+}
+.buttonBold{
+  font-size: 28rpx;
+  color: #666;
+}
+.buttonBold2{
+  font-size: 28rpx;
+  color: #F59A23;
+}
+.head{
+  font-size: 32rpx;
+}

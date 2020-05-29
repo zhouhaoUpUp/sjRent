@@ -1,0 +1,20 @@
+<view class="session">
+ <!-- 我的评价列表组件 -->
+    <view class="box1">
+          <image mode="scaleToFill" src="../../../assets/personcenter/Comment_status2x.png"/>
+          <text>{{name}}</text>
+          <text>{{listType}}</text>
+    </view>
+  
+  <view class="box2">
+    <image mode="scaleToFill" a:for="{{5}}" src="../../../assets/myComment/Details_score2x.png"/>
+    <text>{{time}}</text>
+  </view>
+
+  <view class="box3">
+      <text>{{comment}}</text>
+      <view>
+        <text></text>
+      </view>
+  </view>
+</view>

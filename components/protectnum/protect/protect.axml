@@ -1,0 +1,23 @@
+<modal
+		show="{{modalOpened}}"
+    showClose="{{false}}"
+    onButtonClick="onButtonClick5"
+    buttons="{{buttonss}}"
+	>
+		<view slot="header" class="head">手机号号码保护中</view>
+		<view class="session">
+    <image mode="scaleToFill" class="img1" src="../../../assets/protect/Protection012x.png"/>
+   <view class="cirs">
+    <view class="cir"></view>
+    <view class="cir"></view>
+    <view class="cir"></view>
+    <view class="cir"></view>
+   </view>
+    <image mode="scaleToFill" class="img2" src="../../../assets/protect/Protection022x.png"/>
+    <view class="info">
+      <text>正在为您提供号码保护，对方看不见您的真实手机号</text>    
+    </view>
+    </view>
+	</modal>
+
+  <!-- 号码保护 -->

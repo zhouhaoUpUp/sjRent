@@ -1,0 +1,60 @@
+<view class="content">
+  <!-- 发表评论页面 -->
+    <view class="tiao"> </view>
+    <view class="head">
+      <image mode="scaleToFill" src="../../../assets/personcenter/Bitmap2x.png"/>
+      <view>
+        <text>{{type}}</text>
+      </view>
+       <view>
+        <text>{{carname}}{{pailiang}}</text>
+      </view>
+    </view>
+
+     <view class="tiao2"> </view>
+
+    <view class="head2">
+      <view><text>{{money}}</text><text>元</text></view>
+      <text class="colZhuFo">费用明细</text>
+    </view>
+
+    <view class="tiao2"> </view>
+    <view class="head3">
+        <view hover-class="demo" a:for="{{btnvalue}}" :key="{{index}}" class="box {{item.checked?'col':'col1'}}"  onTap="tappj" data-id="{{index}}">
+            {{item.content}}
+        </view>
+    </view>
+
+    <view class="head4">
+        <view class="head41">
+          <text class="font">用车评价</text>
+        </view>
+        <view class="head42" >
+        <view a:for="{{starArr}}" :key="{{index}}" >
+          <image mode="scaleToFill"  src="{{item}}" onTap="tap" data-id="{{index}}"/>
+        </view>
+        </view>
+    </view>
+
+        <view class="head4">
+        <view class="head41">
+          <text class="font">服务评价</text>
+        </view>
+        <view class="head42" >
+        <view a:for="{{starsArr}}" :key="{{index}}" >
+          <image mode="scaleToFill"  src="{{item}}" onTap="taps" data-id="{{index}}"/>
+        </view>
+        </view>
+        </view>
+
+  <view class="tiao"></view>
+  
+  <view class="head5">
+  <view>
+    <text class="font">匿名评价:</text>
+     </view>
+    <textarea class="area" placeholder="请输入评价" />
+     <button size="default" class="btn">匿名提交</button>
+  </view>
+ 
+</view>
