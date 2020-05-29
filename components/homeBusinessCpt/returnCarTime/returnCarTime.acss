@@ -1,0 +1,65 @@
+
+.rct-bg{
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 12;
+    width: 100%;
+    border-radius:28rpx 28rpx 0 0; 
+}
+.rct-top{
+    width: 100%;
+    height: 100rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rct-top>text:nth-child(1){
+    display: inline-block;
+    margin-left: 46rpx;
+    color: #000;
+    font-size: 28rpx;
+}
+.rct-top>text:nth-child(2){
+    font-size: 32rpx;
+    color: #333;
+}
+.rct-top>text:last-child{
+    display: inline-block;
+    margin-right: 46rpx;
+    color: #000;
+    font-size: 28rpx;
+}
+.rct-body{
+    display: flex;
+    justify-content: space-between;
+    height: 98rpx;
+    background-color:rgba(245,245,245,1);
+}
+.rct-body>view{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1rpx solid red; */
+    font-size: 26rpx;
+    color: #666;
+}
+.rct-body>view>view:nth-child(2){
+    margin-top: 8rpx;
+    color: #333;
+    font-size: 28rpx;
+}
+.rct-body>view>view:nth-child(2)>text:nth-child(2){
+    display: inline-block;
+    margin-left: 6rpx;
+    margin-right: 6rpx;
+}
+
+.rct-body>.selectStyle{
+    background-color: #FEDD00;
+}
+.rct-body>.selectStyle text{
+    color: #333;
+}

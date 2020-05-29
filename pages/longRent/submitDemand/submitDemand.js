@@ -33,14 +33,15 @@ toCarryDriver(e){
       driverShow:e.show
     })
 },
+//选择司机方法
 toCarryDriverSuer(e){
   if(e.value[0]===0){
     this.setData({
-      driverData:"带司机"
+      driverData:"是"
     })
   }else{
         this.setData({
-      driverData:"不带司机"
+      driverData:"否"
     })
   }
       this.setData({

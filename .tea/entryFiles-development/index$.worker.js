@@ -80,6 +80,7 @@ require('../../node_modules/mini-ali-ui/es/search-bar/index?hash=5a0c180d5ccf7c9
 require('../../node_modules/mini-ali-ui/es/multi-liner/index?hash=05d2a9730dd6009bf9446182f9c985f40f8c0f43');
 require('../../components/hint/hint?hash=05d2a9730dd6009bf9446182f9c985f40f8c0f43');
 require('../../components/carry-driver/carry-driver?hash=05d2a9730dd6009bf9446182f9c985f40f8c0f43');
+require('../../components/homeBusinessCpt/returnCarTime/returnCarTime?hash=05d2a9730dd6009bf9446182f9c985f40f8c0f43');
 require('../../pages/index/index?hash=bdda016308deaf0b4f6d56780588da2480525e25');
 require('../../pages/orderFormList/affirmList/affirmList?hash=e18c52541a51ef0274aa3dfc816cad5ff5f2a58c');
 require('../../pages/orderFormList/affirmWaitPay/affirmWaitPay?hash=966f3508be05009e7adfe4455bce55eaff428a09');
@@ -117,7 +118,7 @@ require('../../pages/orderFormList/affirmJourney/affirmJourney?hash=8e378adc230f
 require('../../pages/orderFormList/affirmFinish/affirmFinish?hash=c0322e9351956ec43520c25b7d30dc330c3ee5bd');
 require('../../pages/orderFormList/affirmCancel/affirmCancel?hash=ba7007541e62dcf11b1a08cde1100fb91209a5d7');
 require('../../pages/homeBusiness/cityList/cityList?hash=963f16cb7463320db3c44c5d9793ede621920b36');
-require('../../pages/longRent/submitDemand/submitDemand?hash=a8bfa2dccfb8a503c23b747651a9326a28bcae60');
+require('../../pages/longRent/submitDemand/submitDemand?hash=f3aa0e19698118d1d96bed5fc63703566570be96');
 }
 self.bootstrapApp ? self.bootstrapApp({ success }) : success();
 }

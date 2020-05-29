@@ -1,0 +1,49 @@
+<view class="rct-bg">
+  <view class="rct-top">
+    <text>取消</text>
+    <text>共2天</text>
+    <text>确定</text>
+  </view>
+  <view class="rct-body">
+    <view onTap="takeCarFN" class="{{selectTakeReturnData===1?'selectStyle':''}}">
+      <view>
+        取车时间
+      </view>
+      <view>
+        <text>12月22日</text>
+        <text>周日</text>
+        <text>17:00</text>
+      </view>
+    </view>
+
+    <view onTap="returnCarFN" class="{{selectTakeReturnData===2?'selectStyle':''}}">
+      <view>
+        还车时间
+      </view>
+      <view>
+        <text>12月22日</text>
+        <text>周日</text>
+        <text>17:00</text>
+      </view>
+    </view>
+  </view>
+
+  <picker-view value="{{value}}" onChange="onChange" class="my-picker">
+    <picker-view-column>
+      <view><text>12月22日</text>周六</view>
+      <view><text>12月22日</text>周六</view>
+      <view><text>12月22日</text>周六</view>
+      <view><text>12月22日</text>周六</view>
+      <view><text>12月22日</text>周六</view>
+      <view><text>12月22日</text>周六</view>
+      <view><text>12月22日</text>周六</view>
+      <view><text>12月22日</text>周六</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view a:for="{{24}}">{{item=0,++item}}时</view>
+    </picker-view-column>
+        <picker-view-column>
+      <view a:for="{{24}}">{{item=0,++item}}时</view>
+    </picker-view-column>
+  </picker-view>
+</view>
