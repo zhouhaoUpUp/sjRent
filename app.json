@@ -33,7 +33,8 @@
     "pages/government/governAudit/governAudit",
     "pages/personCenter/comment/comment",
     "pages/personCenter/commentResults/commentResults",
-    "pages/personCenter/myComment/myComment"
+    "pages/personCenter/myComment/myComment",
+    "pages/orderFormList/affirmCancel/affirmCancel"
   ],
   "window": {
     "defaultTitle": "深驾租车"
